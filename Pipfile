@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+requests = "*"
+pyyaml = '*'
+
+[dev-packages]
+pylint = '*'
+pytest = "*"
+requests-mock = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+tests = 'python -m pytest'
+get_template_settings = 'python get_template_settings.py'
+scenario_from_csv = 'python scenario_from_csv.py'
+regional_overview = 'python scripts/regional_overview.py'
+slider_comparison_analysis = 'python slider_comparison_analysis.py'
+weather_years = 'python scripts/weather_years.py'

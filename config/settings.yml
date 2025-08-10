@@ -1,0 +1,33 @@
+# Contains settings that will be used throughout the tool
+# To update this with your personal settings, please duplicate this file
+# and name it 'local.settings.yml'. This way your personal tokens will be safe
+
+# Paste your personal ETM in this field. Never push this to GitHub!
+personal_etm_token:
+
+# Location of the input files, you can change this to be any folder on your computer
+input_file_folder: data/input
+input_curves_folder: data/input/curves
+input_orders_folder: data/input/orders
+
+output_file_folder: data/output
+output_curves_folder: data/output/curves
+output_orders_folder: data/output/orders
+
+# Where your local model is run
+local_engine_url: http://localhost:3000/api/v3
+local_model_url: http://localhost:3001
+
+# URLs of your proxy server addresses (replace the examples below by your own settings)
+# Never push authenticated servers (including user name and password) to Github!
+proxy_servers:
+  # http: http://user:pass@proxy.sample.com:8080
+  # https: http://user:pass@secureproxy.sample.com:8080
+
+# The separator your CSV files are using. The default is ',', but many European computers
+# export CSV with a ';' as separator from Excel instead.
+csv_separator: ','
+
+# The decimal separator your CSV files are using. The default is '.', but depending on the
+# national conventions, comma could be used as a decimal seperator instead.
+decimal_seperator: '.'

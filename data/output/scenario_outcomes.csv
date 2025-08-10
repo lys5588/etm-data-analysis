@@ -1,0 +1,9 @@
+,test_scen,GM0363_amsterdam_present,unit
+dashboard_energy_demand_primary_of_final,71524425490.52464,0.0,MJ
+dashboard_co2_emissions_versus_start_year,0.025756836336809696,0.0,factor
+dashboard_energy_import_netto,0.950184370613436,0.0,factor
+dashboard_total_costs,1.084706153377516,0.0,bln_euro
+dashboard_share_of_renewable_electricity,0.14046564855400384,0.0,factor
+dashboard_power_shortage_hours,0.0,0.0,hours
+dashboard_biomass_final_demand,1.3315475176838878,0.0,PJ
+lv_net_peak_load_future,661.4544042534311,652.0065767583493,MW

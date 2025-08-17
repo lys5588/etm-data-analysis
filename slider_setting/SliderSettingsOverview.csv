@@ -1,0 +1,1224 @@
+Sidebar item;Item key;Name;Raw key;User value;Unit
+Supply;Biomass;Oil mix in demand sectors;agriculture_bio_kerosene_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;agriculture_biodiesel_in_crude_oil_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_burner_crude_oil_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_burner_hydrogen_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_burner_network_gas_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_burner_wood_pellets_share;;%
+Supply;Biomass;Oil mix in demand sectors;agriculture_diesel_in_crude_oil_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_final_demand_ht_central_steam_hot_water_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_final_demand_local_steam_hot_water_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_final_demand_mt_central_steam_hot_water_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_geothermal_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_heatpump_water_water_electricity_share;;%
+Demand;Agriculture energy demand;Heat;agriculture_heatpump_water_water_ts_electricity_share;;%
+Supply;Biomass;Oil mix in demand sectors;agriculture_kerosene_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;agriculture_lpg_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;agriculture_other_bio_oil_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;agriculture_other_oil_in_crude_oil_share;;%
+Demand;Agriculture energy demand;Development of demand;agriculture_useful_demand_electricity;;%
+Demand;Agriculture energy demand;Development of demand;agriculture_useful_demand_useable_heat;;%
+Flexibility;Electricity storage;Solar plants with storage systems;battery_capacity_always_on_solar_pv_solar_radiation;;%
+Flexibility;Electricity storage;Wind turbines with storage systems;battery_capacity_always_on_wind_turbine_inland;;%
+Demand;Energy demand non-residential buildings;Cooling;buildings_cooling_airconditioning_share;;%
+Demand;Energy demand non-residential buildings;Cooling;buildings_cooling_collective_heatpump_water_water_ts_electricity_share;;%
+Demand;Energy demand non-residential buildings;Cooling;buildings_cooling_heatpump_air_water_electricity_share;;%
+Demand;Energy demand non-residential buildings;Cooling;buildings_cooling_heatpump_air_water_network_gas_share;;%
+Demand;Energy demand non-residential buildings;Cooling;buildings_cooling_heatpump_surface_water_water_ts_electricity_share;;%
+Demand;Energy demand non-residential buildings;Heat demand & insulation;buildings_insulation_level_buildings_future;;kWh/m2
+Demand;Energy demand non-residential buildings;Heat demand & insulation;buildings_insulation_level_buildings_present;;kWh/m2
+Demand;Energy demand non-residential buildings;Lighting;buildings_lighting_efficient_fluorescent_electricity_share;;%
+Demand;Energy demand non-residential buildings;Lighting;buildings_lighting_led_electricity_share;;%
+Demand;Energy demand non-residential buildings;Lighting;buildings_lighting_savings_from_daylight_control_light;;%
+Demand;Energy demand non-residential buildings;Lighting;buildings_lighting_savings_from_motion_detection_light;;%
+Demand;Energy demand non-residential buildings;Lighting;buildings_lighting_standard_fluorescent_electricity_share;;%
+Demand;Energy demand non-residential buildings;Building stock;buildings_number_of_buildings_future;;#
+Demand;Energy demand non-residential buildings;Building stock;buildings_number_of_buildings_present;;#
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_collective_heatpump_water_water_ts_electricity_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_combined_hydrogen_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_district_heating_ht_steam_hot_water_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_district_heating_lt_steam_hot_water_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_district_heating_mt_steam_hot_water_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_electricity_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_heatpump_air_water_electricity_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_heatpump_air_water_network_gas_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_heatpump_surface_water_water_ts_electricity_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_hybrid_heatpump_air_water_electricity_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_hybrid_hydrogen_heatpump_air_water_electricity_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_network_gas_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_solar_thermal_share;;%
+Demand;Energy demand non-residential buildings;Space heating;buildings_space_heater_wood_pellets_share;;%
+Demand;Energy demand non-residential buildings;Development of demand;buildings_useful_demand_cooling;;%
+Demand;Energy demand non-residential buildings;Development of demand;buildings_useful_demand_electricity;;%
+Demand;Energy demand non-residential buildings;Appliances;buildings_useful_demand_for_appliances;;%
+Demand;International transport;International transport;bunkers_allocated_percentage_aviation;;%
+Demand;International transport;International transport;bunkers_allocated_percentage_shipping;;%
+Demand;International transport;International aviation technology;bunkers_aviation_using_electricity_share;;%
+Demand;International transport;International aviation technology;bunkers_aviation_using_hydrogen_share;;%
+Demand;International transport;International aviation technology;bunkers_aviation_using_kerosene_mix_share;;%
+Supply;Transport fuels;International aviation;bunkers_plane_using_bio_kerosene_share;;%
+Supply;Transport fuels;International aviation;bunkers_plane_using_kerosene_share;;%
+Demand;International transport;International navigation technology;bunkers_ship_using_ammonia_share;;%
+Demand;International transport;International navigation technology;bunkers_ship_using_electricity_share;;%
+Demand;International transport;International navigation technology;bunkers_ship_using_heavy_fuel_oil_share;;%
+Demand;International transport;International navigation technology;bunkers_ship_using_hydrogen_share;;%
+Demand;International transport;International navigation technology;bunkers_ship_using_lng_share;;%
+Demand;International transport;Mobility growth;bunkers_useful_demand_planes;;%
+Demand;International transport;Mobility growth;bunkers_useful_demand_ships;;%
+Costs & efficiencies;Flexibility;Electricity storage;capacity_costs_energy_flexibility_flow_batteries_electricity;;%
+Demand;Agriculture energy demand;Heat from local CHPs;capacity_of_agriculture_chp_engine_biogas;;MW
+Demand;Agriculture energy demand;Heat from local CHPs;capacity_of_agriculture_chp_engine_network_gas_dispatchable;;MW
+Demand;Agriculture energy demand;Heat from local CHPs;capacity_of_agriculture_chp_engine_network_gas_must_run;;MW
+Demand;Agriculture energy demand;Heat from local CHPs;capacity_of_agriculture_chp_wood_pellets;;MW
+Demand;Agriculture energy demand;Heat;capacity_of_agriculture_flexibility_p2h_electricity;;MW
+Supply;Renewable electricity;Solar power;capacity_of_buildings_solar_pv_solar_radiation;;MW
+Supply;Renewable electricity;Solar power;capacity_of_energy_battery_solar_pv_solar_radiation;;MW
+Supply;Renewable electricity;Wind turbines;capacity_of_energy_battery_wind_turbine_inland;;MW
+Supply;Electricity;Gas plants;capacity_of_energy_chp_combined_cycle_network_gas;;MW
+Supply;Renewable electricity;Biomass plants;capacity_of_energy_chp_local_engine_biogas;;MW
+Supply;Electricity;Gas plants;capacity_of_energy_chp_local_engine_network_gas;;MW
+Supply;Renewable electricity;Biomass plants;capacity_of_energy_chp_local_wood_pellets_dispatchable;;MW
+Supply;Renewable electricity;Biomass plants;capacity_of_energy_chp_local_wood_pellets_must_run;;MW
+Supply;Renewable electricity;Waste power;capacity_of_energy_chp_supercritical_waste_mix;;MW
+Supply;Electricity;Coal plants;capacity_of_energy_chp_ultra_supercritical_coal;;MW
+Supply;Electricity;Coal plants;capacity_of_energy_chp_ultra_supercritical_cofiring_coal;;MW
+Flexibility;Electricity storage;Flow batteries;capacity_of_energy_flexibility_flow_batteries_electricity;;MW
+Flexibility;Electricity storage;Underground pumped hydro storage;capacity_of_energy_flexibility_hv_opac_electricity;;MW
+Flexibility;Electricity storage;Large-scale batteries;capacity_of_energy_flexibility_mv_batteries_electricity;;MW
+Supply;High-temperature (HT) district heating;Sources;capacity_of_energy_heat_boiler_ht_electricity;;MW
+Supply;Low-temperature (LT) district heating;Sources;capacity_of_energy_heat_boiler_lt_electricity;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_boiler_mt_electricity;;MW
+Supply;High-temperature (HT) district heating;Sources;capacity_of_energy_heat_burner_ht_hydrogen;;MW
+Supply;High-temperature (HT) district heating;Sources;capacity_of_energy_heat_burner_ht_network_gas;;MW
+Supply;High-temperature (HT) district heating;Sources;capacity_of_energy_heat_burner_ht_waste_mix;;MW
+Supply;High-temperature (HT) district heating;Sources;capacity_of_energy_heat_burner_ht_wood_pellets;;MW
+Supply;Low-temperature (LT) district heating;Sources;capacity_of_energy_heat_burner_lt_hydrogen;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_burner_mt_hydrogen;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_burner_mt_network_gas;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_burner_mt_waste_mix;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_burner_mt_wood_pellets;;MW
+Flexibility;Electricity conversion;Conversion to heat for district heating;capacity_of_energy_heat_flexibility_p2h_boiler_electricity;;MW
+Flexibility;Electricity conversion;Conversion to heat for district heating;capacity_of_energy_heat_flexibility_p2h_heatpump_electricity;;MW
+Supply;Low-temperature (LT) district heating;Sources;capacity_of_energy_heat_heatpump_drink_water_water_ts_lt_electricity;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_heatpump_drink_water_water_ts_mt_electricity;;MW
+Supply;Low-temperature (LT) district heating;Sources;capacity_of_energy_heat_heatpump_surface_water_water_ts_lt_electricity;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_heatpump_surface_water_water_ts_mt_electricity;;MW
+Supply;Low-temperature (LT) district heating;Sources;capacity_of_energy_heat_heatpump_waste_water_water_ts_lt_electricity;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_heatpump_waste_water_water_ts_mt_electricity;;MW
+Supply;High-temperature (HT) district heating;Sources;capacity_of_energy_heat_heatpump_water_water_ht_electricity;;MW
+Supply;Low-temperature (LT) district heating;Sources;capacity_of_energy_heat_heatpump_water_water_lt_electricity;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_heatpump_water_water_mt_electricity;;MW
+Supply;High-temperature (HT) district heating;Sources;capacity_of_energy_heat_solar_ht_solar_thermal;;MW
+Supply;Low-temperature (LT) district heating;Sources;capacity_of_energy_heat_solar_lt_solar_thermal;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_solar_mt_solar_thermal;;MW
+Supply;High-temperature (HT) district heating;Sources;capacity_of_energy_heat_well_deep_ht_geothermal;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_well_deep_mt_geothermal;;MW
+Supply;Medium-temperature (MT) district heating;Sources;capacity_of_energy_heat_well_shallow_heatpump_mt_geothermal;;MW
+Supply;Low-temperature (LT) district heating;Sources;capacity_of_energy_heat_well_shallow_lt_geothermal;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_ammonia_reformer_dispatchable;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_ammonia_reformer_must_run;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_autothermal_reformer_dispatchable;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_autothermal_reformer_must_run;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_biomass_gasification;;MW
+Flexibility;Electricity conversion;Conversion to hydrogen;capacity_of_energy_hydrogen_flexibility_p2g_electricity;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_liquid_hydrogen_regasifier;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_lohc_reformer;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_solar_pv_solar_radiation;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_steam_methane_reformer_dispatchable;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_steam_methane_reformer_must_run;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen storage;capacity_of_energy_hydrogen_storage_depleted_gas_field;;hours
+Supply;Hydrogen carriers and ammonia;Hydrogen storage;capacity_of_energy_hydrogen_storage_salt_cavern;;hours
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_hydrogen_wind_turbine_offshore;;MW
+Supply;Hydrogen carriers and ammonia;Ammonia production;capacity_of_energy_imported_ammonia_baseload;;MW
+Supply;Hydrogen carriers and ammonia;Hydrogen production;capacity_of_energy_imported_hydrogen_baseload;;MW
+Supply;Electricity;Coal plants;capacity_of_energy_power_combined_cycle_coal;;MW
+Supply;Renewable electricity;Hydrogen plants;capacity_of_energy_power_combined_cycle_hydrogen;;MW
+Supply;Electricity;Gas plants;capacity_of_energy_power_combined_cycle_network_gas;;MW
+Supply;Electricity;Oil plants;capacity_of_energy_power_engine_diesel;;MW
+Supply;Electricity;Gas plants;capacity_of_energy_power_engine_network_gas;;MW
+Supply;Renewable electricity;Geothermal;capacity_of_energy_power_geothermal;;MW
+Supply;Renewable electricity;Wind turbines;capacity_of_energy_power_hybrid_wind_turbine_offshore;;MW
+Supply;Renewable electricity;Hydroelectric power;capacity_of_energy_power_hydro_river;;MW
+Supply;Electricity;Nuclear plants;capacity_of_energy_power_nuclear_gen2_uranium_oxide;;MW
+Supply;Electricity;Nuclear plants;capacity_of_energy_power_nuclear_gen3_uranium_oxide;;MW
+Supply;Electricity;Nuclear plants;capacity_of_energy_power_nuclear_small_modular_reactor_uranium_oxide;;MW
+Supply;Renewable electricity;Solar power;capacity_of_energy_power_solar_pv_offshore;;MW
+Supply;Renewable electricity;Solar power;capacity_of_energy_power_solar_pv_solar_radiation;;MW
+Supply;Electricity;Coal plants;capacity_of_energy_power_supercritical_coal;;MW
+Supply;Renewable electricity;Waste power;capacity_of_energy_power_supercritical_waste_mix;;MW
+Supply;Renewable electricity;Hydrogen plants;capacity_of_energy_power_turbine_hydrogen;;MW
+Supply;Electricity;Gas plants;capacity_of_energy_power_turbine_network_gas;;MW
+Supply;Electricity;Coal plants;capacity_of_energy_power_ultra_supercritical_coal;;MW
+Supply;Electricity;Coal plants;capacity_of_energy_power_ultra_supercritical_cofiring_coal;;MW
+Supply;Electricity;Oil plants;capacity_of_energy_power_ultra_supercritical_crude_oil;;MW
+Supply;Electricity;Gas plants;capacity_of_energy_power_ultra_supercritical_network_gas;;MW
+Supply;Renewable electricity;Wind turbines;capacity_of_energy_power_wind_turbine_coastal;;MW
+Supply;Renewable electricity;Wind turbines;capacity_of_energy_power_wind_turbine_inland;;MW
+Supply;Renewable electricity;Wind turbines;capacity_of_energy_power_wind_turbine_offshore;;MW
+Supply;Renewable electricity;Biomass plants;capacity_of_energy_power_wood_pellets_dispatchable;;MW
+Supply;Renewable electricity;Biomass plants;capacity_of_energy_power_wood_pellets_must_run;;MW
+Emissions;Carbon capture, utilisation and storage;Utilisation and storage of CO<sub>2</sub>;capacity_of_energy_production_synthetic_kerosene_dispatchable;;MW
+Supply;Renewable electricity;Solar power;capacity_of_households_solar_pv_solar_radiation;;MW
+Flexibility;Load on electricity network;Demand response - load shifting in industry;capacity_of_industry_chemical_flexibility_load_shifting_electricity;;%
+Demand;Industry energy demand;Fertilizers;capacity_of_industry_chemicals_fertilizers_flexibility_p2h_electricity;;MW
+Demand;Industry energy demand;Chemicals;capacity_of_industry_chemicals_other_flexibility_p2h_electricity;;MW
+Demand;Industry energy demand;Refineries;capacity_of_industry_chemicals_refineries_flexibility_p2h_electricity;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_chp_combined_cycle_gas_power_fuelmix;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_chp_engine_gas_power_fuelmix;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_chp_turbine_gas_power_fuelmix;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_chp_turbine_hydrogen;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_chp_ultra_supercritical_coal;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_chp_wood_pellets;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_heat_burner_coal;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_heat_burner_crude_oil;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_heat_burner_hydrogen;;MW
+Demand;Industry energy demand;Steam network sources;capacity_of_industry_heat_well_geothermal;;MW
+Flexibility;Load on electricity network;Demand response - load shifting in industry;capacity_of_industry_metal_flexibility_load_shifting_electricity;;%
+Flexibility;Load on electricity network;Demand response - load shifting in industry;capacity_of_industry_other_flexibility_load_shifting_electricity;;%
+Demand;Industry energy demand;Food;capacity_of_industry_other_food_flexibility_p2h_electricity;;MW
+Flexibility;Load on electricity network;Demand response - load shifting in industry;capacity_of_industry_other_ict_flexibility_load_shifting_electricity;;%
+Demand;Industry energy demand;Paper;capacity_of_industry_other_paper_flexibility_p2h_electricity;;MW
+Emissions;Greenhouse gases;Agriculture;change_in_energetic_emissions_other_ghg_agriculture;;%
+Emissions;Greenhouse gases;Built Environment;change_in_energetic_emissions_other_ghg_buildings;;%
+Emissions;Greenhouse gases;Industry and Energy;change_in_energetic_emissions_other_ghg_energy;;%
+Emissions;Greenhouse gases;Built Environment;change_in_energetic_emissions_other_ghg_households;;%
+Emissions;Greenhouse gases;Industry and Energy;change_in_energetic_emissions_other_ghg_industry;;%
+Emissions;Greenhouse gases;Transport;change_in_energetic_emissions_other_ghg_transport;;%
+Emissions;Greenhouse gases;Indirect emissions;change_in_indirect_emissions_co2;;%
+Emissions;Greenhouse gases;Agriculture;change_in_non_energetic_emissions_co2_agriculture_manure;;%
+Emissions;Greenhouse gases;Agriculture;change_in_non_energetic_emissions_co2_agriculture_soil_cultivation;;%
+Emissions;Greenhouse gases;Industry and Energy;change_in_non_energetic_emissions_co2_chemical_industry;;%
+Emissions;Greenhouse gases;Industry and Energy;change_in_non_energetic_emissions_co2_other_industry;;%
+Emissions;Greenhouse gases;Industry and Energy;change_in_non_energetic_emissions_co2_waste_management;;%
+Emissions;Greenhouse gases;Agriculture;change_in_non_energetic_emissions_other_ghg_agriculture_fermentation;;%
+Emissions;Greenhouse gases;Agriculture;change_in_non_energetic_emissions_other_ghg_agriculture_manure;;%
+Emissions;Greenhouse gases;Agriculture;change_in_non_energetic_emissions_other_ghg_agriculture_other;;%
+Emissions;Greenhouse gases;Agriculture;change_in_non_energetic_emissions_other_ghg_agriculture_soil_cultivation;;%
+Emissions;Greenhouse gases;Industry and Energy;change_in_non_energetic_emissions_other_ghg_chemical_industry;;%
+Emissions;Greenhouse gases;Industry and Energy;change_in_non_energetic_emissions_other_ghg_other_industry;;%
+Emissions;Greenhouse gases;Industry and Energy;change_in_non_energetic_emissions_other_ghg_waste_management;;%
+Supply;Biomass;CO<sub>2</sub> emissions of biomass;climate_relevant_co2_biomass_gas_future;;%
+Supply;Biomass;CO<sub>2</sub> emissions of biomass;climate_relevant_co2_biomass_gas_present;;%
+Supply;Biomass;CO<sub>2</sub> emissions of biomass;climate_relevant_co2_biomass_liquid_future;;%
+Supply;Biomass;CO<sub>2</sub> emissions of biomass;climate_relevant_co2_biomass_liquid_present;;%
+Supply;Biomass;CO<sub>2</sub> emissions of biomass;climate_relevant_co2_biomass_solid_future;;%
+Supply;Biomass;CO<sub>2</sub> emissions of biomass;climate_relevant_co2_biomass_solid_present;;%
+Emissions;Emission factors;CO<sub>2</sub> emissions of imported hydrogen carriers and ammmonia;co2_emissions_of_imported_ammonia_future;;kg/MWh
+Emissions;Emission factors;CO<sub>2</sub> emissions of imported heat;co2_emissions_of_imported_heat;;kg/GJ
+Emissions;Emission factors;CO<sub>2</sub> emissions of imported hydrogen carriers and ammmonia;co2_emissions_of_imported_hydrogen_future;;kg/MWh
+Emissions;Emission factors;CO<sub>2</sub> emissions of imported hydrogen carriers and ammmonia;co2_emissions_of_imported_liquid_hydrogen_future;;kg/MWh
+Emissions;Emission factors;CO<sub>2</sub> emissions of imported hydrogen carriers and ammmonia;co2_emissions_of_imported_lohc_future;;kg/MWh
+Supply;Biomass;Biocoal and bio-oil in energy plants;co_firing_biocoal_share;;%
+Supply;Biomass;Biocoal and bio-oil in energy plants;co_firing_coal_share;;%
+Flexibility;Electricity storage;Solar plants with storage systems;connection_capacity_always_on_solar_pv_solar_radiation;;%
+Flexibility;Electricity storage;Wind turbines with storage systems;connection_capacity_always_on_wind_turbine_inland;;%
+Costs & efficiencies;Fuel prices;Biofuels;costs_bio_ethanol;; €/liter
+Costs & efficiencies;Fuel prices;Biofuels;costs_biodiesel;; €/liter
+Costs & efficiencies;Fuel prices;Biofuels;costs_biogas;; €/MWh
+Costs & efficiencies;Heat;Costs heating;costs_buildings_ht_heat_delivery_system_costs_eur_per_connection;;€/connection
+Costs & efficiencies;Heat;Costs heating;costs_buildings_lt_heat_delivery_system_costs_eur_per_connection;;€/connection
+Costs & efficiencies;Heat;Costs heating;costs_buildings_mt_heat_delivery_system_costs_eur_per_connection;;€/connection
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;Prices;costs_captured_biogenic_co2;;€/tonne
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;Prices;costs_co2;;€/tonne
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;Prices;costs_co2_free_allocation;;%
+Costs & efficiencies;Fuel prices;Fossil fuels;costs_coal;;$/tonne
+Costs & efficiencies;Flexibility;Value of Lost Load;costs_electricity_fallback_price;;€/MWh
+Costs & efficiencies;Fuel prices;Fossil fuels;costs_gas;; €/MWh
+Costs & efficiencies;Fuel prices;Biofuels;costs_greengas;; €/MWh
+Costs & efficiencies;Heat;Costs district heating infrastructure;costs_heat_infra_indoors;;%
+Costs & efficiencies;Heat;Costs district heating infrastructure;costs_heat_infra_outdoors;;%
+Costs & efficiencies;Heat;Costs district heating infrastructure;costs_heat_network_storage_ht_steam_hot_water;;€/MWh
+Costs & efficiencies;Heat;Costs district heating infrastructure;costs_heat_network_storage_lt_steam_hot_water;;€/MWh
+Costs & efficiencies;Heat;Costs district heating infrastructure;costs_heat_network_storage_mt_steam_hot_water;;€/MWh
+Costs & efficiencies;Heat;Costs heating;costs_households_ht_heat_delivery_system_costs_apartments_eur_per_connection;;€/connection
+Costs & efficiencies;Heat;Costs heating;costs_households_ht_heat_delivery_system_costs_ground_level_houses_eur_per_connection;;€/connection
+Costs & efficiencies;Heat;Costs heating;costs_households_lt_heat_delivery_system_costs_apartments_eur_per_connection;;€/connection
+Costs & efficiencies;Heat;Costs heating;costs_households_lt_heat_delivery_system_costs_ground_level_houses_eur_per_connection;;€/connection
+Costs & efficiencies;Heat;Costs heating;costs_households_mt_heat_delivery_system_costs_apartments_eur_per_connection;;€/connection
+Costs & efficiencies;Heat;Costs heating;costs_households_mt_heat_delivery_system_costs_ground_level_houses_eur_per_connection;;€/connection
+Costs & efficiencies;Hydrogen carriers and ammonia;Imported hydrogen carriers and ammonia;costs_hydrogen;;€/MWh
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen storage;costs_hydrogen_storage_depleted_gas_field;;€/MWh
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen storage;costs_hydrogen_storage_salt_cavern;;€/MWh
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen transport;costs_hydrogen_transport_compressed_trucks;;€/MWh
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen transport;costs_hydrogen_transport_pipelines;;€/MWh
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen transport;costs_hydrogen_transport_pipelines_offshore;;€/MWh
+Costs & efficiencies;Hydrogen carriers and ammonia;Imported hydrogen carriers and ammonia;costs_imported_ammonia;;€/MWh
+Costs & efficiencies;Heat;Costs heating;costs_imported_heat;;€/GJ
+Costs & efficiencies;Hydrogen carriers and ammonia;Imported hydrogen carriers and ammonia;costs_imported_liquid_hydrogen;;€/MWh
+Costs & efficiencies;Hydrogen carriers and ammonia;Imported hydrogen carriers and ammonia;costs_imported_lohc;;€/MWh
+Costs & efficiencies;Heat;Costs heating;costs_industry_residual_heat;;%
+Costs & efficiencies;Infrastructure costs;Electricity infrastructure costs;costs_infrastructure_electricity_hv_net;;€/kW
+Costs & efficiencies;Infrastructure costs;Electricity infrastructure costs;costs_infrastructure_electricity_interconnector_net;;€/kW
+Costs & efficiencies;Infrastructure costs;Electricity infrastructure costs;costs_infrastructure_electricity_lv_mv_trafo;;€/kW
+Costs & efficiencies;Infrastructure costs;Electricity infrastructure costs;costs_infrastructure_electricity_lv_net;;€/kW
+Costs & efficiencies;Infrastructure costs;Electricity infrastructure costs;costs_infrastructure_electricity_mv_hv_trafo;;€/kW
+Costs & efficiencies;Infrastructure costs;Electricity infrastructure costs;costs_infrastructure_electricity_mv_net;;€/kW
+Costs & efficiencies;Infrastructure costs;Electricity infrastructure costs;costs_infrastructure_electricity_offshore_net;;€/kW
+Costs & efficiencies;Fuel prices;Fossil fuels;costs_oil;;$/barrel
+Costs & efficiencies;Fuel prices;Nuclear fuels;costs_uranium;;€/kg
+Costs & efficiencies;Weighted average cost of capital (WACC);Weighted average cost of capital (WACC);costs_wacc_households;;%
+Costs & efficiencies;Weighted average cost of capital (WACC);Weighted average cost of capital (WACC);costs_wacc_proven_technologies;;%
+Costs & efficiencies;Weighted average cost of capital (WACC);Weighted average cost of capital (WACC);costs_wacc_public_infrastructure;;%
+Costs & efficiencies;Weighted average cost of capital (WACC);Weighted average cost of capital (WACC);costs_wacc_unproven_technologies;;%
+Costs & efficiencies;Fuel prices;Biofuels;costs_wood;; €/Tonne
+Flexibility;Load on electricity network;Curtailment - solar PV;curtailment_of_buildings_solar_pv_solar_radiation;;%
+Flexibility;Load on electricity network;Curtailment - solar PV;curtailment_of_energy_power_solar_pv_offshore;;%
+Flexibility;Load on electricity network;Curtailment - solar PV;curtailment_of_energy_power_solar_pv_solar_radiation;;%
+Flexibility;Load on electricity network;Curtailment - solar PV;curtailment_of_households_solar_pv_solar_radiation;;%
+Flexibility;Load on electricity network;Demand response - load shifting in industry;deficit_limit_of_industry_chemical_flexibility_load_shifting_electricity;;hours
+Flexibility;Load on electricity network;Demand response - load shifting in industry;deficit_limit_of_industry_metal_flexibility_load_shifting_electricity;;hours
+Flexibility;Load on electricity network;Demand response - load shifting in industry;deficit_limit_of_industry_other_flexibility_load_shifting_electricity;;hours
+Flexibility;Load on electricity network;Demand response - load shifting in industry;deficit_limit_of_industry_other_ict_flexibility_load_shifting_electricity;;hours
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;demand_of_molecules_direct_air_capture_co2;;Mton
+Emissions;Carbon capture, utilisation and storage;Utilisation and storage of CO<sub>2</sub>;demand_of_molecules_offshore_sequestration_co2;;Mton
+Emissions;Carbon capture, utilisation and storage;Utilisation and storage of CO<sub>2</sub>;demand_of_molecules_other_utilisation_co2;;Mton
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_agriculture_chp_engine_biogas_electricity;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_agriculture_chp_engine_biogas_heat;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_agriculture_chp_engine_dispatchable_network_gas_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_agriculture_chp_engine_dispatchable_network_gas_heat;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_agriculture_chp_engine_must_run_network_gas_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_agriculture_chp_engine_must_run_network_gas_heat;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_agriculture_chp_wood_pellets_electricity;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_agriculture_chp_wood_pellets_heat;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_agriculture_heatpump_water_water_electricity;;COP
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_agriculture_heatpump_water_water_ts_electricity;;COP
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen production;efficiency_ammonia_reforming;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_buildings_space_heater_collective_heatpump_water_water_ts_electricity;;COP
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_buildings_space_heater_combined_hydrogen;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_buildings_space_heater_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_buildings_space_heater_heatpump_air_water_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_buildings_space_heater_hybrid_heatpump_air_water_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_buildings_space_heater_hybrid_hydrogen_heatpump_air_water_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_buildings_space_heater_network_gas;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_buildings_space_heater_wood_pellets;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_energy_chp_combined_cycle_network_gas_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_energy_chp_combined_cycle_network_gas_heat;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_energy_chp_local_engine_biogas_electricity;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_energy_chp_local_engine_biogas_heat;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_energy_chp_local_engine_network_gas_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_energy_chp_local_engine_network_gas_heat;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_energy_chp_local_wood_pellets_electricity;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_energy_chp_local_wood_pellets_heat;;%
+Costs & efficiencies;Renewable electricity;Waste power;efficiency_energy_chp_supercritical_waste_mix_electricity;;%
+Costs & efficiencies;Renewable electricity;Waste power;efficiency_energy_chp_supercritical_waste_mix_heat;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_energy_chp_ultra_supercritical_coal_electricity;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_energy_chp_ultra_supercritical_coal_heat;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_energy_chp_ultra_supercritical_cofiring_coal_electricity;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_energy_chp_ultra_supercritical_cofiring_coal_heat;;%
+Costs & efficiencies;Flexibility;Electricity storage;efficiency_energy_flexibility_flow_batteries_electricity;;%
+Costs & efficiencies;Flexibility;Electricity storage;efficiency_energy_flexibility_hv_opac_electricity;;%
+Costs & efficiencies;Flexibility;Electricity storage;efficiency_energy_flexibility_mv_batteries_electricity;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_energy_power_combined_cycle_coal;;%
+Costs & efficiencies;Renewable electricity;Hydrogen plants;efficiency_energy_power_combined_cycle_hydrogen;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_energy_power_combined_cycle_network_gas;;%
+Costs & efficiencies;Electricity;Oil plants;efficiency_energy_power_engine_diesel;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_energy_power_engine_network_gas;;%
+Costs & efficiencies;Electricity;Nuclear plants;efficiency_energy_power_nuclear_gen2_uranium_oxide;;%
+Costs & efficiencies;Electricity;Nuclear plants;efficiency_energy_power_nuclear_gen3_uranium_oxide;;%
+Costs & efficiencies;Electricity;Nuclear plants;efficiency_energy_power_nuclear_small_modular_reactor_uranium_oxide;;%
+Costs & efficiencies;Renewable electricity;Solar power;efficiency_energy_power_solar_pv_solar_radiation;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_energy_power_supercritical_coal;;%
+Costs & efficiencies;Renewable electricity;Waste power;efficiency_energy_power_supercritical_waste_mix;;%
+Costs & efficiencies;Renewable electricity;Hydrogen plants;efficiency_energy_power_turbine_hydrogen;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_energy_power_turbine_network_gas;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_energy_power_ultra_supercritical_coal;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_energy_power_ultra_supercritical_cofiring_coal;;%
+Costs & efficiencies;Electricity;Oil plants;efficiency_energy_power_ultra_supercritical_crude_oil;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_energy_power_ultra_supercritical_network_gas;;%
+Costs & efficiencies;Flexibility;Electricity storage;efficiency_households_flexibility_p2p_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_combined_hydrogen;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_combined_network_gas;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_heatpump_air_water_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_heatpump_ground_water_electricity;;COP
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_hybrid_crude_oil_heatpump_air_water_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_hybrid_heatpump_air_water_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_hybrid_hydrogen_heatpump_air_water_electricity;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_network_gas;;%
+Costs & efficiencies;Heat;Efficiencies heating built environment;efficiency_households_space_heater_wood_pellets;;%
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen production;efficiency_hydrogen_electrolysis;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_industry_chp_combined_cycle_gas_power_fuelmix_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_industry_chp_combined_cycle_gas_power_fuelmix_heat;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_industry_chp_engine_gas_power_fuelmix_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_industry_chp_engine_gas_power_fuelmix_heat;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_industry_chp_turbine_gas_power_fuelmix_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;efficiency_industry_chp_turbine_gas_power_fuelmix_heat;;%
+Costs & efficiencies;Renewable electricity;Hydrogen plants;efficiency_industry_chp_turbine_hydrogen_electricity;;%
+Costs & efficiencies;Renewable electricity;Hydrogen plants;efficiency_industry_chp_turbine_hydrogen_heat;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_industry_chp_ultra_supercritical_coal_electricity;;%
+Costs & efficiencies;Electricity;Coal plants;efficiency_industry_chp_ultra_supercritical_coal_heat;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_industry_chp_wood_pellets_electricity;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;efficiency_industry_chp_wood_pellets_heat;;%
+Costs & efficiencies;Flexibility;Electricity storage;efficiency_transport_flexibility_p2p_electricity;;%
+Flexibility;Import and export of electricity;Interconnector 10;electricity_interconnector_10_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 10;electricity_interconnector_10_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 10;electricity_interconnector_10_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 10;electricity_interconnector_10_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 10;electricity_interconnector_10_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 10;electricity_interconnector_10_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 11;electricity_interconnector_11_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 11;electricity_interconnector_11_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 11;electricity_interconnector_11_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 11;electricity_interconnector_11_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 11;electricity_interconnector_11_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 11;electricity_interconnector_11_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 12;electricity_interconnector_12_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 12;electricity_interconnector_12_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 12;electricity_interconnector_12_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 12;electricity_interconnector_12_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 12;electricity_interconnector_12_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 12;electricity_interconnector_12_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 1;electricity_interconnector_1_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 1;electricity_interconnector_1_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 1;electricity_interconnector_1_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 1;electricity_interconnector_1_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 1;electricity_interconnector_1_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 1;electricity_interconnector_1_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 2;electricity_interconnector_2_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 2;electricity_interconnector_2_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 2;electricity_interconnector_2_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 2;electricity_interconnector_2_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 2;electricity_interconnector_2_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 2;electricity_interconnector_2_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 3;electricity_interconnector_3_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 3;electricity_interconnector_3_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 3;electricity_interconnector_3_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 3;electricity_interconnector_3_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 3;electricity_interconnector_3_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 3;electricity_interconnector_3_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 4;electricity_interconnector_4_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 4;electricity_interconnector_4_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 4;electricity_interconnector_4_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 4;electricity_interconnector_4_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 4;electricity_interconnector_4_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 4;electricity_interconnector_4_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 5;electricity_interconnector_5_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 5;electricity_interconnector_5_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 5;electricity_interconnector_5_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 5;electricity_interconnector_5_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 5;electricity_interconnector_5_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 5;electricity_interconnector_5_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 6;electricity_interconnector_6_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 6;electricity_interconnector_6_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 6;electricity_interconnector_6_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 6;electricity_interconnector_6_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 6;electricity_interconnector_6_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 6;electricity_interconnector_6_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 7;electricity_interconnector_7_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 7;electricity_interconnector_7_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 7;electricity_interconnector_7_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 7;electricity_interconnector_7_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 7;electricity_interconnector_7_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 7;electricity_interconnector_7_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 8;electricity_interconnector_8_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 8;electricity_interconnector_8_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 8;electricity_interconnector_8_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 8;electricity_interconnector_8_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 8;electricity_interconnector_8_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 8;electricity_interconnector_8_marginal_costs;;€/MWh
+Flexibility;Import and export of electricity;Interconnector 9;electricity_interconnector_9_capacity;;MW
+Flexibility;Import and export of electricity;Interconnector 9;electricity_interconnector_9_co2_emissions_future;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 9;electricity_interconnector_9_co2_emissions_present;;g/kWh
+Flexibility;Import and export of electricity;Interconnector 9;electricity_interconnector_9_export_availability;;%
+Flexibility;Import and export of electricity;Interconnector 9;electricity_interconnector_9_import_availability;;%
+Flexibility;Import and export of electricity;Interconnector 9;electricity_interconnector_9_marginal_costs;;€/MWh
+Supply;Biomass;Green gas production;energy_biogas_fermentation_share;;%
+Supply;Biomass;Green gas production;energy_greengas_gasification_dry_biomass_share;;%
+Supply;Biomass;Green gas production;energy_greengas_gasification_wet_biomass_share;;%
+Supply;High-temperature (HT) district heating;Transport and distribution losses;energy_heat_distribution_ht_loss_share;;%
+Supply;Low-temperature (LT) district heating;Transport and distribution losses;energy_heat_distribution_lt_loss_share;;%
+Supply;Medium-temperature (MT) district heating;Transport and distribution losses;energy_heat_distribution_mt_loss_share;;%
+Supply;High-temperature (HT) district heating;(Seasonal) storage of heat;energy_heat_network_storage_ht_loss_share;;%
+Supply;High-temperature (HT) district heating;(Seasonal) storage of heat;energy_heat_network_storage_ht_steam_hot_water_output_capacity_share;;%
+Supply;Low-temperature (LT) district heating;(Seasonal) storage of heat;energy_heat_network_storage_lt_loss_share;;%
+Supply;Low-temperature (LT) district heating;(Seasonal) storage of heat;energy_heat_network_storage_lt_steam_hot_water_output_capacity_share;;%
+Supply;Medium-temperature (MT) district heating;(Seasonal) storage of heat;energy_heat_network_storage_mt_loss_share;;%
+Supply;Medium-temperature (MT) district heating;(Seasonal) storage of heat;energy_heat_network_storage_mt_steam_hot_water_output_capacity_share;;%
+Supply;Hydrogen carriers and ammonia;Hydrogen transport;energy_hydrogen_distribution_compressed_trucks_share;;%
+Supply;Hydrogen carriers and ammonia;Hydrogen transport;energy_hydrogen_transport_pipelines_share;;%
+Results & data;Visuals;Energy Mix infographic;energy_mix_capacity_per_unit_wind_turbine_inland;;MW
+Supply;Biomass;Biocoal and bio-oil in energy plants;energy_mixer_for_gas_power_fuel_bio_oil_share;;%
+Supply;Biomass;Biocoal and bio-oil in energy plants;energy_mixer_for_gas_power_fuel_crude_oil_share;;%
+Supply;Biomass;Biocoal and bio-oil in energy plants;energy_mixer_for_gas_power_fuel_natural_gas_share;;%
+Supply;Biomass;Gas mix in gas network;energy_regasification_lng_share;;%
+Supply;Biomass;Gas mix in gas network;energy_treatment_natural_gas_share;;%
+Supply;Biomass;Potential of biomass;external_coupling_biogenic_waste_max_demand;;PJ
+Demand;Industry energy demand;Steam network sources;external_coupling_capacity_of_industry_chp_combined_cycle_gas_power_fuelmix;;MW
+Demand;Industry energy demand;Steam network sources;external_coupling_capacity_of_industry_chp_engine_gas_power_fuelmix;;MW
+Demand;Industry energy demand;Steam network sources;external_coupling_capacity_of_industry_chp_turbine_gas_power_fuelmix;;MW
+Demand;Industry energy demand;Steam network sources;external_coupling_capacity_of_industry_chp_turbine_hydrogen;;MW
+Demand;Industry energy demand;Steam network sources;external_coupling_capacity_of_industry_chp_ultra_supercritical_coal;;MW
+Demand;Industry energy demand;Steam network sources;external_coupling_capacity_of_industry_chp_wood_pellets;;MW
+Costs & efficiencies;Electricity;Gas plants;external_coupling_efficiency_industry_chp_combined_cycle_gas_power_fuelmix_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;external_coupling_efficiency_industry_chp_combined_cycle_gas_power_fuelmix_heat;;%
+Costs & efficiencies;Electricity;Gas plants;external_coupling_efficiency_industry_chp_engine_gas_power_fuelmix_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;external_coupling_efficiency_industry_chp_engine_gas_power_fuelmix_heat;;%
+Costs & efficiencies;Electricity;Gas plants;external_coupling_efficiency_industry_chp_turbine_gas_power_fuelmix_electricity;;%
+Costs & efficiencies;Electricity;Gas plants;external_coupling_efficiency_industry_chp_turbine_gas_power_fuelmix_heat;;%
+Costs & efficiencies;Renewable electricity;Hydrogen plants;external_coupling_efficiency_industry_chp_turbine_hydrogen_electricity;;%
+Costs & efficiencies;Renewable electricity;Hydrogen plants;external_coupling_efficiency_industry_chp_turbine_hydrogen_heat;;%
+Costs & efficiencies;Electricity;Coal plants;external_coupling_efficiency_industry_chp_ultra_supercritical_coal_electricity;;%
+Costs & efficiencies;Electricity;Coal plants;external_coupling_efficiency_industry_chp_ultra_supercritical_coal_heat;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;external_coupling_efficiency_industry_chp_wood_pellets_electricity;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;external_coupling_efficiency_industry_chp_wood_pellets_heat;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_ammonia_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_ammonia_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_bio_kerosene_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_bio_oil_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_bio_oil_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_biodiesel_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_crude_oil_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_diesel_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_electricity_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_gasoline_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_greengas_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_greengas_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_heavy_fuel_oil_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_hydrogen_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_hydrogen_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_kerosene_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_loss_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_lpg_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_methanol_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_methanol_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_naphtha_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_natural_gas_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_natural_gas_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_not_defined_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_not_defined_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_refinery_gas_output_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_steam_hot_water_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_total_demand;;PJ
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_waste_mix_input_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_energy_chemical_fertilizers_transformation_external_coupling_node_wood_pellets_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_ammonia_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_ammonia_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_bio_kerosene_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_bio_oil_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_bio_oil_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_biodiesel_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_crude_oil_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_diesel_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_electricity_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_gasoline_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_greengas_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_greengas_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_heavy_fuel_oil_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_hydrogen_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_hydrogen_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_kerosene_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_loss_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_lpg_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_methanol_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_methanol_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_naphtha_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_natural_gas_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_natural_gas_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_not_defined_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_not_defined_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_refinery_gas_output_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_steam_hot_water_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_total_demand;;PJ
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_waste_mix_input_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_energy_chemical_other_transformation_external_coupling_node_wood_pellets_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_ammonia_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_ammonia_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_bio_kerosene_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_bio_oil_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_bio_oil_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_biodiesel_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_crude_oil_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_diesel_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_electricity_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_gasoline_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_greengas_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_greengas_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_heavy_fuel_oil_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_hydrogen_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_hydrogen_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_kerosene_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_loss_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_lpg_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_methanol_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_methanol_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_naphtha_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_natural_gas_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_natural_gas_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_not_defined_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_not_defined_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_refinery_gas_output_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_steam_hot_water_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_total_demand;;PJ
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_waste_mix_input_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_energy_chemical_refineries_transformation_external_coupling_node_wood_pellets_input_share;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;external_coupling_energy_chp_supercritical_ccs_waste_mix_captured_co2;;%
+Costs & efficiencies;Renewable electricity;Waste power;external_coupling_energy_chp_supercritical_ccs_waste_mix_electrical_efficiency;;%
+Costs & efficiencies;Renewable electricity;Waste power;external_coupling_energy_chp_supercritical_ccs_waste_mix_heat_efficiency;;%
+Supply;Renewable electricity;Waste power;external_coupling_energy_chp_supercritical_waste_mix_capacity;;MW
+Costs & efficiencies;Renewable electricity;Waste power;external_coupling_energy_chp_supercritical_waste_mix_electrical_efficiency;;%
+Costs & efficiencies;Renewable electricity;Waste power;external_coupling_energy_chp_supercritical_waste_mix_heat_efficiency;;%
+Supply;Electricity;Coal gas plants;external_coupling_energy_distribution_coal_gas_chemical_feedstock_share;;%
+Supply;Electricity;Coal gas plants;external_coupling_energy_distribution_coal_gas_energy_production_share;;%
+Supply;Electricity;Coal gas plants;external_coupling_energy_distribution_coal_gas_final_demand_share;;%
+Costs & efficiencies;Heat;Costs heating;external_coupling_energy_heat_production_ht_residual_heat_fixed_om_costs;;€/year/unit
+Costs & efficiencies;Heat;Costs heating;external_coupling_energy_heat_production_ht_residual_heat_investment_costs;;€/unit
+Costs & efficiencies;Heat;Costs heating;external_coupling_energy_heat_production_ht_residual_heat_technical_lifetime;;year
+Costs & efficiencies;Heat;Costs heating;external_coupling_energy_heat_production_ht_residual_heat_wacc;;%
+Emissions;Carbon capture, utilisation and storage;Utilisation and storage of CO<sub>2</sub>;external_coupling_energy_production_synthetic_kerosene_demand;;PJ
+Emissions;Carbon capture, utilisation and storage;Utilisation and storage of CO<sub>2</sub>;external_coupling_energy_production_synthetic_methanol_demand;;PJ
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_bio_kerosene_in_crude_oil_non_energetic_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_bio_kerosene_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_biodiesel_in_crude_oil_non_energetic_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_biodiesel_in_crude_oil_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_burner_coal_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_burner_crude_oil_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_burner_hydrogen_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_burner_network_gas_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_burner_wood_pellets_share;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_fertilizers_combustion_ccus_capture_potential;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_fertilizers_combustion_ccus_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_fertilizers_combustion_ccus_electricity_use;;PJ/Mton
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_electricity;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_non_energetic_ammonia_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_non_energetic_coal_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_non_energetic_crude_oil_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_non_energetic_hydrogen_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_non_energetic_network_gas_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_non_energetic_wood_pellets_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_p2h_capacity;;MW
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_fertilizers_processes_ccus_capture_potential;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_fertilizers_processes_ccus_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_fertilizers_processes_ccus_electricity_use;;PJ/Mton
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_residual_heat_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_steam_hot_water_share;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_total_excluding_electricity;;%
+Demand;Industry energy demand;Fertilizers;external_coupling_industry_chemical_fertilizers_total_useable_heat_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_burner_coal_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_burner_crude_oil_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_burner_hydrogen_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_burner_naphtha_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_burner_network_gas_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_burner_wood_pellets_share;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_other_ccus_capture_potential;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_other_ccus_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_other_ccus_electricity_use;;PJ/Mton
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_electricity;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_heater_electricity_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_heatpump_water_water_electricity_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_non_energetic_coal_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_non_energetic_crude_oil_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_non_energetic_hydrogen_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_non_energetic_naphtha_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_non_energetic_network_gas_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_non_energetic_wood_pellets_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_p2h_capacity;;MW
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_residual_heat_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_steam_hot_water_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_steam_recompression_electricity_share;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_total_non_energetic;;%
+Demand;Industry energy demand;Chemicals;external_coupling_industry_chemical_other_useable_heat;;%
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_burner_coal_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_burner_crude_oil_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_burner_hydrogen_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_burner_network_gas_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_burner_wood_pellets_share;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_refineries_ccus_capture_potential;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_refineries_ccus_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_chemical_refineries_ccus_electricity_use;;PJ/Mton
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_electricity;;%
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_p2h_capacity;;MW
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_residual_heat_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_steam_hot_water_share;;%
+Demand;Industry energy demand;Refineries;external_coupling_industry_chemical_refineries_useable_heat;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_diesel_in_crude_oil_non_energetic_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_diesel_in_crude_oil_share;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_external_coupling_node_captured_co2_supply;;Mton
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_kerosene_in_crude_oil_non_energetic_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_kerosene_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_lpg_in_crude_oil_non_energetic_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_lpg_in_crude_oil_share;;%
+Demand;Industry energy demand;Aluminium;external_coupling_industry_metal_aluminium_energetic_electricity_share;;%
+Demand;Industry energy demand;Aluminium;external_coupling_industry_metal_aluminium_energetic_hydrogen_share;;%
+Demand;Industry energy demand;Aluminium;external_coupling_industry_metal_aluminium_energetic_network_gas_share;;%
+Demand;Industry energy demand;Aluminium;external_coupling_industry_metal_aluminium_fixed_om_costs;;€/year/unit
+Demand;Industry energy demand;Aluminium;external_coupling_industry_metal_aluminium_investment_costs;;€/unit
+Demand;Industry energy demand;Aluminium;external_coupling_industry_metal_aluminium_production;;Mton
+Demand;Industry energy demand;Aluminium;external_coupling_industry_metal_aluminium_production_efficiency;;Mton/PJ
+Demand;Industry energy demand;Aluminium;external_coupling_industry_metal_aluminium_technical_lifetime;;year
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_coal_share;;%
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_crude_oil_share;;%
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_electricity_share;;%
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_fixed_om_costs;;€/year/unit
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_hydrogen_share;;%
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_investment_costs;;€/unit
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_network_gas_share;;%
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_steam_hot_water_share;;%
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_technical_lifetime;;year
+Demand;Industry energy demand;Other metals;external_coupling_industry_metal_other_metals_useful_energetic_demand;;PJ
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_blastfurnace_bof_share;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_metal_steel_ccus_capture_potential;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_metal_steel_ccus_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_metal_steel_ccus_electricity_use;;PJ/Mton
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_cyclonefurnace_bof_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_dri_hydrogen_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_dri_network_gas_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_efficiency;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_coal_gas_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_coal_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_cokes_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_crude_oil_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_electricity_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_hydrogen_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_network_gas_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_steam_hot_water_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_energetic_wood_pellets_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_external_coupling_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_fixed_om_costs;;€/year/Mton
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_investment_costs;;€/Mton
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_scrap_hbi_eaf_share;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_technical_lifetime;;year
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_total_demand;;%
+Demand;Industry energy demand;Steel;external_coupling_industry_metal_steel_wacc;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_other_bio_oil_in_crude_oil_non_energetic_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_other_bio_oil_in_crude_oil_share;;%
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_burner_coal_share;;%
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_burner_crude_oil_share;;%
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_burner_hydrogen_share;;%
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_burner_network_gas_share;;%
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_burner_wood_pellets_share;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_other_food_ccus_capture_potential;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_other_food_ccus_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_other_food_ccus_electricity_use;;PJ/Mton
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_heater_electricity_share;;%
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_p2h_capacity;;MW
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_steam_hot_water_share;;%
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_useful_energetic_demand_excluding_electricity;;PJ
+Demand;Industry energy demand;Food;external_coupling_industry_other_food_useful_energetic_demand_for_electricity;;PJ
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_ammonia_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_coal_share_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_coal_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_cokes_share_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_cokes_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_crude_oil_share_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_crude_oil_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_electricity_share_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_hydrogen_share_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_hydrogen_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_methanol_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_network_gas_share_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_network_gas_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_useable_heat_share_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_waste_mix_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_wood_pellets_share_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_industry_wood_pellets_share_non_energetic;;%
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_useful_energetic_demand;;PJ
+Demand;Industry energy demand;Other;external_coupling_industry_other_non_specified_useful_non_energetic_demand;;PJ
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_other_oil_in_crude_oil_non_energetic_share;;%
+Supply;Biomass;Oil mix in demand sectors;external_coupling_industry_other_oil_in_crude_oil_share;;%
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_burner_coal_share;;%
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_burner_crude_oil_share;;%
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_burner_hydrogen_share;;%
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_burner_network_gas_share;;%
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_burner_wood_pellets_share;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_other_paper_ccus_capture_potential;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_other_paper_ccus_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;external_coupling_industry_other_paper_ccus_electricity_use;;PJ/Mton
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_heater_electricity_share;;%
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_p2h_capacity;;MW
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_steam_hot_water_share;;%
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_useful_energetic_demand_excluding_electricity;;PJ
+Demand;Industry energy demand;Paper;external_coupling_industry_other_paper_useful_energetic_demand_for_electricity;;PJ
+Emissions;Carbon capture, utilisation and storage;Utilisation and storage of CO<sub>2</sub>;external_coupling_molecules_other_utilisation_demand;;Mton
+Supply;Biomass;Potential of biomass;external_coupling_non_biogenic_waste_max_demand;;PJ
+Supply;Biomass;Potential of biomass;external_coupling_waste_mix_biogenic_waste_share;;%
+Supply;Biomass;Potential of biomass;external_coupling_waste_mix_non_biogenic_waste_share;;%
+Flexibility;Load on electricity network;Demand response - behavior of hybrid heat pumps;flexibility_heat_pump_space_heating_cop_cutoff_gas;;#
+Flexibility;Load on electricity network;Demand response - behavior of hybrid heat pumps;flexibility_heat_pump_water_heating_cop_cutoff;;#
+Flexibility;Weather conditions;Temperature and full load hours;flexibility_outdoor_temperature;;degC
+Flexibility;Overview of flexibility;The need for flexibility: timescales;flexibility_residual_load_curve_moving_average;;hours
+Costs & efficiencies;Renewable electricity;Biomass plants;flh_of_energy_chp_local_ht_wood_pellets_ccs_must_run;;#
+Costs & efficiencies;Renewable electricity;Biomass plants;flh_of_energy_chp_local_mt_wood_pellets_ccs_must_run;;#
+Flexibility;Weather conditions;Temperature and full load hours;flh_of_energy_hydrogen_wind_turbine_offshore;;#
+Flexibility;Weather conditions;Temperature and full load hours;flh_of_energy_power_wind_turbine_coastal;;#
+Flexibility;Weather conditions;Temperature and full load hours;flh_of_energy_power_wind_turbine_inland;;#
+Flexibility;Weather conditions;Temperature and full load hours;flh_of_energy_power_wind_turbine_offshore;;#
+Costs & efficiencies;Renewable electricity;Biomass plants;flh_of_energy_power_wood_pellets_ccs_must_run;;#
+Flexibility;Weather conditions;Temperature and full load hours;flh_of_solar_pv_solar_radiation;;#
+Supply;Future production of primary carriers;Future production of primary carriers;fuel_production_coal;;PJ
+Supply;Future production of primary carriers;Future production of primary carriers;fuel_production_crude_oil;;PJ
+Supply;Future production of primary carriers;Future production of primary carriers;fuel_production_natural_gas;;PJ
+Supply;Future production of primary carriers;Future production of primary carriers;fuel_production_uranium_oxide;;PJ
+Supply;Biomass;Gas mix in gas network;green_gas_total_share;;%
+Supply;High-temperature (HT) district heating;(Seasonal) storage of heat;heat_storage_enabled_ht;;boolean
+Supply;Low-temperature (LT) district heating;(Seasonal) storage of heat;heat_storage_enabled_lt;;boolean
+Supply;Medium-temperature (MT) district heating;(Seasonal) storage of heat;heat_storage_enabled_mt;;boolean
+Demand;Household energy demand;Appliances;households_appliances_electricity_efficiency;;%
+Demand;Household energy demand;Cooking;households_cooker_halogen_electricity_share;;%
+Demand;Household energy demand;Cooking;households_cooker_induction_electricity_share;;%
+Demand;Household energy demand;Cooking;households_cooker_network_gas_share;;%
+Demand;Household energy demand;Cooking;households_cooker_resistive_electricity_share;;%
+Demand;Household energy demand;Cooking;households_cooker_wood_pellets_share;;%
+Demand;Household energy demand;Cooling;households_cooling_airconditioning_electricity_share;;%
+Demand;Household energy demand;Cooling;households_cooling_heatpump_air_water_electricity_share;;%
+Demand;Household energy demand;Cooling;households_cooling_heatpump_ground_water_electricity_share;;%
+Demand;Household energy demand;Cooling;households_cooling_heatpump_surface_water_water_ts_electricity_share;;%
+Flexibility;Load on electricity network;Demand response - behavior of hybrid heat pumps;households_flexibility_consumer_electricity_price;;€ct/kWh
+Flexibility;Load on electricity network;Demand response - behavior of hybrid heat pumps;households_flexibility_consumer_gas_price;;€ct/m3
+Flexibility;Electricity storage;Batteries in households;households_flexibility_p2p_electricity_market_penetration;;%
+Demand;Households heating technologies;Capacities;households_heater_combined_hydrogen_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_combined_hydrogen_share;;%
+Demand;Households heating technologies;Capacities;households_heater_combined_network_gas_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_combined_network_gas_share;;%
+Demand;Households heating technologies;Capacities;households_heater_district_heating_ht_steam_hot_water_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_district_heating_ht_steam_hot_water_share;;%
+Demand;Households heating technologies;Capacities;households_heater_district_heating_lt_steam_hot_water_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_district_heating_lt_steam_hot_water_share;;%
+Demand;Households heating technologies;Capacities;households_heater_district_heating_mt_steam_hot_water_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_district_heating_mt_steam_hot_water_share;;%
+Demand;Households heating technologies;Capacities;households_heater_electricity_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_electricity_share;;%
+Demand;Households heating technologies;Capacities;households_heater_heatpump_air_water_electricity_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_heatpump_air_water_electricity_share;;%
+Demand;Households heating technologies;Capacities;households_heater_heatpump_ground_water_electricity_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_heatpump_ground_water_electricity_share;;%
+Demand;Households heating technologies;Capacities;households_heater_heatpump_pvt_electricity_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_heatpump_pvt_electricity_share;;%
+Demand;Households heating technologies;Capacities;households_heater_heatpump_surface_water_water_ts_electricity_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_heatpump_surface_water_water_ts_electricity_share;;%
+Demand;Households heating technologies;Capacities;households_heater_hybrid_heatpump_air_water_electricity_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_hybrid_heatpump_air_water_electricity_share;;%
+Demand;Households heating technologies;Capacities;households_heater_hybrid_hydrogen_heatpump_air_water_electricity_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_hybrid_hydrogen_heatpump_air_water_electricity_share;;%
+Demand;Households heating technologies;Capacities;households_heater_network_gas_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_network_gas_share;;%
+Demand;Households heating technologies;Capacities;households_heater_wood_pellets_heat_output_capacity;;kW
+Demand;Household energy demand;Space heating & hot water;households_heater_wood_pellets_share;;%
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_apartments_1945_1964;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_apartments_1965_1984;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_apartments_1985_2004;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_apartments_2005_present;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_apartments_before_1945;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_apartments_future;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_detached_houses_1945_1964;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_detached_houses_1965_1984;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_detached_houses_1985_2004;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_detached_houses_2005_present;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_detached_houses_before_1945;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_detached_houses_future;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_semi_detached_houses_1945_1964;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_semi_detached_houses_1965_1984;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_semi_detached_houses_1985_2004;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_semi_detached_houses_2005_present;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_semi_detached_houses_before_1945;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_semi_detached_houses_future;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_terraced_houses_1945_1964;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_terraced_houses_1965_1984;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_terraced_houses_1985_2004;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_terraced_houses_2005_present;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_terraced_houses_before_1945;;kWh/m2
+Demand;Household energy demand;Heat demand & insulation;households_insulation_level_terraced_houses_future;;kWh/m2
+Demand;Household energy demand;Lighting;households_lighting_efficient_fluorescent_electricity_share;;%
+Demand;Household energy demand;Lighting;households_lighting_incandescent_electricity_share;;%
+Demand;Household energy demand;Lighting;households_lighting_led_electricity_share;;%
+Demand;Household energy demand;Population & housing stock;households_number_of_apartments_1945_1964;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_apartments_1965_1984;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_apartments_1985_2004;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_apartments_2005_present;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_apartments_before_1945;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_apartments_future;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_detached_houses_1945_1964;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_detached_houses_1965_1984;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_detached_houses_1985_2004;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_detached_houses_2005_present;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_detached_houses_before_1945;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_detached_houses_future;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_inhabitants;;mln
+Demand;Household energy demand;Population & housing stock;households_number_of_semi_detached_houses_1945_1964;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_semi_detached_houses_1965_1984;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_semi_detached_houses_1985_2004;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_semi_detached_houses_2005_present;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_semi_detached_houses_before_1945;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_semi_detached_houses_future;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_terraced_houses_1945_1964;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_terraced_houses_1965_1984;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_terraced_houses_1985_2004;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_terraced_houses_2005_present;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_terraced_houses_before_1945;;#
+Demand;Household energy demand;Population & housing stock;households_number_of_terraced_houses_future;;#
+Demand;Household energy demand;Development of demand;households_useful_demand_cooking_per_person;;%
+Demand;Household energy demand;Development of demand;households_useful_demand_electric_appliances;;%
+Demand;Household energy demand;Development of demand;households_useful_demand_for_cooling;;%
+Demand;Household energy demand;Development of demand;households_useful_demand_hot_water_share;;%
+Demand;Household energy demand;Development of demand;households_useful_demand_lighting;;%
+Demand;Household energy demand;Space heating & hot water;households_water_heater_solar_thermal_share;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_coal_share_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_coal_share_non_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_cokes_share_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_cokes_share_non_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_crude_oil_share_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_crude_oil_share_non_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_electricity_share;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_hydrogen_share_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_hydrogen_share_non_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_network_gas_share_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_network_gas_share_non_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_useable_heat_share;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_wood_pellets_share_energetic;;%
+Demand;Industry energy demand;Other;industry_aggregated_other_industry_wood_pellets_share_non_energetic;;%
+Demand;Industry energy demand;Aluminium;industry_aluminium_carbothermalreduction_electricity_share;;%
+Demand;Industry energy demand;Aluminium;industry_aluminium_electrolysis_bat_electricity_share;;%
+Demand;Industry energy demand;Aluminium;industry_aluminium_electrolysis_current_electricity_share;;%
+Demand;Industry energy demand;Aluminium;industry_aluminium_production;;%
+Demand;Industry energy demand;Aluminium;industry_aluminium_smeltoven_electricity_share;;%
+Supply;Biomass;Oil mix in demand sectors;industry_bio_kerosene_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;industry_biodiesel_in_crude_oil_share;;%
+Demand;Industry energy demand;Fertilizers;industry_chemicals_fertilizers_burner_coal_share;;%
+Demand;Industry energy demand;Fertilizers;industry_chemicals_fertilizers_burner_crude_oil_share;;%
+Demand;Industry energy demand;Fertilizers;industry_chemicals_fertilizers_burner_hydrogen_share;;%
+Demand;Industry energy demand;Fertilizers;industry_chemicals_fertilizers_burner_network_gas_share;;%
+Demand;Industry energy demand;Fertilizers;industry_chemicals_fertilizers_burner_wood_pellets_share;;%
+Demand;Industry energy demand;Fertilizers;industry_chemicals_fertilizers_central_ammonia_share;;%
+Demand;Industry energy demand;Fertilizers;industry_chemicals_fertilizers_local_ammonia_central_hydrogen_share;;%
+Demand;Industry energy demand;Fertilizers;industry_chemicals_fertilizers_local_ammonia_local_hydrogen_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_burner_coal_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_burner_crude_oil_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_burner_hydrogen_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_burner_naphtha_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_burner_network_gas_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_burner_wood_pellets_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_coal_non_energetic_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_crude_oil_non_energetic_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_heater_electricity_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_heatpump_water_water_electricity_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_hydrogen_non_energetic_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_naphtha_non_energetic_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_network_gas_non_energetic_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_steam_recompression_electricity_share;;%
+Demand;Industry energy demand;Chemicals;industry_chemicals_other_wood_pellets_non_energetic_share;;%
+Demand;Industry energy demand;Refineries;industry_chemicals_refineries_burner_coal_share;;%
+Demand;Industry energy demand;Refineries;industry_chemicals_refineries_burner_crude_oil_share;;%
+Demand;Industry energy demand;Refineries;industry_chemicals_refineries_burner_hydrogen_share;;%
+Demand;Industry energy demand;Refineries;industry_chemicals_refineries_burner_network_gas_share;;%
+Demand;Industry energy demand;Refineries;industry_chemicals_refineries_burner_wood_pellets_share;;%
+Supply;Biomass;Oil mix in demand sectors;industry_diesel_in_crude_oil_share;;%
+Demand;Industry energy demand;Fertilizers;industry_final_demand_for_chemical_fertilizers_steam_hot_water_share;;%
+Demand;Industry energy demand;Chemicals;industry_final_demand_for_chemical_other_steam_hot_water_share;;%
+Demand;Industry energy demand;Refineries;industry_final_demand_for_chemical_refineries_steam_hot_water_share;;%
+Demand;Industry energy demand;Food;industry_final_demand_for_other_food_steam_hot_water_share;;%
+Demand;Industry energy demand;Paper;industry_final_demand_for_other_paper_steam_hot_water_share;;%
+Supply;Biomass;Oil mix in demand sectors;industry_kerosene_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;industry_lpg_in_crude_oil_share;;%
+Supply;Biomass;Oil mix in demand sectors;industry_other_bio_oil_in_crude_oil_share;;%
+Demand;Industry energy demand;Food;industry_other_food_burner_coal_share;;%
+Demand;Industry energy demand;Food;industry_other_food_burner_crude_oil_share;;%
+Demand;Industry energy demand;Food;industry_other_food_burner_hydrogen_share;;%
+Demand;Industry energy demand;Food;industry_other_food_burner_network_gas_share;;%
+Demand;Industry energy demand;Food;industry_other_food_burner_wood_pellets_share;;%
+Demand;Industry energy demand;Food;industry_other_food_heater_electricity_share;;%
+Demand;Industry energy demand;Other metals;industry_other_metals_process_electricity_efficiency;;%
+Demand;Industry energy demand;Other metals;industry_other_metals_process_heat_useable_heat_efficiency;;%
+Demand;Industry energy demand;Other metals;industry_other_metals_production;;%
+Supply;Biomass;Oil mix in demand sectors;industry_other_oil_in_crude_oil_share;;%
+Demand;Industry energy demand;Paper;industry_other_paper_burner_coal_share;;%
+Demand;Industry energy demand;Paper;industry_other_paper_burner_crude_oil_share;;%
+Demand;Industry energy demand;Paper;industry_other_paper_burner_hydrogen_share;;%
+Demand;Industry energy demand;Paper;industry_other_paper_burner_network_gas_share;;%
+Demand;Industry energy demand;Paper;industry_other_paper_burner_wood_pellets_share;;%
+Demand;Industry energy demand;Paper;industry_other_paper_heater_electricity_share;;%
+Demand;Industry energy demand;Steel;industry_steel_blastfurnace_bof_share;;%
+Demand;Industry energy demand;Steel;industry_steel_cyclonefurnace_bof_share;;%
+Supply;Biomass;Wood pellets in steel production;industry_steel_cyclonefurnace_bof_wood_pellets_share;;%
+Demand;Industry energy demand;Steel;industry_steel_dri_hydrogen_share;;%
+Demand;Industry energy demand;Steel;industry_steel_dri_network_gas_share;;%
+Demand;Industry energy demand;Steel;industry_steel_production;;%
+Demand;Industry energy demand;Steel;industry_steel_scrap_hbi_eaf_share;;%
+Demand;Industry energy demand;Other;industry_useful_demand_for_aggregated_other_electricity_efficiency;;%
+Demand;Industry energy demand;Other;industry_useful_demand_for_aggregated_other_energetic;;%
+Demand;Industry energy demand;Other;industry_useful_demand_for_aggregated_other_non_energetic;;%
+Demand;Industry energy demand;Other;industry_useful_demand_for_aggregated_other_useable_heat_efficiency;;%
+Demand;Industry energy demand;Fertilizers;industry_useful_demand_for_chemical_fertilizers;;%
+Demand;Industry energy demand;Fertilizers;industry_useful_demand_for_chemical_fertilizers_electricity_efficiency;;%
+Demand;Industry energy demand;Fertilizers;industry_useful_demand_for_chemical_fertilizers_useable_heat_efficiency;;%
+Demand;Industry energy demand;Chemicals;industry_useful_demand_for_chemical_other;;%
+Demand;Industry energy demand;Chemicals;industry_useful_demand_for_chemical_other_electricity_efficiency;;%
+Demand;Industry energy demand;Chemicals;industry_useful_demand_for_chemical_other_useable_heat_efficiency;;%
+Demand;Industry energy demand;Refineries;industry_useful_demand_for_chemical_refineries;;%
+Demand;Industry energy demand;Refineries;industry_useful_demand_for_chemical_refineries_electricity_efficiency;;%
+Demand;Industry energy demand;Refineries;industry_useful_demand_for_chemical_refineries_useable_heat_efficiency;;%
+Demand;Industry energy demand;Food;industry_useful_demand_for_other_food;;%
+Demand;Industry energy demand;Food;industry_useful_demand_for_other_food_electricity_efficiency;;%
+Demand;Industry energy demand;Food;industry_useful_demand_for_other_food_useable_heat_efficiency;;%
+Demand;Industry energy demand;Central ICT;industry_useful_demand_for_other_ict;;%
+Demand;Industry energy demand;Central ICT;industry_useful_demand_for_other_ict_efficiency;;%
+Demand;Industry energy demand;Paper;industry_useful_demand_for_other_paper;;%
+Demand;Industry energy demand;Paper;industry_useful_demand_for_other_paper_electricity_efficiency;;%
+Demand;Industry energy demand;Paper;industry_useful_demand_for_other_paper_useable_heat_efficiency;;%
+Flexibility;Load on electricity network;Demand response - load shifting in industry;input_capacity_of_industry_chemical_flexibility_load_shifting_electricity;;%
+Flexibility;Load on electricity network;Demand response - load shifting in industry;input_capacity_of_industry_metal_flexibility_load_shifting_electricity;;%
+Flexibility;Load on electricity network;Demand response - load shifting in industry;input_capacity_of_industry_other_flexibility_load_shifting_electricity;;%
+Flexibility;Load on electricity network;Demand response - load shifting in industry;input_capacity_of_industry_other_ict_flexibility_load_shifting_electricity;;%
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen production;investment_costs_ammonia_reforming;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> capture in industry;investment_costs_co2_capture_industry;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> capture in energy sector;investment_costs_co2_ccs;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> storage;investment_costs_co2_storage;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> transport;investment_costs_co2_transport;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> utilisation;investment_costs_co2_utilisation;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;investment_costs_combustion_biomass_plants;;%
+Costs & efficiencies;Electricity;Coal plants;investment_costs_combustion_coal_plant;;%
+Costs & efficiencies;Electricity;Gas plants;investment_costs_combustion_gas_plant;;%
+Costs & efficiencies;Renewable electricity;Hydrogen plants;investment_costs_combustion_hydrogen_plant;;%
+Costs & efficiencies;Electricity;Oil plants;investment_costs_combustion_oil_plant;;%
+Costs & efficiencies;Renewable electricity;Waste power;investment_costs_combustion_waste_incinerator;;%
+Costs & efficiencies;Heat;Costs heating;investment_costs_electric_heat_pumps;;%
+Costs & efficiencies;Flexibility;Electricity storage;investment_costs_energy_flexibility_hv_opac_electricity;;%
+Costs & efficiencies;Flexibility;Electricity storage;investment_costs_energy_flexibility_mv_batteries_electricity;;%
+Costs & efficiencies;Flexibility;Electricity conversion;investment_costs_flexibility_p2h_electricity;;%
+Costs & efficiencies;Heat;Costs heating;investment_costs_gas_heat_pumps;;%
+Costs & efficiencies;Heat;Costs heating;investment_costs_geothermal;;%
+Costs & efficiencies;Flexibility;Electricity storage;investment_costs_households_flexibility_p2p_electricity;;%
+Costs & efficiencies;Hydrogen carriers and ammonia;Hydrogen production;investment_costs_hydrogen_electrolysis;;%
+Costs & efficiencies;Electricity;Nuclear plants;investment_costs_nuclear_nuclear_plant;;%
+Costs & efficiencies;Electricity;Nuclear plants;investment_costs_nuclear_small_modular_reactor;;%
+Costs & efficiencies;Renewable electricity;Solar power;investment_costs_solar_solar_panels;;%
+Costs & efficiencies;Heat;Costs heating;investment_costs_solar_thermal;;%
+Costs & efficiencies;Renewable electricity;Hydroelectric power;investment_costs_water_river;;%
+Costs & efficiencies;Renewable electricity;Wind turbines;investment_costs_wind_offshore;;%
+Costs & efficiencies;Renewable electricity;Wind turbines;investment_costs_wind_onshore;;%
+Results & data;Visuals;Land use of solar and wind energy;land_use_impact_visual_wind_inland_large_scale;;%
+Results & data;Visuals;Land use of solar and wind energy;land_use_impact_visual_wind_inland_small_scale;;%
+Supply;Biomass;Potential of biomass;max_demand_of_biogenic_waste;;PJ
+Supply;Biomass;Potential of biomass;max_demand_of_dry_biomass;;PJ
+Supply;Biomass;Potential of biomass;max_demand_of_oily_biomass;;PJ
+Supply;Biomass;Potential of biomass;max_demand_of_wet_biomass;;PJ
+Supply;Electricity;Nuclear plants;merit_order_subtype_of_energy_power_nuclear_uranium_oxide;;boolean
+Supply;Biomass;Gas mix in gas network;natural_gas_total_share;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> capture in industry;om_costs_co2_capture_industry;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> capture in energy sector;om_costs_co2_ccs;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> storage;om_costs_co2_storage;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> transport;om_costs_co2_transport;;%
+Costs & efficiencies;CO<sub>2</sub> capture, utilisation and storage costs;CO<sub>2</sub> utilisation;om_costs_co2_utilisation;;%
+Costs & efficiencies;Renewable electricity;Biomass plants;om_costs_combustion_biomass_plant;;%
+Costs & efficiencies;Electricity;Coal plants;om_costs_combustion_coal_plant;;%
+Costs & efficiencies;Electricity;Gas plants;om_costs_combustion_gas_plant;;%
+Costs & efficiencies;Renewable electricity;Hydrogen plants;om_costs_combustion_hydrogen_plant;;%
+Costs & efficiencies;Electricity;Oil plants;om_costs_combustion_oil_plant;;%
+Costs & efficiencies;Renewable electricity;Waste power;om_costs_combustion_waste_incinerator;;%
+Costs & efficiencies;Heat;Costs heating;om_costs_geothermal;;%
+Costs & efficiencies;Electricity;Nuclear plants;om_costs_nuclear_nuclear_plant;;%
+Costs & efficiencies;Electricity;Nuclear plants;om_costs_nuclear_small_modular_reactor;;%
+Costs & efficiencies;Heat;Costs heating;om_costs_solar_thermal;;%
+Costs & efficiencies;Renewable electricity;Hydroelectric power;om_costs_water_river;;%
+Costs & efficiencies;Renewable electricity;Wind turbines;om_costs_wind_offshore;;%
+Costs & efficiencies;Renewable electricity;Wind turbines;om_costs_wind_onshore;;%
+Demand;Energy demand other users;Development of demand;other_useful_demand_electricity;;%
+Demand;Energy demand other users;Development of demand;other_useful_demand_non_energetic;;%
+Demand;Energy demand other users;Development of demand;other_useful_demand_useable_heat;;%
+Emissions;Carbon capture, utilisation and storage;Utilisation and storage of CO<sub>2</sub>;output_of_energy_production_synthetic_kerosene_must_run;;PJ
+Emissions;Carbon capture, utilisation and storage;Utilisation and storage of CO<sub>2</sub>;output_of_energy_production_synthetic_methanol;;PJ
+Supply;Biomass;Gas mix in gas network;propane_gas_total_share;;%
+Flexibility;Load on electricity network;Hybrid offshore wind - components;relative_capacity_of_electrolyser;;%
+Flexibility;Load on electricity network;Hybrid offshore wind - components;relative_capacity_of_offshore_cable;;%
+Flexibility;Electricity storage;Flow batteries;settings_enable_storage_optimisation_energy_flexibility_flow_batteries_electricity;;boolean
+Flexibility;Electricity storage;Underground pumped hydro storage;settings_enable_storage_optimisation_energy_flexibility_hv_opac_electricity;;boolean
+Flexibility;Electricity storage;Large-scale batteries;settings_enable_storage_optimisation_energy_flexibility_mv_batteries_electricity;;boolean
+Flexibility;Electricity storage;Reservoirs;settings_enable_storage_optimisation_energy_flexibility_pumped_storage_electricity;;boolean
+Flexibility;Electricity storage;Batteries in households;settings_enable_storage_optimisation_households_flexibility_p2p_electricity;;radio
+Flexibility;Electricity storage;Batteries in electric vehicles;settings_enable_storage_optimisation_transport_car_flexibility_p2p_electricity;;boolean
+Flexibility;Weather conditions;Weather years;settings_weather_curve_set;;weather-curves
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_combined_cycle_ht_network_gas;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_combined_cycle_mt_network_gas;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_local_engine_ht_biogas;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_local_engine_ht_network_gas;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_local_engine_mt_biogas;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_local_engine_mt_network_gas;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_chp_local_ht_wood_pellets_ccs_dispatchable;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_chp_local_ht_wood_pellets_ccs_must_run;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_local_ht_wood_pellets_dispatchable;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_local_ht_wood_pellets_must_run;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_chp_local_mt_wood_pellets_ccs_dispatchable;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_chp_local_mt_wood_pellets_ccs_must_run;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_local_mt_wood_pellets_dispatchable;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_local_mt_wood_pellets_must_run;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_chp_supercritical_ccs_ht_waste_mix;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_chp_supercritical_ccs_mt_waste_mix;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_supercritical_ht_waste_mix;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_supercritical_mt_waste_mix;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_ultra_supercritical_cofiring_ht_coal;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_ultra_supercritical_cofiring_mt_coal;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_ultra_supercritical_ht_coal;;%
+Supply;District heating;Allocation of heat from CHPs;share_of_energy_chp_ultra_supercritical_mt_coal;;%
+Supply;District heating;Allocation of power-to-heat;share_of_energy_heat_flexibility_p2h_boiler_ht_electricity;;%
+Supply;District heating;Allocation of power-to-heat;share_of_energy_heat_flexibility_p2h_boiler_mt_electricity;;%
+Supply;District heating;Allocation of power-to-heat;share_of_energy_heat_flexibility_p2h_heatpump_ht_electricity;;%
+Supply;District heating;Allocation of power-to-heat;share_of_energy_heat_flexibility_p2h_heatpump_mt_electricity;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_hydrogen_autothermal_reformer_ccs_must_run;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_hydrogen_biomass_gasification_ccs;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_hydrogen_steam_methane_reformer_ccs_must_run;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_power_combined_cycle_ccs_coal;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_power_combined_cycle_ccs_network_gas;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_power_supercritical_ccs_waste_mix;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_power_ultra_supercritical_ccs_coal;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_power_wood_pellets_ccs_dispatchable;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in energy sector;share_of_energy_power_wood_pellets_ccs_must_run;;%
+Supply;Electricity;Coal gas plants;share_of_energy_steel_chemical_feedstock_coal_gas;;%
+Supply;Electricity;Coal gas plants;share_of_energy_steel_energy_production_coal_gas;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;share_of_industry_chemicals_fertilizers_captured_combustion_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;share_of_industry_chemicals_fertilizers_captured_processes_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;share_of_industry_other_food_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;share_of_industry_other_paper_captured_co2;;%
+Emissions;Carbon capture, utilisation and storage;Capture of CO<sub>2</sub> in industry sector;share_of_industry_steel_captured_co2;;%
+Emissions;Greenhouse gases;Delayed emissions;share_of_molecules_other_utilisation_delayed_emitted_co2;;%
+Emissions;Greenhouse gases;Delayed emissions;share_of_molecules_other_utilisation_delayed_indefinitely_co2;;%
+Emissions;Carbon capture, utilisation and storage;Transport of CO<sub>2</sub>;share_of_molecules_transport_pipelines_co2;;%
+Emissions;Carbon capture, utilisation and storage;Transport of CO<sub>2</sub>;share_of_molecules_transport_ships_co2;;%
+Demand;Passenger transport;Bicycle technology;transport_bicycle_using_electricity_share;;%
+Demand;Passenger transport;Bicycle technology;transport_bicycle_using_human_power_share;;%
+Demand;Passenger transport;Applications;transport_bicycles_share;;%
+Demand;Passenger transport;Bus technology;transport_bus_using_compressed_natural_gas_share;;%
+Demand;Passenger transport;Bus technology;transport_bus_using_diesel_mix_share;;%
+Flexibility;Electricity storage;Batteries in electric vehicles;transport_bus_using_electricity_availability;;%
+Demand;Passenger transport;Bus technology;transport_bus_using_electricity_share;;%
+Demand;Passenger transport;Bus technology;transport_bus_using_gasoline_mix_share;;%
+Demand;Passenger transport;Bus technology;transport_bus_using_hydrogen_share;;%
+Demand;Passenger transport;Bus technology;transport_bus_using_lng_share;;%
+Demand;Passenger transport;Applications;transport_busses_share;;%
+Demand;Passenger transport;Car technology;transport_car_using_compressed_natural_gas_share;;%
+Demand;Passenger transport;Car technology;transport_car_using_diesel_mix_share;;%
+Flexibility;Electricity storage;Batteries in electric vehicles;transport_car_using_electricity_availability;;%
+Flexibility;Load on electricity network;Demand response - electric vehicles;transport_car_using_electricity_custom_profile_charging_share;;%
+Flexibility;Load on electricity network;Demand response - electric vehicles;transport_car_using_electricity_fast_charging_share;;%
+Flexibility;Load on electricity network;Demand response - electric vehicles;transport_car_using_electricity_home_charging_share;;%
+Flexibility;Load on electricity network;Demand response - electric vehicles;transport_car_using_electricity_public_charging_share;;%
+Demand;Passenger transport;Car technology;transport_car_using_electricity_share;;%
+Flexibility;Load on electricity network;Demand response - electric vehicles;transport_car_using_electricity_work_charging_share;;%
+Demand;Passenger transport;Car technology;transport_car_using_gasoline_mix_share;;%
+Demand;Passenger transport;Car technology;transport_car_using_hydrogen_share;;%
+Demand;Passenger transport;Car technology;transport_car_using_lpg_share;;%
+Demand;Passenger transport;Applications;transport_cars_share;;%
+Demand;Freight transport;Train technology;transport_freight_train_using_diesel_mix_share;;%
+Demand;Freight transport;Train technology;transport_freight_train_using_electricity_share;;%
+Demand;Freight transport;Train technology;transport_freight_train_using_hydrogen_share;;%
+Demand;Freight transport;Applications;transport_freight_trains_share;;%
+Demand;Passenger transport;Motorcycle technology;transport_motorcycle_using_electricity_share;;%
+Demand;Passenger transport;Motorcycle technology;transport_motorcycle_using_gasoline_mix_share;;%
+Demand;Passenger transport;Applications;transport_motorcycles_share;;%
+Demand;Passenger transport;Train technology;transport_passenger_train_using_coal_share;;%
+Demand;Passenger transport;Train technology;transport_passenger_train_using_diesel_mix_share;;%
+Demand;Passenger transport;Train technology;transport_passenger_train_using_electricity_share;;%
+Demand;Passenger transport;Train technology;transport_passenger_train_using_hydrogen_share;;%
+Demand;Passenger transport;Applications;transport_passenger_trains_share;;%
+Demand;Passenger transport;Domestic aviation technology;transport_plane_using_bio_ethanol_share;;%
+Demand;Passenger transport;Domestic aviation technology;transport_plane_using_electricity_share;;%
+Demand;Passenger transport;Domestic aviation technology;transport_plane_using_gasoline_share;;%
+Demand;Passenger transport;Domestic aviation technology;transport_plane_using_hydrogen_share;;%
+Demand;Passenger transport;Domestic aviation technology;transport_plane_using_kerosene_share;;%
+Costs & efficiencies;Transport efficiencies;Efficiencies;transport_planes_efficiency;;%
+Demand;Passenger transport;Applications;transport_planes_share;;%
+Supply;Transport fuels;Rail transport;transport_rail_mixer_diesel_biodiesel_share;;%
+Supply;Transport fuels;Rail transport;transport_rail_mixer_diesel_diesel_share;;%
+Supply;Transport fuels;Road transport;transport_road_mixer_diesel_biodiesel_share;;%
+Supply;Transport fuels;Road transport;transport_road_mixer_diesel_diesel_share;;%
+Supply;Transport fuels;Road transport;transport_road_mixer_gasoline_ethanol_share;;%
+Supply;Transport fuels;Road transport;transport_road_mixer_gasoline_gasoline_share;;%
+Supply;Transport fuels;Road transport;transport_road_mixer_lng_bio_lng_share;;%
+Supply;Transport fuels;Road transport;transport_road_mixer_lng_lng_share;;%
+Demand;Freight transport;Domestic navigation technology;transport_ship_using_ammonia_share;;%
+Demand;Freight transport;Domestic navigation technology;transport_ship_using_diesel_mix_share;;%
+Demand;Freight transport;Domestic navigation technology;transport_ship_using_electricity_share;;%
+Demand;Freight transport;Domestic navigation technology;transport_ship_using_hydrogen_share;;%
+Demand;Freight transport;Domestic navigation technology;transport_ship_using_lng_mix_share;;%
+Supply;Transport fuels;Domestic navigation;transport_shipping_mixer_diesel_bio_ethanol_share;;%
+Supply;Transport fuels;Domestic navigation;transport_shipping_mixer_diesel_bio_lng_share;;%
+Supply;Transport fuels;Domestic navigation;transport_shipping_mixer_diesel_biodiesel_share;;%
+Supply;Transport fuels;Domestic navigation;transport_shipping_mixer_diesel_diesel_share;;%
+Supply;Transport fuels;Domestic navigation;transport_shipping_mixer_diesel_heavy_fuel_oil_share;;%
+Supply;Transport fuels;Domestic navigation;transport_shipping_mixer_diesel_lng_share;;%
+Supply;Transport fuels;Domestic navigation;transport_shipping_mixer_lng_bio_lng_share;;%
+Supply;Transport fuels;Domestic navigation;transport_shipping_mixer_lng_lng_share;;%
+Costs & efficiencies;Transport efficiencies;Efficiencies;transport_ships_efficiency;;%
+Demand;Freight transport;Applications;transport_ships_share;;%
+Costs & efficiencies;Transport efficiencies;Efficiencies;transport_trains_efficiency;;%
+Demand;Passenger transport;Applications;transport_trams_share;;%
+Demand;Freight transport;Truck technology;transport_truck_using_compressed_natural_gas_share;;%
+Demand;Freight transport;Truck technology;transport_truck_using_diesel_mix_share;;%
+Flexibility;Electricity storage;Batteries in electric vehicles;transport_truck_using_electricity_availability;;%
+Demand;Freight transport;Truck technology;transport_truck_using_electricity_share;;%
+Demand;Freight transport;Truck technology;transport_truck_using_gasoline_mix_share;;%
+Demand;Freight transport;Truck technology;transport_truck_using_hydrogen_share;;%
+Demand;Freight transport;Truck technology;transport_truck_using_lng_mix_share;;%
+Demand;Freight transport;Applications;transport_trucks_share;;%
+Demand;Freight transport;Applications;transport_useful_demand_freight_tonne_kms;;%
+Demand;Passenger transport;Applications;transport_useful_demand_passenger_kms;;%
+Demand;Freight transport;Van technology;transport_van_using_compressed_natural_gas_share;;%
+Demand;Freight transport;Van technology;transport_van_using_diesel_mix_share;;%
+Flexibility;Electricity storage;Batteries in electric vehicles;transport_van_using_electricity_availability;;%
+Demand;Freight transport;Van technology;transport_van_using_electricity_share;;%
+Demand;Freight transport;Van technology;transport_van_using_gasoline_mix_share;;%
+Demand;Freight transport;Van technology;transport_van_using_hydrogen_share;;%
+Demand;Freight transport;Van technology;transport_van_using_lpg_share;;%
+Demand;Freight transport;Applications;transport_vans_share;;%
+Costs & efficiencies;Transport efficiencies;Efficiencies;transport_vehicle_combustion_engine_efficiency;;%
+Costs & efficiencies;Transport efficiencies;Efficiencies;transport_vehicle_using_electricity_efficiency;;%
+Costs & efficiencies;Transport efficiencies;Efficiencies;transport_vehicle_using_hydrogen_efficiency;;%
+Costs & efficiencies;Flexibility;Electricity storage;volume_costs_energy_flexibility_flow_batteries_electricity;;%
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_ammonia;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_coal;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_cokes;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_crude_oil;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_diesel;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_gasoline;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_heavy_fuel_oil;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_hydrogen;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_kerosene;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_lignite;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_liquid_hydrogen;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_lng;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_lohc;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_lpg;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_naphtha;;PJ
+Demand;Exports of energy;Export volumes per carrier;volume_of_baseload_export_network_gas;;PJ
+Flexibility;Electricity storage;Flow batteries;volume_of_energy_flexibility_flow_batteries_electricity;;hours
+Flexibility;Electricity storage;Underground pumped hydro storage;volume_of_energy_flexibility_hv_opac_electricity;;hours
+Flexibility;Electricity storage;Large-scale batteries;volume_of_energy_flexibility_mv_batteries_electricity;;hours
+Flexibility;Electricity storage;Reservoirs;volume_of_energy_flexibility_pumped_storage_electricity;;hours
+Flexibility;Electricity storage;Solar plants with storage systems;volume_of_energy_flexibility_solar_batteries_electricity;;hours
+Flexibility;Electricity storage;Wind turbines with storage systems;volume_of_energy_flexibility_wind_batteries_electricity;;hours
+Supply;Hydrogen carriers and ammonia;Hydrogen storage;volume_of_energy_hydrogen_storage_depleted_gas_field;;TWh
+Supply;Hydrogen carriers and ammonia;Hydrogen storage;volume_of_energy_hydrogen_storage_salt_cavern;;TWh
+Flexibility;Electricity storage;Batteries in households;volume_of_households_flexibility_p2p_electricity;;hours
+Supply;High-temperature (HT) district heating;Sources;volume_of_ht_imported_heat;;PJ
+Supply;High-temperature (HT) district heating;Sources;volume_of_ht_residual_heat;;PJ
+Supply;Low-temperature (LT) district heating;Sources;volume_of_lt_imported_heat;;PJ
+Supply;Low-temperature (LT) district heating;Sources;volume_of_lt_residual_heat;;PJ
+Emissions;Carbon capture, utilisation and storage;Import of CO<sub>2</sub>;volume_of_molecules_import_co2_baseload;;Mton
+Supply;Medium-temperature (MT) district heating;Sources;volume_of_mt_imported_heat;;PJ
+Supply;Medium-temperature (MT) district heating;Sources;volume_of_mt_residual_heat;;PJ
+Flexibility;Electricity storage;Batteries in electric vehicles;volume_of_transport_bus_using_electricity;;hours
+Flexibility;Electricity storage;Batteries in electric vehicles;volume_of_transport_car_using_electricity;;hours
+Flexibility;Electricity storage;Batteries in electric vehicles;volume_of_transport_truck_using_electricity;;hours
+Flexibility;Electricity storage;Batteries in electric vehicles;volume_of_transport_van_using_electricity;;hours
+Flexibility;Electricity storage;Flow batteries;wta_of_energy_flexibility_flow_batteries_electricity;;€/MWh
+Flexibility;Electricity storage;Underground pumped hydro storage;wta_of_energy_flexibility_hv_opac_electricity;;€/MWh
+Flexibility;Electricity storage;Large-scale batteries;wta_of_energy_flexibility_mv_batteries_electricity;;€/MWh
+Flexibility;Electricity storage;Batteries in households;wta_of_households_flexibility_p2p_electricity;;€/MWh
+Flexibility;Load on electricity network;Demand response - load shifting in industry;wta_of_industry_chemical_flexibility_load_shifting_electricity;;€/MWh
+Flexibility;Load on electricity network;Demand response - load shifting in industry;wta_of_industry_metal_flexibility_load_shifting_electricity;;€/MWh
+Flexibility;Load on electricity network;Demand response - load shifting in industry;wta_of_industry_other_flexibility_load_shifting_electricity;;€/MWh
+Flexibility;Load on electricity network;Demand response - load shifting in industry;wta_of_industry_other_ict_flexibility_load_shifting_electricity;;€/MWh
+Flexibility;Electricity storage;Batteries in electric vehicles;wta_of_transport_car_flexibility_p2p_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to heat for agriculture;wtp_of_agriculture_flexibility_p2h_electricity;;€/MWh
+Flexibility;Electricity storage;Flow batteries;wtp_of_energy_flexibility_flow_batteries_electricity;;€/MWh
+Flexibility;Electricity storage;Underground pumped hydro storage;wtp_of_energy_flexibility_hv_opac_electricity;;€/MWh
+Flexibility;Electricity storage;Large-scale batteries;wtp_of_energy_flexibility_mv_batteries_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to heat for district heating;wtp_of_energy_heat_flexibility_p2h_boiler_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to heat for district heating;wtp_of_energy_heat_flexibility_p2h_heatpump_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to hydrogen;wtp_of_energy_hydrogen_flexibility_p2g_electricity;;€/MWh
+Flexibility;Load on electricity network;Hybrid offshore wind - components;wtp_of_energy_hydrogen_hybrid_electrolysis_wind_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to kerosene;wtp_of_energy_production_synthetic_kerosene_dispatchable;;€/MWh
+Flexibility;Electricity storage;Batteries in households;wtp_of_households_flexibility_p2p_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to heat for industry;wtp_of_industry_chemicals_fertilizers_flexibility_p2h_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to heat for industry;wtp_of_industry_chemicals_other_flexibility_p2h_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to heat for industry;wtp_of_industry_chemicals_refineries_flexibility_p2h_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to heat for industry;wtp_of_industry_other_food_flexibility_p2h_electricity;;€/MWh
+Flexibility;Electricity conversion;Conversion to heat for industry;wtp_of_industry_other_paper_flexibility_p2h_electricity;;€/MWh
+Flexibility;Electricity storage;Batteries in electric vehicles;wtp_of_transport_car_flexibility_p2p_electricity;;€/MWh

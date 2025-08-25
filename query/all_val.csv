@@ -1,0 +1,966 @@
+Var no.,Static or (change) variable,Equivalent?,Complementary ,Synthetic,InVar no.,Section,Subsection,Category,Subcategory,Subcategory 2,Subcategory 3,Value (TO UPDATE),Unit,Unit description,InVar min value,InVar max value,Short methodology desc,,Extended_type,database_item
+1,Static,,,,,Demand,Households,Population & Housing Stock,Population,,,78.0,mln,,,,Population projections,,,households_number_of_inhabitants
+2,Static,,,,,Demand,Households,Population & Housing Stock,Number of apartments,New residences,,"1,250,000.0",#,,,,Majority of residences in UK are houses,,,households_number_of_apartments_future
+3,Static,,,,,Demand,Households,Population & Housing Stock,Number of apartments,2005 - present,,"390,881.0",#,,,,,,,households_number_of_apartments_2005_present
+4,Static,,,,,Demand,Households,Population & Housing Stock,Number of apartments,1985 - 2004,,"365,737.0",#,,,,,,,households_number_of_apartments_1985_2004
+5,Static,,,,,Demand,Households,Population & Housing Stock,Number of apartments,1965 - 1984,,"463,194.0",#,,,,,,,households_number_of_apartments_1965_1984
+6,Static,,,,,Demand,Households,Population & Housing Stock,Number of apartments,1945 - 1964,,"202,111.0",#,,,,,,,households_number_of_apartments_1945_1964
+7,Static,,,,,Demand,Households,Population & Housing Stock,Number of apartments,< 1945,,"596,642.0",#,,,,,,,households_number_of_apartments_before_1945
+8,Static,,,,,Demand,Households,Population & Housing Stock,Number of detached houses,New residences,,"1,700,000.0",#,,,,Majority of residences in UK are houses,,,households_number_of_detached_houses_future
+9,Static,,,,,Demand,Households,Population & Housing Stock,Number of detached houses,2005 - present,,"5,082,495.0",#,,,,,,,households_number_of_detached_houses_2005_present
+10,Static,,,,,Demand,Households,Population & Housing Stock,Number of detached houses,1985 - 2004,,"4,053,141.0",#,,,,,,,households_number_of_detached_houses_1985_2004
+11,Static,,,,,Demand,Households,Population & Housing Stock,Number of detached houses,1965 - 1984,,"5,122,637.0",#,,,,,,,households_number_of_detached_houses_1965_1984
+12,Static,,,,,Demand,Households,Population & Housing Stock,Number of detached houses,1945 - 1964,,"2,521,224.0",#,,,,,,,households_number_of_detached_houses_1945_1964
+13,Static,,,,,Demand,Households,Population & Housing Stock,Number of detached houses,< 1945,,"7,117,023.0",#,,,,,,,households_number_of_detached_houses_before_1945
+14,Static,,,,,Demand,Households,Population & Housing Stock,Number of terraced houses,New residences,,"1,700,000.0",#,,,,Majority of residences in UK are houses,,,households_number_of_terraced_houses_future
+15,Static,,,,,Demand,Households,Population & Housing Stock,Number of terraced houses,2005 - present,,"761,234.0",#,,,,,,,households_number_of_terraced_houses_2005_present
+16,Static,,,,,Demand,Households,Population & Housing Stock,Number of terraced houses,1985 - 2004,,"853,832.0",#,,,,,,,households_number_of_terraced_houses_1985_2004
+17,Static,,,,,Demand,Households,Population & Housing Stock,Number of terraced houses,1965 - 1984,,"985,946.0",#,,,,,,,households_number_of_terraced_houses_1965_1984
+18,Static,,,,,Demand,Households,Population & Housing Stock,Number of terraced houses,1945 - 1964,,"272,300.0",#,,,,,,,households_number_of_terraced_houses_1945_1964
+19,Static,,,,,Demand,Households,Population & Housing Stock,Number of terraced houses,< 1945,,"1,600,165.0",#,,,,,,,households_number_of_terraced_houses_before_1945
+20,Variable (2),,,,1,Demand,Households,Heat demand & insulation,Typical heat demand apartments,New residences,,26.0,kWh/m2,,,,,,,households_insulation_level_apartments_future
+21,Variable (2),,,,2,Demand,Households,Heat demand & insulation,Typical heat demand apartments,2005 - present,,26.0,kWh/m2,,,,,,,households_insulation_level_apartments_2005_present
+22,Variable (2),,,,3,Demand,Households,Heat demand & insulation,Typical heat demand apartments,1985 - 2004,,27.3,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_apartments_1985_2004
+23,Variable (2),,,,4,Demand,Households,Heat demand & insulation,Typical heat demand apartments,1965 - 1984,,40.6,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_apartments_1965_1984
+24,Variable (2),,,,5,Demand,Households,Heat demand & insulation,Typical heat demand apartments,1945 - 1964,,62.3,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_apartments_1945_1964
+25,Variable (2),,,,6,Demand,Households,Heat demand & insulation,Typical heat demand apartments,< 1945,,77.7,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_apartments_before_1945
+26,Variable (2),,,,7,Demand,Households,Heat demand & insulation,Typical heat demand detached houses,New residences,,62.0,kWh/m2,,,,,,,households_insulation_level_detached_houses_future
+27,Variable (2),,,,8,Demand,Households,Heat demand & insulation,Typical heat demand detached houses,2005 - present,,62.0,kWh/m2,,,,,,,households_insulation_level_detached_houses_2005_present
+28,Variable (2),,,,9,Demand,Households,Heat demand & insulation,Typical heat demand detached houses,1985 - 2004,,77.0,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_detached_houses_1985_2004
+29,Variable (2),,,,10,Demand,Households,Heat demand & insulation,Typical heat demand detached houses,1965 - 1984,,98.7,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_detached_houses_1965_1984
+30,Variable (2),,,,11,Demand,Households,Heat demand & insulation,Typical heat demand detached houses,1945 - 1964,,133.0,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_detached_houses_1945_1964
+31,Variable (2),,,,12,Demand,Households,Heat demand & insulation,Typical heat demand detached houses,< 1945,,147.7,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_detached_houses_before_1945
+32,Variable (2),,,,13,Demand,Households,Heat demand & insulation,Typical heat demand terraced houses,New residences,,26.0,kWh/m2,,,,,,,households_insulation_level_terraced_houses_future
+33,Variable (2),,,,14,Demand,Households,Heat demand & insulation,Typical heat demand terraced houses,2005 - present,,26.0,kWh/m2,,,,,,,households_insulation_level_terraced_houses_2005_present
+34,Variable (2),,,,15,Demand,Households,Heat demand & insulation,Typical heat demand terraced houses,1985 - 2004,,27.3,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_terraced_houses_1985_2004
+35,Variable (2),,,,16,Demand,Households,Heat demand & insulation,Typical heat demand terraced houses,1965 - 1984,,40.6,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_terraced_houses_1965_1984
+36,Variable (2),,,,17,Demand,Households,Heat demand & insulation,Typical heat demand terraced houses,1945 - 1964,,62.3,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_terraced_houses_1945_1964
+37,Variable (2),,,,18,Demand,Households,Heat demand & insulation,Typical heat demand terraced houses,< 1945,,77.7,kWh/m2,,,,30% reduction through retrofits,,,households_insulation_level_terraced_houses_before_1945
+38,Static,,,,,Demand,Households,Space heating & hot water,Hot water,Solar thermal collectors,,3.2%,% of hot water demand,,,,,,,households_water_heater_solar_thermal_share
+39,Variable (c),,,,19,Demand,Households,Space heating & hot water,Space heating and hot water,Condensing combi boiler (gas),,InVar,% of residences,,0%,100%,,,,households_heater_combined_network_gas_share
+40,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,Condensing combi boiler (hydrogen),,0%,% of residences,,,,,,,households_heater_combined_hydrogen_share
+41,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,HT district heating,,0%,% of residences,,,,,,,households_heater_district_heating_ht_steam_hot_water_share
+42,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,MT district heating,,0%,% of residences,,,,,,,households_heater_district_heating_mt_steam_hot_water_share
+43,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,LT district heating,,0%,% of residences,,,,,,,households_heater_district_heating_lt_steam_hot_water_share
+44,Variable (c),,Complementary,,20,Demand,Households,Space heating & hot water,Space heating and hot water,Air heat pump,,InVar,% of residences,,0%,100%,,,,households_heater_heatpump_air_water_electricity_share
+45,Variable (c),,Complementary,,21,Demand,Households,Space heating & hot water,Space heating and hot water,Ground heat pump,,InVar,% of residences,,0%,100%,,,,households_heater_heatpump_ground_water_electricity_share
+46,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,Aquathermal heat pump with TS (surface water),,0%,% of residences,,,,,,,households_heater_heatpump_surface_water_water_ts_electricity_share
+47,Variable (c),,,,22,Demand,Households,Space heating & hot water,Space heating and hot water,Hybrid air heat pump (gas),,InVar,% of residences,,0%,100%,,,,households_heater_hybrid_heattpump_air_water_electricity_share
+48,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,Hybrid air heat pump (hydrogen),,0%,% of residences,,,,,,,households_heater_hybrid_hydrogen_heatpump_air_water_electricity_share
+49,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,Hybrid air heat pump (oil),,0%,% of residences,,,,,,,households_heater_hybrid_crude_oil_heatpump_air_water_electricity_share
+50,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,PVT heat pump,,0%,% of residences,,,,,,,households_heater_heatpump_pvt_electricity_share
+51,Variable (c),,,,23,Demand,Households,Space heating & hot water,Space heating and hot water,Biomass boiler,,InVar,% of residences,,0%,100%,,,,households_heater_wood_pellets_share
+52,Variable (c),,,,24,Demand,Households,Space heating & hot water,Space heating and hot water,Electric boiler,,InVar,% of residences,,0%,100%,,,,households_heater_electricity_share
+53,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,Gas-fired heater,,0%,% of residences,,,,,,,households_heater_network_gas_share
+54,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,Oil-fired heater,,0%,% of residences,,,,,,,households_heater_crude_oil_share
+55,Static,,,,,Demand,Households,Space heating & hot water,Space heating and hot water,Coal-fired heater,,0%,% of residences,,,,,,,households_heater_coal_share
+56,Variable (c),,,,25,Demand,Households,Cooling,Ground heat pump,,,ETM Change Var,% share,,0%,100%,Equal to the ratio of air pumps to ground pumps used for heating,,,households_cooling_heatpump_ground_water_electricity_share
+57,Variable (c),,,,26,Demand,Households,Cooling,Air heat pump,,,ETM Change Var,% share,,0%,100%,Equal to the ratio of air pumps to ground pumps used for heating,,,households_cooling_heatpump_air_water_electricity_share
+58,Static,,,,,Demand,Households,Cooling,Aquathermal heat pump with TS (surface water),,,0%,% share,,,,,,,households_cooling_heatpump_surface_water_water_ts_electricity_share
+59,Variable (c),,,,27,Demand,Households,Cooling,Airconditioning,,,ETM Change Var,% share,,0%,100%,,,,households_cooling_airconditioning_electricity_share
+60,Variable (c),,,,28,Demand,Households,Cooking,Gas,,,InVar,% share,,0%,89%,,,,households_cooker_network_gas_share
+61,Static,,,,,Demand,Households,Cooking,Electric,,,10%,% share,,,,,,,households_cooker_resistive_electricity_share
+62,Static,,,,,Demand,Households,Cooking,Halogen,,,0%,% share,,,,Legacy technology,,,households_cooker_halogen_electricity_share
+63,Variable (c),,,,29,Demand,Households,Cooking,Induction,,,InVar,% share,,0%,89%,,,,households_cooker_induction_electricity_share
+64,Static,,,,,Demand,Households,Cooking,Biomass,,,1%,% share,,,,Niche technology,,,households_cooker_wood_pellets_share
+65,Variable (c),,,,30,Demand,Households,Appliances,Dish washer,,,-15%,% change,in energy use,,,Increased number and use balances efficiency gains. Conservative,,,households_appliances_electricity_efficiency
+66,Variable (c),Equivalent,,,,Demand,Households,Appliances,Fridge / Freezer,,,-15%,% change,in energy use,,,Increased number and use balances efficiency gains. Conservative,,,
+67,Variable (c),Equivalent,,,,Demand,Households,Appliances,Washing machine,,,-15%,% change,in energy use,,,Increased number and use balances efficiency gains. Conservative,,,
+68,Variable (c),Equivalent,,,,Demand,Households,Appliances,Dryer,,,-15%,% change,in energy use,,,Increased number and use balances efficiency gains. Conservative,,,
+69,Variable (c),Equivalent,,,,Demand,Households,Appliances,Television,,,-15%,% change,in energy use,,,Increased number and use balances efficiency gains. Conservative,,,
+70,Variable (c),Equivalent,,,,Demand,Households,Appliances,Vacuum cleaner,,,-15%,% change,in energy use,,,Increased number and use balances efficiency gains. Conservative,,,
+71,Variable (c),Equivalent,,,,Demand,Households,Appliances,Computer / Media,,,-15%,% change,in energy use,,,Increased number and use balances efficiency gains. Conservative,,,
+72,Variable (c),Equivalent,,,,Demand,Households,Appliances,Other,,,-15%,% change,in energy use,,,Increased number and use balances efficiency gains. Conservative,,,
+73,Static,,,,,Demand,Households,Lighting,Incandescent,,,2%,% share,,,,,,,households_lighting_incandescent_electricity_share
+74,Static,,,,,Demand,Households,Lighting,Low-energy light bulb,,,3%,% share,,,,,,,households_lighting_efficient_fluorescent_electricity_share
+75,Static,,,,,Demand,Households,Lighting,LED,,,95%,% share,,,,,,,households_lighting_led_electricity_share
+76,Variable (2),,,,31,Demand,Households,Development of demand,Per person,Hot water,,0%,%/year,change in use,,,,,,households_useful_demand_hot_water_share
+77,Variable (2),,,,32,Demand,Households,Development of demand,Per person,Electric appliances,,0%,%/year,change in use,,,,,,households_useful_demand_electric_appliances
+78,Variable (2),,,,33,Demand,Households,Development of demand,Per person,Lighting,,0%,%/year,change in use,,,,,,households_useful_demand_lighting
+79,Variable (2),,,,34,Demand,Households,Development of demand,Per person,Cooking,,0%,%/year,change in use,,,,,,households_useful_demand_cooking_per_person
+80,Variable (2),,,,35,Demand,Households,Development of demand,Per residence,Cooling demand,,0%,%/year,change in use,,,,,,households_useful_demand_for_cooling
+81,Variable (2),,,,36,Demand,Households,Behaviour,Turn off appliances,,,0%,% change,,,,,,,
+82,Variable (2),Equivalent,,,,Demand,Households,Behaviour,Turn off the light,,,0%,% change,,,,,,,
+83,Variable (2),Equivalent,,,,Demand,Households,Behaviour,Low-temperature washing,,,0%,% change,,,,,,,
+84,Static,,,,,Demand,Households,Merit order,Capacities,Coal heater,,9.9,kW ,Heat output,,,,,,households_heater_coal_heat_output_capacity
+85,Static,,,,,Demand,Households,Merit order,Capacities,Oil heater,,10.5,kW ,Heat output,,,,,,households_heater_crude_oil_heat_output_capacity
+86,Static,,,,,Demand,Households,Merit order,Capacities,Gas-fired heater,,22.0,kW ,Heat output,,,,,,households_heater_network_gas_heat_output_capacity
+87,Static,,,,,Demand,Households,Merit order,Capacities,Condensing combi boiler (gas),,22.0,kW ,Heat output,,,,,,households_heater_combined_network_gas_heat_output_capacity
+88,Static,,,,,Demand,Households,Merit order,Capacities,Condensing combi boiler (hydrogen),,22.0,kW ,Heat output,,,,,,households_heater_combined_hydrogen_heat_output_capacity
+89,Static,,,,,Demand,Households,Merit order,Capacities,Wood pellet boiler,,10.1,kW ,Heat output,,,,,,households_heater_wood_pellets_heat_output_capacity
+90,Static,,,,,Demand,Households,Merit order,Capacities,Electric boiler,,6.0,kW ,Heat output,,,,,,households_heater_electricity_heat_output_capacity
+91,Static,,,,,Demand,Households,Merit order,Capacities,Air heat pump,,10.0,kW ,Heat output,,,,,,households_heater_heatpump_air_water_electricity_heat_output_capacity
+92,Static,,,,,Demand,Households,Merit order,Capacities,Ground heat pump,,10.0,kW ,Heat output,,,,,,households_heater_heatpump_ground_water_electricity_heat_output_capacity
+93,Static,,,,,Demand,Households,Merit order,Capacities,Aquathermal heat pump with TS (surface water),,10.0,kW ,Heat output,,,,,,households_heater_heatpump_surface_water_water_ts_electricity_heat_output_capacity
+94,Static,,,,,Demand,Households,Merit order,Capacities,Ground heat pump with PVT,,7.8,kW ,Heat output,,,,,,households_heater_heatpump_pvt_electricity_heat_output_capacity
+95,Static,,,,,Demand,Households,Merit order,Capacities,LT district heating,,10.0,kW ,Heat output,,,,,,households_heater_district_heating_lt_steam_hot_water_heat_output_capacity
+96,Static,,,,,Demand,Households,Merit order,Capacities,MT district heating,,10.0,kW ,Heat output,,,,,,households_heater_district_heating_mt_steam_hot_water_heat_output_capacity
+97,Static,,,,,Demand,Households,Merit order,Capacities,HT district heating,,10.0,kW ,Heat output,,,,,,households_heater_district_heating_ht_steam_hot_water_heat_output_capacity
+98,Static,,,,,Demand,Households,Merit order,Capacities,Hybrid air heat pump (gas),,4.9,kW ,Heat output,,,,,,households_heater_hybrid_heattpump_air_water_electricity_heat_output_capacity
+99,Static,,,,,Demand,Households,Merit order,Capacities,Hybrid air heat pump (hydrogen),,4.9,kW ,Heat output,,,,,,households_heater_hybrid_hydrogen_heatpump_air_water_electricity_heat_output_capacity
+100,Static,,,,,Demand,Households,Merit order,Capacities,Hybrid air heat pump (crude oil),,12.2,kW ,Heat output,,,,,,households_heater_hybrid_crude_oil_heatpump_air_water_electricity_heat_output_capacity
+101,Static (but check),,,,,Demand,Households,Merit order,Merit order,,,LT district heating,,,,,,,,
+102,Static,,,,,Demand,Households,Merit order,Merit order,,,Aquathermal heat pump with TS (surface water),,,,,,,,
+103,Static,,,,,Demand,Households,Merit order,Merit order,,,Air heat pump,,,,,,,,
+104,Static,,,,,Demand,Households,Merit order,Merit order,,,Ground heat pump,,,,,,,,
+105,Static,,,,,Demand,Households,Merit order,Merit order,,,Ground heat pump with PVT,,,,,,,,
+106,Static,,,,,Demand,Households,Merit order,Merit order,,,MT district heating,,,,,,,,
+107,Static,,,,,Demand,Households,Merit order,Merit order,,,Hybrid air heat pump (gas),,,,,,,,
+108,Static,,,,,Demand,Households,Merit order,Merit order,,,Hybrid air heat pump (hydrogen),,,,,,,,
+109,Static,,,,,Demand,Households,Merit order,Merit order,,,Hybrid air heat pump (oil),,,,,,,,
+110,Static,,,,,Demand,Households,Merit order,Merit order,,,HT district heating,,,,,,,,
+111,Static,,,,,Demand,Households,Merit order,Merit order,,,Electric boiler,,,,,,,,
+112,Static,,,,,Demand,Households,Merit order,Merit order,,,Condensing combi boiler (gas),,,,,,,,
+113,Static,,,,,Demand,Households,Merit order,Merit order,,,Condensing combi boiler (hydrogen),,,,,,,,
+114,Static,,,,,Demand,Households,Merit order,Merit order,,,Wood pellet boiler,,,,,,,,
+115,Static,,,,,Demand,Households,Merit order,Merit order,,,Gas-fired heater,,,,,,,,
+116,Static,,,,,Demand,Households,Merit order,Merit order,,,Coal-fired heater,,,,,,,,
+117,Static,,,,,Demand,Households,Merit order,Merit order,,,Oil-fired heater,,,,,,,,
+118,Variable (2),,,,37,Demand,Buildings,Building stock,New buildings,,,"5,036,070.0",number,,,,,,,buildings_number_of_buildings_future
+119,Variable (2),,,,38,Demand,Buildings,Building stock,Existing buildings,,,"836,684.0",number,,,,,,,buildings_number_of_buildings_present
+120,Variable (2),,,,39,Demand,Buildings,Heat demand & insulation,New buildings,,,106.4,kWh/m2,,,,,,,buildings_insulation_level_buildings_future
+121,Variable (2),,,,40,Demand,Buildings,Heat demand & insulation,Present buildings,,,106.4,kWh/m2,,,,,,,buildings_insulation_level_buildings_present
+122,Static,,,,,Demand,Buildings,Space heating,Hot water,Solar thermal collectors,,0%,% of potential roof surface,,,,,,,buildings_space_heater_solar_thermal_share
+123,Variable (2),,,,41,Demand,Buildings,Space heating,Space heating,Condensing combi boiler (gas),,ETM Change Var,% of buildings,,0%,100%,Equal to residential %,,,buildings_space_heater_network_gas_share
+124,Static,,,,,Demand,Buildings,Space heating,Space heating,Condensing combi boiler (hydrogen),,0%,% of buildings,,,,Low TRL,,,buildings_space_heater_combined_hydrogen_share
+125,Static,,,,,Demand,Buildings,Space heating,Space heating,HT district heating,,0%,% of buildings,,,,Not modelled,,,buildings_space_heater_district_heating_ht_steam_hot_water_share
+126,Static,,,,,Demand,Buildings,Space heating,Space heating,MT district heating,,0%,% of buildings,,,,Not modelled,,,buildings_space_heater_district_heating_mt_steam_hot_water_share
+127,Static,,,,,Demand,Buildings,Space heating,Space heating,LT district heating,,0%,% of buildings,,,,Not modelled,,,buildings_space_heater_district_heating_lt_steam_hot_water_share
+128,Static,,,,,Demand,Buildings,Space heating,Space heating,Air heat pump (gas),,0%,% of buildings,,,,Hybrid already modelled below,,,buildings_space_heater_heatpump_air_water_network_gas_share
+129,Variable (2),,,,42,Demand,Buildings,Space heating,Space heating,Air heat pump,,ETM Change Var,% of buildings,,0%,100%,Equal to residential %,,,buildings_space_heater_heatpump_air_water_electricity_share
+130,Variable (2),,,,43,Demand,Buildings,Space heating,Space heating,Hybrid air heat pump (gas),,ETM Change Var,% of buildings,,0%,100%,Equal to residential %,,,buildings_space_heater_hybrid_heatpump_air_water_electricity_share
+131,Static,,,,,Demand,Buildings,Space heating,Space heating,Hybrid air heat pump (hydrogen),,0%,% of buildings,,,,Low TRL,,,buildings_space_heater_hybrid_hydrogen_heatpump_air_water_electricity_share
+132,Static,,,,,Demand,Buildings,Space heating,Space heating,Hybrid air heat pump (oil),,0%,% of buildings,,,,Oil banned,,,buildings_space_heater_hybrid_crude_oil_heatpump_air_water_electricity_share
+133,Variable (2),,,,44,Demand,Buildings,Space heating,Space heating,Ground heat pump with TS,,ETM Change Var,% of buildings,,0%,100%,Equal to residential %,,,buildings_space_heater_collective_heatpump_water_water_ts_electricity_share
+134,Static,,,,,Demand,Buildings,Space heating,Space heating,Aquathermal heat pump with TS (surface water),,0%,% of buildings,,,,Unknown,,,buildings_space_heater_heatpump_surface_water_water_ts_electricity_share
+135,Variable (2),,,,45,Demand,Buildings,Space heating,Space heating,Electric boiler,,ETM Change Var,% of buildings,,0%,100%,Equal to residential %,,,buildings_space_heater_electricity_share
+136,Variable (2),,,,46,Demand,Buildings,Space heating,Space heating,Biomass-fired boiler,,ETM Change Var,% of buildings,,0%,100%,Equal to residential %,,,buildings_space_heater_wood_pellets_share
+137,Static,,,,,Demand,Buildings,Space heating,Space heating,Oil-fired heater,,0%,% of buildings,,,,Banned,,,buildings_space_heater_crude_oil_share
+138,Static,,,,,Demand,Buildings,Space heating,Space heating,Coal-fired heater,,0%,% of buildings,,,,Banned,,,buildings_space_heater_coal_share
+139,Variable (2),Equivalent,,,,Demand,Buildings,Cooling,Air heat pump (gas),,,ETM Change Var,% share,,0%,100%,Mirrors heating technology,,,buildings_cooling_heatpump_air_water_network_gas_share
+140,Variable (2),Equivalent,,,,Demand,Buildings,Cooling,Air heat pump,,,ETM Change Var,% share,,0%,100%,Mirrors heating technology,,,buildings_cooling_heatpump_air_water_electricity_share
+141,Variable (2),Equivalent,,,,Demand,Buildings,Cooling,Ground heat pump with TS,,,ETM Change Var,% share,,0%,100%,Mirrors heating technology,,,buildings_cooling_collective_heatpump_water_water_ts_electricity_share
+142,Static,,,,,Demand,Buildings,Cooling,Aquathermal heat pump with TS (surface water),,,0%,% share,,,,,,,buildings_cooling_heatpump_surface_water_water_ts_electricity_share
+143,Variable (2),,Complementary,,,Demand,Buildings,Cooling,Airconditioning,,,ETM Change Var,% share,,0%,100%,Mirrors heating technology & accounts for remainder,,,buildings_cooling_airconditioning_share
+144,Variable (2),,,,47,Demand,Buildings,Appliances,Appliances efficiency,,,0%,%/year,,,,,,,
+145,Static,,,,,Demand,Buildings,Lighting,Fluorescent tube,,,2%,% share,,,,Projections,,,buildings_lighting_standard_fluorescent_electricity_share
+146,Static,,,,,Demand,Buildings,Lighting,High-performance fluorescent tube,,,11%,% share,,,,Projections,,,buildings_lighting_efficient_fluorescent_electricity_share
+147,Static,,,,,Demand,Buildings,Lighting,LED-tube,,,87%,% share,,,,Projections,,,buildings_lighting_led_electricity_share
+148,Variable (2),Equivalent,,,,Demand,Buildings,Lighting,Intelligent control,Motion detection,,50%,% of potential,,,,Partial adoption,,,buildings_lighting_savings_from_motion_detection_light
+149,Variable (2),Equivalent ,,,,Demand,Buildings,Lighting,Intelligent control,Daylight-dependent control,,50%,% of potential,,,,Partial adoption,,,buildings_lighting_savings_from_daylight_control_light
+150,Variable (2),,,,48,Demand,Buildings,Development of demand,Electricity per building,,,0%,%/year,,,,Efficiency gains outweigh wealth gains,,,buildings_useful_demand_electricity
+151,Variable (2),,,,49,Demand,Buildings,Development of demand,Cooling per building,,,0%,%/year,,,,UK Govt 2050 projections,,,buildings_useful_demand_cooling
+152,Variable (2),,,,50,Demand,Transport,Passenger transport,Applications,Passenger transport,,1.4%,%/year,growth rate,,,UKRI Innovate UK projection,,,transport_useful_demand_passenger_kms
+153,Variable (c),,,,51,Demand,Transport,Passenger transport,Applications,Cars,,InVar,% share,of transport demand for each mode,50.00%,93.90%,assess impact of changing transport patterns on grid load. UK 2020 ETM default: 84.9% cars,,,transport_cars_share
+154,Variable (c),,,,52,Demand,Transport,Passenger transport,Applications,Trains,,ETM Change Var,% share,,5%,43.90%,UK ETM default: 9.0% trains,,,transport_rail_mixer_diesel_biodiesel_share
+155,Static,,,,,Demand,Transport,Passenger transport,Applications,Trams/metros,,0.7%,% share,,,,,,,transport_trams_share
+156,Static,,,,,Demand,Transport,Passenger transport,Applications,Buses,,3.4%,% share,,,,,,,transport_busses_share
+157,Static,,,,,Demand,Transport,Passenger transport,Applications,Motorcycles,,0.8%,% share,,,,,,,transport_motorcycles_share
+158,Static,,,,,Demand,Transport,Passenger transport,Applications,Bicycles,,0.0%,% share,,,,,,,transport_bicycles_share
+159,Static,,,,,Demand,Transport,Passenger transport,Applications,Domestic planes,,1.2%,% share,,,,,,,transport_planes_share
+160,Variable (c),,,,53,Demand,Transport,Passenger transport,Car technology,Electric,,InVar,,,5%,100%,4.35% of cars in UK as of March 2025 were fully electric. Hybrid miles driven electric must be added on (https://www.zap-map.com/ev-stats/ev-market),,,transport_car_using_electricity_share
+161,Static,,,,,Demand,Transport,Passenger transport,Car technology,Hydrogen,,0%,,,,,,,,transport_car_using_hydrogen_share
+162,Static,,,,,Demand,Transport,Passenger transport,Car technology,Diesel,,0%,,,,,,,,transport_car_using_diesel_mix_share
+163,Variable (c),,Complementary,,54,Demand,Transport,Passenger transport,Car technology,Gasoline,,InVar,,,0%,95%,,,,transport_car_using_gasoline_mix_share
+164,Static,,,,,Demand,Transport,Passenger transport,Car technology,LPG,,0%,,,,,,,,transport_car_using_lpg_share
+165,Static,,,,,Demand,Transport,Passenger transport,Car technology,Compressed gas,,0%,,,,,,,,transport_car_using_compressed_natural_gas_share
+166,Variable (2),,,,55,Demand,Transport,Passenger transport,Train technology,Electric,,75%,,,,,,,,transport_passenger_train_using_electricity_share
+167,Static,,,,,Demand,Transport,Passenger transport,Train technology,Hydrogen,,0%,,,,,,,,transport_passenger_train_using_hydrogen_share
+168,Variable (2),,,,56,Demand,Transport,Passenger transport,Train technology,Diesel ,,25%,,,,,,,,transport_passenger_train_using_diesel_mix_share
+169,Static,,,,,Demand,Transport,Passenger transport,Train technology,Coal,,0%,,,,,,,,transport_passenger_train_using_coal_share
+170,Variable (2),,,,57,Demand,Transport,Passenger transport,Bus technology ,Electric,,ETM Change Var,,,5%,100%,Equal to car electric %,,,transport_bus_using_electricity_share
+171,Static,,,,,Demand,Transport,Passenger transport,Bus technology ,Hydrogen,,0%,,,,,,,,transport_bus_using_hydrogen_share
+172,Variable (2),,,,58,Demand,Transport,Passenger transport,Bus technology ,Diesel,,ETM Change Var,,,0%,95%,Equal to car petrol %,,,transport_bus_using_diesel_mix_share
+173,Static,,,,,Demand,Transport,Passenger transport,Bus technology ,Gasoline,,0%,,,,,,,,transport_bus_using_gasoline_mix_share
+174,Static,,,,,Demand,Transport,Passenger transport,Bus technology ,LNG,,0%,,,,,,,,transport_bus_using_lng_share
+175,Static,,,,,Demand,Transport,Passenger transport,Bus technology ,Compressed gas,,0%,,,,,,,,transport_bus_using_compressed_natural_gas_share
+176,Variable (c),Equivalent,,,,Demand,Transport,Passenger transport,Motorcycle technology,Gasoline,,ETM Change Var,,,5%,100%,Equal to car electric %,,,transport_motorcycle_using_gasoline_mix_share
+177,Variable (c),Equivalent,,,,Demand,Transport,Passenger transport,Motorcycle technology,Electric,,ETM Change Var,,,0%,95%,Equal to car petrol %,,,transport_motorcycle_using_electricity_share
+178,,,,,,Demand,Transport,Passenger transport,Bicycle technology,Bike,,75%,,,,,,,,transport_bicycle_using_human_power_share
+179,,,,,,Demand,Transport,Passenger transport,Bicycle technology,E-bike,,25%,,,,,,,,transport_bicycle_using_electricity_share
+180,,,,,,Demand,Transport,Passenger transport,Domestic aviation technology,Kerosene,,100%,,,,,,,,transport_plane_using_kerosene_share
+181,,,,,,Demand,Transport,Passenger transport,Domestic aviation technology,Gasoline,,0%,,,,,,,,transport_plane_using_gasoline_share
+182,,,,,,Demand,Transport,Passenger transport,Domestic aviation technology,Bio-ethanol,,0%,,,,,,,,transport_plane_using_bio_ethanol_share
+183,,,,,,Demand,Transport,Passenger transport,Domestic aviation technology,Hydrogen,,0%,,,,,,,,transport_plane_using_hydrogen_share
+184,,,,,,Demand,Transport,Passenger transport,Domestic aviation technology,Electric,,0%,,,,,,,,transport_plane_using_electricity_share
+185,,,,,,Demand,Transport,Freight transport,Freight transport,,,1.0,%/year,growth rate,,,,,,transport_useful_demand_freight_tonne_kms
+186,,,,,,Demand,Transport,Freight transport,Trucks,,,52.50,% share,,,,,,,transport_trucks_share
+187,,,,,,Demand,Transport,Freight transport,Trains,,,18.00,% share,,,,,,,transport_freight_trains_share
+188,,,,,,Demand,Transport,Freight transport,Vans,,,17.50,% share,,,,,,,transport_vans_share
+189,,,,,,Demand,Transport,Freight transport,Domestic navigation,,,12.00,% share,,,,,,,transport_ships_share
+190,,,,,30,Demand,Transport,Freight transport,Truck technology,Electric,,ETM Change Var,% share,,5%,100%,,,,transport_truck_using_electricity_share
+191,,,,,,Demand,Transport,Freight transport,Truck technology,Hydrogen,,0.00,% share,,,,,,,transport_truck_using_hydrogen_share
+192,,,,,31,Demand,Transport,Freight transport,Truck technology,Diesel,,ETM Change Var,% share,,0%,95%,,,,transport_truck_using_diesel_mix_share
+193,,,,,,Demand,Transport,Freight transport,Truck technology,Gasoline,,0.00,% share,,,,,,,transport_truck_using_gasoline_mix_share
+194,,,,,,Demand,Transport,Freight transport,Truck technology,LNG,,0.00,% share,,,,,,,transport_truck_using_lng_mix_share
+195,,,,,,Demand,Transport,Freight transport,Truck technology,Compressed gas,,0.00,% share,,,,,,,transport_truck_using_compressed_natural_gas_share
+196,,,,,32,Demand,Transport,Freight transport,Van technology,Electric,,ETM Change Var,% share,,5%,100%,,,,transport_van_using_electricity_share
+197,,,,,,Demand,Transport,Freight transport,Van technology,Hydrogen,,0.00,% share,,,,,,,transport_van_using_hydrogen_share
+198,,,,,33,Demand,Transport,Freight transport,Van technology,Diesel,,ETM Change Var,% share,,0%,95%,,,,transport_van_using_diesel_mix_share
+199,,,,,,Demand,Transport,Freight transport,Van technology,Gasoline,,0%,% share,,,,,,,transport_van_using_gasoline_mix_share
+200,,,,,,Demand,Transport,Freight transport,Van technology,LPG,,0%,% share,,,,,,,transport_van_using_lpg_share
+201,,,,,,Demand,Transport,Freight transport,Van technology,Compressed gas,,0%,% share,,,,,,,transport_van_using_compressed_natural_gas_share
+202,,,,,,Demand,Transport,Freight transport,Train technology,Electric,,75%,% share,,,,,,,transport_freight_train_using_electricity_share
+203,,,,,,Demand,Transport,Freight transport,Train technology,Hydrogen,,0%,% share,,,,,,,transport_freight_train_using_hydrogen_share
+204,,,,,,Demand,Transport,Freight transport,Train technology,Diesel,,25%,% share,,,,,,,transport_freight_train_using_diesel_mix_share
+205,,,,,,Demand,Transport,Freight transport,Domestic navigation technology,Diesel (single / dual / multi-fuel engine),,51.0%,% share,,,,,,,transport_ship_using_diesel_mix_share
+206,,,,,,Demand,Transport,Freight transport,Domestic navigation technology,LNG,,30.0%,% share,,,,,,,transport_ship_using_lng_mix_share
+207,,,,,,Demand,Transport,Freight transport,Domestic navigation technology,Hydrogen,,0.0%,% share,,,,,,,transport_ship_using_hydrogen_share
+208,,,,,,Demand,Transport,Freight transport,Domestic navigation technology,Electric,,1.0%,% share,,,,,,,transport_ship_using_electricity_share
+209,,,,,,Demand,Transport,Freight transport,Domestic navigation technology,Ammonia,,8.0%,% share,,,,,,,transport_ship_using_ammonia_share
+210,,,,,,Demand,Transport,International transport,International transport,International aviation,,0.0%,% of total,global international transport emissions attributed to modelled country,,,,,,bunkers_allocated_percentage_aviation
+211,,,,,,Demand,Transport,International transport,International transport,International navigation,,0.0%,% of total,global international transport emissions attributed to modelled country,,,,,,bunkers_allocated_percentage_shipping
+212,,,,,,Demand,Transport,International transport,Mobility growth,International aviation,,0.0%,%/year,,,,,,,bunkers_useful_demand_planes
+213,,,,,,Demand,Transport,International transport,Mobility growth,International navigation,,0.0%,%/year,,,,,,,bunkers_useful_demand_ships
+214,,,,,,Demand,Transport,International transport,International aviation technology,Kerosene (mix),,100.0%,%,,,,,,,bunkers_aviation_using_kerosene_mix_share
+215,,,,,,Demand,Transport,International transport,International aviation technology,Hydrogen,,0.0%,%,,,,,,,bunkers_aviation_using_hydrogen_share
+216,,,,,,Demand,Transport,International transport,International aviation technology,Electricity,,0.0%,%,,,,,,,bunkers_aviation_using_electricity_share
+217,,,,,,Demand,Transport,International transport,International navigation technology,HFO,,100.0%,% share,,,,,,,bunkers_ship_using_heavy_fuel_oil_share
+218,,,,,,Demand,Transport,International transport,International navigation technology,LNG,,0.0%,% share,,,,,,,bunkers_ship_using_lng_share
+219,,,,,,Demand,Transport,International transport,International navigation technology,Hydrogen,,0.0%,% share,,,,,,,bunkers_ship_using_hydrogen_share
+220,,,,,,Demand,Transport,International transport,International navigation technology,Ammonia,,0.0%,% share,,,,,,,bunkers_ship_using_ammonia_share
+221,,,,,,Demand,Transport,International transport,International navigation technology,Electricity,,0.0%,% share,,,,,,,bunkers_ship_using_electricity_share
+222,,,,,,Demand,Industry,Steel,Steel,,,100.0%,% production,relative to baseline year (2019),,,"In the long run UK steel production is flat, thanks to CBAM",,,industry_steel_production
+223,,,,,,Demand,Industry,Steel,Production route,Blast furnace,,0.0%,% share,,,,,,,industry_steel_blastfurnace_bof_share
+224,,,,,,Demand,Industry,Steel,Production route,DRI (network gas),,0.0%,% share,,,,,,,industry_steel_dri_network_gas_share
+225,,,,,,Demand,Industry,Steel,Production route,DRI (hydrogen),,0.0%,% share,,,,,,,industry_steel_dri_hydrogen_share
+226,,,,,,Demand,Industry,Steel,Production route,Cyclone furnace,,0.0%,% share,,,,,,,industry_steel_cyclonefurnace_bof_share
+227,,,,,,Demand,Industry,Steel,Production route,Recycling / HBI,,100.0%,% share,,,,UK retains no virgin steelmaking capacity but switches entirely to electric arc furnaces for recycling,,,industry_steel_scrap_hbi_eaf_share
+228,,,,,,Demand,Industry,Aluminium,Aluminium,,,100.0%,% production,,,,,,,industry_aluminium_production
+229,,,,,,Demand,Industry,Aluminium,Production route,Electrolysis,,0.0%,% production,,,,Older process,,,industry_aluminium_electrolysis_current_electricity_share
+230,,,,,,Demand,Industry,Aluminium,Production route,Electrolysis BAT,,25.0%,% production,,,,"Some virgin aluminium manufacturing exists in the UK, using the most advanced technology",,,industry_aluminium_electrolysis_bat_electricity_share
+231,,,,,,Demand,Industry,Aluminium,Production route,Carbothermal reduction,,0.0%,% production,,,,Carbon intensive,,,industry_aluminium_carbothermalreduction_electricity_share
+232,,,,,,Demand,Industry,Aluminium,Production route,Smelt oven (recycling),,75.0%,% production,,,,Most of UK aluminium demand is met either by recycling or imports,,,industry_aluminium_smeltoven_electricity_share
+233,,,,,,Demand,Industry,Other metals,Other metals,,,100.0%,% production,,,,,,,industry_other_metals_production
+234,,,,,,Demand,Industry,Other metals,Efficiency improvement (in total),Electricity,,33.0%,% ,,,,,,,industry_other_metals_process_electricity_efficiency
+235,,,,,,Demand,Industry,Other metals,Efficiency improvement (in total),Heat,,33.0%,%,,,,,,,industry_other_metals_process_heat_useable_heat_efficiency
+236,,,,,,Demand,Industry,Refineries,Size,,,50.0%,% total,production relative to base year,,,,,,industry_useful_demand_for_chemical_refineries
+237,,,,,,Demand,Industry,Refineries,Efficiency improvement (in total),Electricity,,33.0%,% total,improvement relative to base year,,,,,,industry_useful_demand_for_chemical_refineries_electricity_efficiency
+238,,,,,,Demand,Industry,Refineries,Efficiency improvement (in total),Heat,,33.0%,% total,improvement relative to base year,,,,,,industry_useful_demand_for_chemical_refineries_useable_heat_efficiency
+239,,,,,,Demand,Industry,Refineries,Heat production,Gas-fired heater,,33.3%,%,,,,,,,industry_chemicals_refineries_burner_network_gas_share
+240,,,,,,Demand,Industry,Refineries,Heat production,Oil-fired heater,,33.3%,%,,,,,,,industry_chemicals_refineries_burner_crude_oil_share
+241,,,,,,Demand,Industry,Refineries,Heat production,Biomass-fired heater,,33.4%,%,Biomass becomes competitive due to carbon tax,,,,,,industry_chemicals_refineries_burner_wood_pellets_share
+242,,,,,,Demand,Industry,Refineries,Heat production,Coal-fired heater,,0.0%,%,,,,,,,industry_chemicals_refineries_burner_coal_share
+243,,,,,,Demand,Industry,Refineries,Heat production,Steam network,,0.0%,%,,,,,,,
+244,,,,,,Demand,Industry,Refineries,Heat production,H2-fired heater,,0.0%,%,,,,,,,industry_chemicals_refineries_burner_hydrogen_share
+245,,,,,,Demand,Industry,Refineries,Hybrid heating,Power-to-heat boiler for gas and H2 heaters,,0.00,MW,,,,,,,capacity_of_industry_chemicals_refineries_flexibility_p2h_electricity
+246,,,,,,Demand,Industry,Fertilisers,Size,,,100.0%,%,production relative to base year,,,,,,industry_useful_demand_for_chemical_fertilizers
+247,,,,,,Demand,Industry,Fertilisers,Ammonia production route,Local NH3 (steam methane reforming),,33.3%,%,"significant reliance on existing methods for pre-2040 built plants, with potential for CCS",,,,,,industry_chemicals_fertilizers_local_ammonia_local_hydrogen_share
+248,,,,,,Demand,Industry,Fertilisers,Ammonia production route,Local NH3 (central hydrogen network),,33.3%,%,hydrogen adoption in industry but only in the newest post-2040 plants,,,,,,industry_chemicals_fertilizers_local_ammonia_central_hydrogen_share
+249,,,,,,Demand,Industry,Fertilisers,Ammonia production route,Central NH3 import,,33.4%,%,significant import reliance,,,,,,industry_chemicals_fertilizers_steam_methane_reformer_hydrogen_share
+250,,,,,,Demand,Industry,Fertilisers,Efficiency improvement (in total),Electricity,,33.0%,%,,,,,,,industry_useful_demand_for_chemical_fertilizers_electricity_efficiency
+251,,,,,,Demand,Industry,Fertilisers,Efficiency improvement (in total),Heat,,33.0%,%,,,,,,,industry_useful_demand_for_chemical_fertilizers_useable_heat_efficiency
+252,,,,,,Demand,Industry,Fertilisers,Heat production,Gas-fired heater,,50.0%,,,,,,,,industry_chemicals_fertilizers_burner_network_gas_share
+253,,,,,,Demand,Industry,Fertilisers,Heat production,Oil-fired heater,,0.0%,,,,,,,,industry_chemicals_fertilizers_burner_crude_oil_share
+254,,,,,,Demand,Industry,Fertilisers,Heat production,Biomass-fired heater,,50.0%,,,,,,,,industry_chemicals_fertilizers_burner_wood_pellets_share
+255,,,,,,Demand,Industry,Fertilisers,Heat production,Coal-fired heater,,0.0%,,,,,,,,industry_chemicals_fertilizers_burner_coal_share
+256,,,,,,Demand,Industry,Fertilisers,Heat production,Steam network,,0.0%,,,,,,,,
+257,,,,,,Demand,Industry,Fertilisers,Heat production,H2-fired heater,,0.0%,,,,,,,,industry_chemicals_fertilizers_burner_hydrogen_share
+258,,,,,,Demand,Industry,Fertilisers,Hybrid heating,Power-to-heat boiler for gas and H2 heaters,,0.00,MW,,,,,,,capacity_of_industry_chemicals_fertilizers_flexibility_p2h_electricity
+259,,,,,,Demand,Industry,Chemicals,Size,,,100.0%,,,,,,,,industry_useful_demand_for_chemical_other
+260,,,,,,Demand,Industry,Chemicals,Efficiency improvement (in total),Electricity,,33.0%,,,,,,,,industry_useful_demand_for_chemical_other_electricity_efficiency
+261,,,,,,Demand,Industry,Chemicals,Efficiency improvement (in total),Heat,,33.0%,,,,,,,,industry_useful_demand_for_chemical_other_useable_heat_efficiency
+262,,,,,,Demand,Industry,Chemicals,Heat production,Gas-fired heater,,25.0%,,"Equal distribution of heat production methods across gas, biomass, mechanical vapour recompression, and heat pumps",,,,,,industry_chemicals_other_burner_network_gas_share
+263,,,,,,Demand,Industry,Chemicals,Heat production,Oil-fired heater,,0.0%,,,,,,,,industry_chemicals_other_burner_crude_oil_share
+264,,,,,,Demand,Industry,Chemicals,Heat production,Coal-fired heater,,0.0%,,,,,,,,industry_chemicals_other_burner_coal_share
+265,,,,,,Demand,Industry,Chemicals,Heat production,Biomass-fired heater,,25.0%,,,,,,,,industry_chemicals_other_burner_wood_pellets_share
+266,,,,,,Demand,Industry,Chemicals,Heat production,H2-fired heater,,0.0%,,,,,,,,industry_chemicals_other_burner_hydrogen_share
+267,,,,,,Demand,Industry,Chemicals,Heat production,Electric boiler,,0.0%,,,,,,,,industry_chemicals_other_heater_electricity_share
+268,,,,,,Demand,Industry,Chemicals,Heat production,Mechanical vapour recompression,,25.0%,,,,,,,,industry_chemicals_other_steam_recompression_electricity_share
+269,,,,,,Demand,Industry,Chemicals,Heat production,Heat pump,,25.0%,,,,,,,,industry_chemicals_other_heatpump_water_water_electricity_share
+270,,,,,,Demand,Industry,Chemicals,Heat production,Steam network,,0.0%,,,,,,,,
+271,,,,,,Demand,Industry,Chemicals,Hybrid heating,Power-to-heat boiler for gas and H2 heaters,,0.0%,,,,,,,,capacity_of_industry_chemicals_other_flexibility_p2h_electricity
+272,,,,,,Demand,Industry,Chemicals,Non-energetic use,Biomass,,25.0%,,Equal distribution apart from coal,,,,,,industry_chemicals_other_wood_pellets_non_energetic_share
+273,,,,,,Demand,Industry,Chemicals,Non-energetic use,Hydrogen,,25.0%,,,,,,,,industry_chemicals_other_hydrogen_non_energetic_share
+274,,,,,,Demand,Industry,Chemicals,Non-energetic use,Network gas,,25.0%,,,,,,,,industry_chemicals_other_network_gas_non_energetic_share
+275,,,,,,Demand,Industry,Chemicals,Non-energetic use,Oil ,,25.0%,,,,,,,,industry_chemicals_other_crude_oil_non_energetic_share
+276,,,,,,Demand,Industry,Chemicals,Non-energetic use,Coal,,0.0%,,,,,,,,industry_chemicals_other_coal_non_energetic_share
+277,,,,,,Demand,Industry,Central ICT,Size,,,200.0%,% ,relative to base year,,,significant but realistic data centre demand growth (2.3% CAGR from 2020),,,industry_useful_demand_for_other_ict
+278,,,,,,Demand,Industry,Central ICT,Efficiency improvement (in total),,,33.0%,%,,,,,,,industry_useful_demand_for_other_ict_efficiency
+279,,,,,,Demand,Industry,Food ,Size,,,116.2%,%,production relative to base year,,,scales with population growth,,,industry_useful_demand_for_other_food
+280,,,,,,Demand,Industry,Food ,Efficiency improvement (in total),Electricity,,33.0%,,,,,,,,industry_useful_demand_for_other_food_electricity_efficiency
+281,,,,,,Demand,Industry,Food ,Efficiency improvement (in total),Heat,,33.0%,,,,,,,,industry_useful_demand_for_other_food_useable_heat_efficiency
+282,,,,,,Demand,Industry,Food ,Heat production,Gas-fired heater,,33.3%,,,,,"Equal distribution across gas, biomass, and electricity. Assume some on-site electricity generation to justify high electric boiler share",,,industry_other_food_burner_network_gas_share
+283,,,,,,Demand,Industry,Food ,Heat production,Oil-fired heater,,0.0%,,,,,,,,industry_other_food_burner_crude_oil_share
+284,,,,,,Demand,Industry,Food ,Heat production,Coal-fired heater,,0.0%,,,,,,,,industry_other_food_burner_coal_share
+285,,,,,,Demand,Industry,Food ,Heat production,Biomass-fired heater,,33.3%,,,,,,,,industry_other_food_burner_wood_pellets_share
+286,,,,,,Demand,Industry,Food ,Heat production,H2-fired heater,,0.0%,,,,,,,,industry_other_food_burner_hydrogen_share
+287,,,,,,Demand,Industry,Food ,Heat production,Electric boiler,,33.3%,,,,,,,,industry_other_food_heater_electricity_share
+288,,,,,,Demand,Industry,Food ,Heat production,Steam network,,0.0%,,,,,,,,
+289,,,,,,Demand,Industry,Food ,Hybrid heating,Power-to-heat boiler for gas and H2 heaters,,0.0%,,,,,,,,capacity_of_industry_other_food_flexibility_p2h_electricity
+290,,,,,,Demand,Industry,Paper,Size,,,100.0%,,production relative to base year,,,,,,industry_useful_demand_for_other_paper
+291,,,,,,Demand,Industry,Paper,Efficiency improvement (in total),Electricity,,33.0%,,,,,,,,industry_useful_demand_for_other_paper_electricity_efficiency
+292,,,,,,Demand,Industry,Paper,Efficiency improvement (in total),Heat,,33.0%,,,,,,,,industry_useful_demand_for_other_paper_useable_heat_efficiency
+293,,,,,,Demand,Industry,Paper,Heat production,Gas-fired heater,,33.3%,,,,,"Equal distribution across gas, biomass, and electricity. Assume some on-site electricity generation to justify high electric boiler share",,,industry_other_paper_burner_network_gas_share
+294,,,,,,Demand,Industry,Paper,Heat production,Oil-fired heater,,0.0%,,,,,,,,industry_other_paper_burner_crude_oil_share
+295,,,,,,Demand,Industry,Paper,Heat production,Coal-fired heater,,0.0%,,,,,,,,industry_other_paper_burner_coal_share
+296,,,,,,Demand,Industry,Paper,Heat production,Biomass-fired heater,,33.3%,,,,,,,,industry_other_paper_burner_wood_pellets_share
+297,,,,,,Demand,Industry,Paper,Heat production,H2-fired heater,,0.0%,,,,,,,,industry_other_paper_burner_hydrogen_share
+298,,,,,,Demand,Industry,Paper,Heat production,Electric boiler,,33.3%,,,,,,,,industry_other_paper_heater_electricity_share
+299,,,,,,Demand,Industry,Paper,Heat production,Steam network,,0.0%,,,,,,,,
+300,,,,,,Demand,Industry,Paper,Hybrid heating,Power-to-heat boiler for gas and H2 heaters,,0.0%,,,,,,,,capacity_of_industry_other_paper_flexibility_p2h_electricity
+301,,,,,,Demand,Industry,Other,Size (energetic),,,100.0%,,,,,,,,industry_useful_demand_for_aggregated_other_energetic
+302,,,,,,Demand,Industry,Other,Size (non-energetic),,,100.0%,,,,,,,,industry_useful_demand_for_aggregated_other_non_energetic
+303,,,,,,Demand,Industry,Other,Efficiency improvement (in total),Electricity,,33.0%,,,,,,,,industry_useful_demand_for_aggregated_other_electricity_efficiency
+304,,,,,,Demand,Industry,Other,Efficiency improvement (in total),Heat,,33.0%,,,,,,,,industry_useful_demand_for_aggregated_other_useable_heat_efficiency
+305,,,,,,Demand,Industry,Other,Energetic use of carriers,Biomass,,20.0%,,,,,"Equal distribution between biomass, electricity, oil, gas and heat. Hydrogen excluded from smaller industries, coal and coke banned",,,industry_aggregated_other_industry_wood_pellets_share_energetic
+306,,,,,,Demand,Industry,Other,Energetic use of carriers,Electricity,,20.0%,,,,,,,,industry_aggregated_other_industry_electricity_share
+307,,,,,,Demand,Industry,Other,Energetic use of carriers,Oil,,20.0%,,,,,,,,industry_aggregated_other_industry_crude_oil_share_energetic
+308,,,,,,Demand,Industry,Other,Energetic use of carriers,Gas,,20.0%,,,,,,,,industry_aggregated_other_industry_network_gas_share_energetic
+309,,,,,,Demand,Industry,Other,Energetic use of carriers,Coal,,0.0%,,,,,,,,industry_aggregated_other_industry_coal_share_energetic
+310,,,,,,Demand,Industry,Other,Energetic use of carriers,Cokes,,0.0%,,,,,,,,industry_aggregated_other_industry_cokes_share_energetic
+311,,,,,,Demand,Industry,Other,Energetic use of carriers,Heat,,20.0%,,,,,,,,industry_aggregated_other_industry_useable_heat_share
+312,,,,,,Demand,Industry,Other,Energetic use of carriers,Hydrogen,,0.0%,,,,,,,,industry_aggregated_other_industry_hydrogen_share_energetic
+313,,,,,,Demand,Industry,Other,Non-energetic use of carriers,Biomass,,0.0%,,,,,,,,industry_aggregated_other_industry_wood_pellets_share_non_energetic
+314,,,,,,Demand,Industry,Other,Non-energetic use of carriers,Oil,,100.0%,,,,,Oil is 100% of UK 2050 ETM default scenario here. Assume same as oil industry continues to run at smaller scale,,,industry_aggregated_other_industry_crude_oil_share_non_energetic
+315,,,,,,Demand,Industry,Other,Non-energetic use of carriers,Gas,,0.0%,,,,,,,,industry_aggregated_other_industry_network_gas_share_non_energetic
+316,,,,,,Demand,Industry,Other,Non-energetic use of carriers,Coal,,0.0%,,,,,,,,industry_aggregated_other_industry_coal_share_non_energetic
+317,,,,,,Demand,Industry,Other,Non-energetic use of carriers,Cokes,,0.0%,,,,,,,,industry_aggregated_other_industry_cokes_share_non_energetic
+318,,,,,,Demand,Industry,Other,Non-energetic use of carriers,Hydrogen,,0.0%,,,,,,,,industry_aggregated_other_industry_hydrogen_share_non_energetic
+319,,,,,,Demand,Industry,Steam network sources,CHPs,Gas CCGT CHPs,,50.0%,,,,,,,,capacity_of_industry_chp_combined_cycle_gas_power_fuelmix
+320,,,,,,Demand,Industry,Steam network sources,CHPs,Gas turbine CHP,,0.0%,,,,,,,,capacity_of_industry_chp_turbine_gas_power_fuelmix
+321,,,,,,Demand,Industry,Steam network sources,CHPs,Gas motor CHP,,0.0%,,,,,,,,capacity_of_industry_chp_engine_gas_power_fuelmix
+322,,,,,,Demand,Industry,Steam network sources,CHPs,Pulverized coal CHP,,0.0%,,,,,,,,capacity_of_industry_chp_ultra_supercritical_coal
+323,,,,,,Demand,Industry,Steam network sources,CHPs,Biomass CHP,,50.0%,,,,,,,,capacity_of_industry_chp_wood_pellets
+324,,,,,,Demand,Industry,Steam network sources,CHPs,Hydrogen turbine CHP,,0.0%,,,,,,,,capacity_of_industry_chp_turbine_hydrogen
+325,,,,,,Demand,Industry,Steam network sources,Heaters,Coal heater,,0.0%,,,,,,,,capacity_of_industry_heat_burner_coal
+326,,,,,,Demand,Industry,Steam network sources,Heaters,Oil heater,,100.0%,,,,,,,,capacity_of_industry_heat_burner_crude_oil
+327,,,,,,Demand,Industry,Steam network sources,Heaters,Geothermal heater,,0.0%,,,,,,,,capacity_of_industry_heat_well_geothermal
+328,,,,,,Demand,Industry,Steam network sources,Heaters,Hydrogen heater,,0.0%,,,,,,,,capacity_of_industry_heat_burner_hydrogen
+329,,,,,,Demand,Agriculture,Development of demand,Electricity,,,0.0%,%/year,"Population needs for agriculture grow, but offset by efficiency gains",,,,,,agriculture_useful_demand_electricity
+330,,,,,,Demand,Agriculture,Development of demand,Heat,,,0.0%,%/year,,,,,,,agriculture_useful_demand_useable_heat
+331,,,,,,Demand,Agriculture,Heat,Heat production,Gas-fired heater,,33.3%,,"Equal distribution between gas, biomass, and water heat pump. Therefore majority (67%) decarbonised",,,,,,agriculture_burner_network_gas_share
+332,,,,,,Demand,Agriculture,Heat,Heat production,Oil-fired heater,,0.0%,,,,,,,,agriculture_burner_crude_oil_share
+333,,,,,,Demand,Agriculture,Heat,Heat production,Biomass-fired heater,,33.3%,,,,,,,,agriculture_burner_wood_pellets_share
+334,,,,,,Demand,Agriculture,Heat,Heat production,H2-fired heater,,0.0%,,,,,,,,agriculture_burner_hydrogen_share
+335,,,,,,Demand,Agriculture,Heat,Heat production,Water heat pump,,33.4%,,,,,,,,agriculture_heatpump_water_water_electricity_share
+336,,,,,,Demand,Agriculture,Heat,Heat production,Water heat pump with TS,,0.0%,,,,,,,,agriculture_heatpump_water_water_ts_electricity_share
+337,,,,,,Demand,Agriculture,Heat,Heat production,Geothermal,,0.0%,,,,,,,,agriculture_geothermal_share
+338,,,,,,Demand,Agriculture,Heat,Heat production,HT district heating,,0.0%,,,,,,,,agriculture_final_demand_ht_central_steam_hot_water_share
+339,,,,,,Demand,Agriculture,Heat,Heat production,MT district heating,,0.0%,,,,,,,,agriculture_final_demand_mt_central_steam_hot_water_share
+340,,,,,,Demand,Agriculture,Heat,Heat production,Heat from local CHPs,,0.0%,,,,,,,,agriculture_final_demand_local_steam_hot_water_share
+341,,,,,,Demand,Agriculture,Heat,Hybrid heating,Power-to heat boiler for gas and H2 heaters,,0.00,,,,,,,,capacity_of_agriculture_flexibility_p2h_electricity
+342,,,,,,Demand,Agriculture,Heat from local CHPs,Dispatchable capacity,Biomass CHP,,0.00,,,,,,,,capacity_of_agriculture_chp_wood_pellets
+343,,,,,,Demand,Agriculture,Heat from local CHPs,Dispatchable capacity,Gas motor CHP,,0.00,,,,,,,,capacity_of_agriculture_chp_engine_network_gas_dispatchable
+344,,,,,,Demand,Agriculture,Heat from local CHPs,Must-run capacity,Biogas CHP,,0.00,,,,,,,,capacity_of_agriculture_chp_engine_biogas
+345,,,,,,Demand,Agriculture,Heat from local CHPs,Must-run capacity,Gas motor CHP,,0.00,,,,,,,,capacity_of_agriculture_chp_engine_network_gas_must_run
+346,,,,,,Demand,Other,Energy demand other users,Electricity,,,0.0%,%/year,,,,,,,other_useful_demand_electricity
+347,,,,,,Demand,Other,Energy demand other users,Heat,,,0.0%,%/year,,,,,,,other_useful_demand_useable_heat
+348,,,,,,Demand,Other,Energy demand other users,Non-energetic,,,0.0%,%/year,,,,,,,other_useful_demand_non_energetic
+349,,,,,,Demand,Export,Export volumes per carrier,Coal and products,Coal,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_coal
+350,,,,,,Demand,Export,Export volumes per carrier,Coal and products,Lignite,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_lignite
+351,,,,,,Demand,Export,Export volumes per carrier,Coal and products,Cokes,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_cokes
+352,,,,,,Demand,Export,Export volumes per carrier,Oil and products,Crude oil,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_crude_oil
+353,,,,,,Demand,Export,Export volumes per carrier,Oil and products,Kerosene,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_kerosene
+354,,,,,,Demand,Export,Export volumes per carrier,Oil and products,Gasoline,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_gasoline
+355,,,,,,Demand,Export,Export volumes per carrier,Oil and products,Diesel,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_diesel
+356,,,,,,Demand,Export,Export volumes per carrier,Oil and products,LPG,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_lpg
+357,,,,,,Demand,Export,Export volumes per carrier,Oil and products,Heavy fuel oil,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_heavy_fuel_oil
+358,,,,,,Demand,Export,Export volumes per carrier,Network gas and derivatives,Network gas,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_network_gas
+359,,,,,,Demand,Export,Export volumes per carrier,Network gas and derivatives,LNG,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_lng
+360,,,,,,Demand,Export,Export volumes per carrier,Hydrogen carriers,Hydrogen,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_hydrogen
+361,,,,,,Demand,Export,Export volumes per carrier,Hydrogen carriers,Liquid hydrogen,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_liquid_hydrogen
+362,,,,,,Demand,Export,Export volumes per carrier,Hydrogen carriers,LOHC,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_lohc
+363,,,,,,Demand,Export,Export volumes per carrier,Hydrogen carriers,Ammonia,,0.00,PJ,Value for fixed amount of exports of the energy carrier specified,,,,,,volume_of_baseload_export_ammonia
+364,,,,,,Supply,Electricity,Coal plants,Pulverized coal,,,0.00,MW,Electricity output,,,,,,capacity_of_energy_power_ultra_supercritical_coal
+365,,,,,,Supply,Electricity,Coal plants,Pulverized coal with co-firing,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_power_ultra_supercritical_cofiring_coal
+366,,,,,,Supply,Electricity,Coal plants,Coal IGCC,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_power_combined_cycle_coal
+367,,,,,,Supply,Electricity,Coal plants,Coal conventional,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_power_supercritical_coal
+368,,,,,,Supply,Electricity,Coal plants,Pulverized coal CHP,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_chp_ultra_supercritical_coal
+369,,,,,,Supply,Electricity,Coal plants,Pulverized coal CHP with coal firing,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_chp_ultra_supercritical_cofiring_coal
+370,,,,,34,Supply,Electricity,Gas plants,Gas CCGT,,,InVar,MW,Electricity output,0,"36,584",Current UK figure. https://globalenergymonitor.org/projects/global-oil-gas-plant-tracker/summary-tables/,,,capacity_of_energy_power_combined_cycle_network_gas
+371,,,,,,Supply,Electricity,Gas plants,Gas turbine,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_power_turbine_network_gas
+372,,,,,,Supply,Electricity,Gas plants,Gas conventional,,,0.0,MW,Electricity output,,,Older technology,,,capacity_of_energy_power_ultra_supercritical_network_gas
+373,,,,,,Supply,Electricity,Gas plants,Gas combustion engine,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_power_engine_network_gas
+374,,,,,,Supply,Electricity,Gas plants,Gas CCGT CHP,,,0.0,MW,Electricity output,,,Exclude CHP from analysis,,,capacity_of_energy_chp_combined_cycle_network_gas
+375,,,,,,Supply,Electricity,Gas plants,Gas motor CHP,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_chp_local_engine_network_gas
+376,,,,,,Supply,Electricity,Oil plants,Oil-fired,,,0.0,MW,Electricity output,,,Very little oil power generation capacity in Europe,,,capacity_of_energy_power_ultra_supercritical_crude_oil
+377,,,,,,Supply,Electricity,Oil plants,Diesel generator,,,0.0,MW,Electricity output,,,,,,capacity_of_energy_power_engine_diesel
+378,,,,,,Supply,Electricity,Nuclear plants,Large reactors,Nuclear 2nd Gen,,0.0,MW,Electricity output,,,Older technology,,,capacity_of_energy_power_nuclear_gen2_uranium_oxide
+379,,,,,35,Supply,Electricity,Nuclear plants,Large reactors,Nuclear 3rd Gen,,InVar,MW,Electricity output,0,"24,000",Technology of new nuclear plants today,,,capacity_of_energy_power_nuclear_gen3_uranium_oxide
+380,,,,,,Supply,Electricity,Nuclear plants,Large reactors,Dispatchable [OFF] / must-run [ON],,ON,,OFF/ON,,,Large scale nuclear is usually must run,,,merit_order_subtype_of_energy_power_nuclear_uranium_oxide
+381,,,,,,Supply,Electricity,Nuclear plants,Small reactors,Nuclear small modular reactors,,0.0,MW,Electricity output,,,Unproven technology,,,capacity_of_energy_power_nuclear_small_modular_reactor_uranium_oxide
+382,,,,,,Supply,Electricity,Coal gas plants,Energy production,,,50%,%,% of excess steelmaking coal gases,,,"Currently used for energy production, but could be used for chemicals",,,share_of_energy_steel_energy_production_coal_gas
+383,,,,,,Supply,Electricity,Coal gas plants,Chemical feedstock,,,50%,%,% of excess steelmaking coal gases,,,,,,share_of_energy_steel_chemical_feedstock_coal_gas
+384,,,,,,Supply,Renewable electricity,Wind turbines,Onshore inland,,,0.0,MW,,,,,,,capacity_of_energy_power_wind_turbine_inland
+385,,,,,,Supply,Renewable electricity,Wind turbines,Onshore coast,,,0.0,MW,,,,,,,capacity_of_energy_power_wind_turbine_coastal
+386,,,,,,Supply,Renewable electricity,Wind turbines,Offshore,,,0.0,MW,,,,,,,capacity_of_energy_power_wind_turbine_offshore
+387,,,,,,Supply,Renewable electricity,Wind turbines,Offshore with hybrid connection,,,0.0,MW,,,,,,,capacity_of_energy_power_hybrid_wind_turbine_offshore
+388,,,,,36,Supply,Renewable electricity,Wind turbines,Onshore inland with battery system,,,InVar,MW,,"79,000","265,980",,,,capacity_of_energy_battery_wind_turbine_inland
+389,,,,,37,Supply,Renewable electricity,Solar power,Solar PV households,,,InVar,MW,,"5,200","11,432",SSEE Oxford 2023 paper estimates 25TWh/yr UK realistic rooftop solar generation potential (8% of total rooftop area),,,capacity_of_households_solar_pv_solar_radiation
+390,,,,,,Supply,Renewable electricity,Solar power,Solar PV buildings,,,0,MW,,,,,,,capacity_of_buildings_solar_pv_solar_radiation
+391,,,,,,Supply,Renewable electricity,Solar power,Solar PV plants onshore,,,0,MW,,,,,,,capacity_of_energy_power_solar_pv_solar_radiation
+392,,,,,38,Supply,Renewable electricity,Solar power,Solar PV plants onshore with battery system,,,InVar,MW,,"12,000","248,300","544TWh/yr land solar potential, or 2% of total land area (SSEE Oxford 2023)",,,capacity_of_energy_battery_solar_pv_solar_radiation
+393,,,,,,Supply,Renewable electricity,Solar power,Concentrated solar power,,,0.0,MW,,,,,,,capacity_of_energy_power_solar_pv_offshore
+394,,,,,,Supply,Renewable electricity,Hydroelectric power,River,,,240,MW,,,,Existing figures,,,capacity_of_energy_power_hydro_river
+395,,,,,,Supply,Renewable electricity,Hydroelectric power,Mountain,,,1933,MW,,,,Existing figures ,,,capacity_of_energy_power_hydro_mountain
+396,,,,,,Supply,Renewable electricity,Biomass plants,Must-run capacity,Biogas CHP,,0.0,MW,,,,,,,capacity_of_energy_chp_local_engine_biogas
+397,,,,,,Supply,Renewable electricity,Biomass plants,Must-run capacity,Biomass CHP,,0.0,MW,,,,,,,capacity_of_energy_chp_local_wood_pellets_must_run
+398,,,,,39,Supply,Renewable electricity,Biomass plants,Must-run capacity,Biomass power plant,,InVar,MW,,0,15450,,,,capacity_of_energy_power_wood_pellets_must_run
+399,,,,,,Supply,Renewable electricity,Biomass plants,Dispatchable capacity,Biomasss CHP,,0.0,,,,,,,,capacity_of_energy_chp_local_wood_pellets_dispatchable
+400,,,,,40,Supply,Renewable electricity,Biomass plants,Dispatchable capacity,Biomass power plant,,InVar,,,0,,,,,capacity_of_energy_power_wood_pellets_dispatchable
+401,,,,,41,Supply,Renewable electricity,Waste power,Waste incinerator,,,InVar,,,0,,,,,capacity_of_energy_power_supercritical_waste_mix
+402,,,,,,Supply,Renewable electricity,Waste power,Waste CHP,,,0.0,,,,,,,,capacity_of_energy_chp_supercritical_waste_mix
+403,,,,,,Supply,Renewable electricity,Hydrogen plants,Hydrogen turbine,,,0.0,,,,,Unproven technology,,,capacity_of_energy_power_turbine_hydrogen
+404,,,,,,Supply,Renewable electricity,Hydrogen plants,Hydrogen CCGT,,,0.0,,,,,,,,capacity_of_energy_power_combined_cycle_hydrogen
+405,,,,,,Supply,Renewable electricity,Geothermal,Geothermal electric,,,0.0,,,,,None large scale in UK,,,capacity_of_energy_power_geothermal
+406,,,,,,Supply,District heating,Allocation of heat from CHPs,Pulverized coal CHP,High temperature,,100%,,,,,,,,share_of_energy_chp_ultra_supercritical_ht_coal
+407,,,,,,Supply,District heating,Allocation of heat from CHPs,Pulverized coal CHP,Medium temperature,,0%,,,,,,,,share_of_energy_chp_ultra_supercritical_mt_coal
+408,,,,,,Supply,District heating,Allocation of heat from CHPs,Pulverized coal CHP with coal firing,High temperature,,100%,,,,,,,,share_of_energy_chp_ultra_supercritical_cofiring_ht_coal
+409,,,,,,Supply,District heating,Allocation of heat from CHPs,Pulverized coal CHP with coal firing,Medium temperature,,0%,,,,,,,,share_of_energy_chp_ultra_supercritical_cofiring_mt_coal
+410,,,,,,Supply,District heating,Allocation of heat from CHPs,Gas CCGT CHP,High temperature,,100%,,,,,,,,share_of_energy_chp_combined_cycle_ht_network_gas
+411,,,,,,Supply,District heating,Allocation of heat from CHPs,Gas CCGT CHP,Medium temperature,,0%,,,,,,,,share_of_energy_chp_combined_cycle_mt_network_gas
+412,,,,,,Supply,District heating,Allocation of heat from CHPs,Gas motor CHP,High temperature,,100%,,,,,,,,share_of_energy_chp_local_engine_ht_network_gas
+413,,,,,,Supply,District heating,Allocation of heat from CHPs,Gas motor CHP,Medium temperature,,0%,,,,,,,,share_of_energy_chp_local_engine_mt_network_gas
+414,,,,,,Supply,District heating,Allocation of heat from CHPs,Biomass CHP (must-run),High temperature,,100%,,,,,,,,share_of_energy_chp_local_ht_wood_pellets_must_run
+415,,,,,,Supply,District heating,Allocation of heat from CHPs,Biomass CHP (must-run),Medium temperature,,0%,,,,,,,,share_of_energy_chp_local_mt_wood_pellets_must_run
+416,,,,,,Supply,District heating,Allocation of heat from CHPs,Biomass CHP (dispatchable),High temperature,,100%,,,,,,,,share_of_energy_chp_local_ht_wood_pellets_dispatchable
+417,,,,,,Supply,District heating,Allocation of heat from CHPs,Biomass CHP (dispatchable),Medium temperature,,0%,,,,,,,,share_of_energy_chp_local_mt_wood_pellets_dispatchable
+418,,,,,,Supply,District heating,Allocation of heat from CHPs,Biogas CHP,High temperature,,100%,,,,,,,,share_of_energy_chp_local_engine_ht_biogas
+419,,,,,,Supply,District heating,Allocation of heat from CHPs,Biogas CHP,Medium temperature,,0%,,,,,,,,share_of_energy_chp_local_engine_mt_biogas
+420,,,,,,Supply,District heating,Allocation of heat from CHPs,Waste CHP,High temperature,,100%,,,,,,,,share_of_energy_chp_supercritical_ht_waste_mix
+421,,,,,,Supply,District heating,Allocation of heat from CHPs,Waste CHP,Medium temperature,,0%,,,,,,,,share_of_energy_chp_supercritical_mt_waste_mix
+422,,,,,,Supply,District heating,Allocation of power-to-heat,Power-to-heat boiler,High temperature,,100%,,,,,,,,share_of_energy_heat_flexibility_p2h_boiler_ht_electricity
+423,,,,,,Supply,District heating,Allocation of power-to-heat,Power-to-heat boiler,Medium temperature,,0%,,,,,,,,share_of_energy_heat_flexibility_p2h_boiler_mt_electricity
+424,,,,,,Supply,District heating,Allocation of power-to-heat,Power-to-heat heatpump,High temperature,,100%,,,,,,,,share_of_energy_heat_flexibility_p2h_heatpump_ht_electricity
+425,,,,,,Supply,District heating,Allocation of power-to-heat,Power-to-heat heatpump,Medium temperature,,0%,,,,,,,,share_of_energy_heat_flexibility_p2h_heatpump_mt_electricity
+426,,,,,,Supply,District heating,HT district heating,Sources,Must-run / volatile heat sources,Solar thermal,0.0,MW,,,,,,,capacity_of_energy_heat_solar_ht_solar_thermal
+427,,,,,,Supply,District heating,HT district heating,Sources,Must-run / volatile heat sources,Geothermal (deep),0.0,MW,,,,,,,capacity_of_energy_heat_well_deep_ht_geothermal
+428,,,,,,Supply,District heating,HT district heating,Sources,Must-run / volatile heat sources,Residual heat,0.0,PJ,,,,,,,volume_of_ht_residual_heat
+429,,,,,,Supply,District heating,HT district heating,Sources,Must-run / volatile heat sources,Imported heat,0.0,PJ,,,,,,,volume_of_ht_imported_heat
+430,,,,,,Supply,District heating,HT district heating,Sources,Dispatchable heat sources,Electric boiler,0.0,MW,,,,,,,capacity_of_energy_heat_boiler_ht_electricity
+431,,,,,,Supply,District heating,HT district heating,Sources,Dispatchable heat sources,Collective heat pump,0.0,MW,,,,,,,capacity_of_energy_heat_heatpump_water_water_ht_electricity
+432,,,,,,Supply,District heating,HT district heating,Sources,Dispatchable heat sources,Hydrogen heater,0.0,MW,,,,,,,capacity_of_energy_heat_burner_ht_hydrogen
+433,,,,,,Supply,District heating,HT district heating,Sources,Dispatchable heat sources,Biomass heater,0.0,MW,,,,,,,capacity_of_energy_heat_burner_ht_wood_pellets
+434,,,,,,Supply,District heating,HT district heating,Sources,Dispatchable heat sources,Waste heater,0.0,MW,,,,,,,capacity_of_energy_heat_burner_ht_waste_mix
+435,,,,,,Supply,District heating,HT district heating,Sources,Dispatchable heat sources,Oil heater,0.0,MW,,,,,,,capacity_of_energy_heat_burner_ht_crude_oil
+436,,,,,,Supply,District heating,HT district heating,Sources,Dispatchable heat sources,Gas heater (network gas),0.0,MW,,,,,,,capacity_of_energy_heat_burner_ht_network_gas
+437,,,,,,Supply,District heating,HT district heating,Sources,Dispatchable heat sources,Coal heater,0.0,MW,,,,,,,capacity_of_energy_heat_burner_ht_coal
+438,,,,,,Supply,District heating,HT district heating,(Seasonal) storage of heat,OFF / ON,,OFF,OFF / ON,,,,,,,heat_storage_enabled_ht
+439,,,,,,Supply,District heating,HT district heating,(Seasonal) storage of heat,Storage losses,Yearly losses,30%,,,,,Start value,,,energy_heat_network_storage_ht_loss_share
+440,,,,,,Supply,District heating,HT district heating,(Seasonal) storage of heat,Storage output capacity,Output capacity (as % of average hourly load),300%,,,,,Default setting,,,energy_heat_network_storage_ht_steam_hot_water_output_capacity_share
+441,,,,,,Supply,District heating,HT district heating,Transport and distribution losses,Transport and distribution losses,,0%,,,,,,,,energy_heat_distribution_ht_loss_share
+442,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Heat from storage,,,,,,,,
+443,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Collective heat pump,,,,,,,,
+444,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Biomass burner,,,,,,,,
+445,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Waste burner,,,,,,,,
+446,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Hydrogen burner,,,,,,,,
+447,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Electric boiler,,,,,,,,
+448,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Gas burner (network gas),,,,,,,,
+449,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Oil burner,,,,,,,,
+450,,,,,,Supply,District heating,HT district heating,Merit order of dispatchable heat sources,,,Coal burner,,,,,,,,
+451,,,,,,Supply,District heating,MT district heating,Must-run / volatile heat sources,Solar thermal,,0.0,,,,,,,,capacity_of_energy_heat_solar_mt_solar_thermal
+452,,,,,,Supply,District heating,MT district heating,Must-run / volatile heat sources,Geothermal (deep),,0.0,,,,,,,,capacity_of_energy_heat_well_deep_mt_geothermal
+453,,,,,,Supply,District heating,MT district heating,Must-run / volatile heat sources,Geothermal (shallow) + heatpump,,0.0,,,,,,,,capacity_of_energy_heat_well_shallow_heatpump_mt_geothermal
+454,,,,,,Supply,District heating,MT district heating,Must-run / volatile heat sources,Residual heat,,0.0,,,,,,,,volume_of_mt_residual_heat
+455,,,,,,Supply,District heating,MT district heating,Must-run / volatile heat sources,Imported heat,,0.0,,,,,,,,volume_of_mt_imported_heat
+456,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Collective heat pump,,0.0,,,,,,,,capacity_of_energy_heat_heatpump_water_water_mt_electricity
+457,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Electric boiler,,0.0,,,,,,,,capacity_of_energy_heat_boiler_mt_electricity
+458,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Hydrogen boiler,,0.0,,,,,,,,capacity_of_energy_heat_burner_mt_hydrogen
+459,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Biomass heater,,0.0,,,,,,,,capacity_of_energy_heat_burner_mt_wood_pellets
+460,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Waste heater,,0.0,,,,,,,,capacity_of_energy_heat_burner_mt_waste_mix
+461,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Oil heater,,0.0,,,,,,,,capacity_of_energy_heat_burner_mt_crude_oil
+462,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Gas heater (network gas),,0.0,,,,,,,,capacity_of_energy_heat_burner_mt_network_gas
+463,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Coal heater,,0.0,,,,,,,,capacity_of_energy_heat_burner_mt_coal
+464,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Aquathermal heat pump with TS (surface water),,0.0,,,,,,,,capacity_of_energy_heat_heatpump_surface_water_water_ts_mt_electricity
+465,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Aquathermal heat pump with TS (waste water),,0.0,,,,,,,,capacity_of_energy_heat_heatpump_waste_water_water_ts_mt_electricity
+466,,,,,,Supply,District heating,MT district heating,Dispatchable heat sources,Aquathermal heat pump with TS (drink water),,0.0,,,,,,,,capacity_of_energy_heat_heatpump_drink_water_water_ts_mt_electricity
+467,,,,,,Supply,District heating,MT district heating,(Seasonal) storage of heat,OFF / ON,,OFF,OFF / ON,,,,,,,heat_storage_enabled_mt
+468,,,,,,Supply,District heating,MT district heating,(Seasonal) storage of heat,Storage losses,Yearly losses,30%,,,,,Start value,,,energy_heat_network_storage_mt_loss_share
+469,,,,,,Supply,District heating,MT district heating,(Seasonal) storage of heat,Storage output capacity,Output capacity (as % of average hourly load),300%,,,,,Default setting,,,energy_heat_network_storage_mt_steam_hot_water_output_capacity_share
+470,,,,,,Supply,District heating,MT district heating,Transport and distribution losses,Transport and distribution losses,,0%,,,,,,,,energy_heat_distribution_mt_loss_share
+471,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Heat from storage,,,,,,,,
+472,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Collective heat pump,,,,,,,,
+473,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Biomass burner,,,,,,,,
+474,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Waste burner,,,,,,,,
+475,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Hydrogen burner,,,,,,,,
+476,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Electric boiler,,,,,,,,
+477,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Gas burner (network gas),,,,,,,,
+478,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Oil burner,,,,,,,,
+479,,,,,,Supply,District heating,MT district heating,Merit order of dispatchable heat sources,,,Coal burner,,,,,,,,
+480,,,,,,Supply,District heating,LT district heating,Must-run / volatile heat sources,Solar thermal,,0.0,,,,,,,,capacity_of_energy_heat_solar_lt_solar_thermal
+481,,,,,,Supply,District heating,LT district heating,Must-run / volatile heat sources,Geothermal (shallow),,0.0,,,,,,,,capacity_of_energy_heat_well_shallow_lt_geothermal
+482,,,,,,Supply,District heating,LT district heating,Must-run / volatile heat sources,Residual heat,,0.0,,,,,,,,volume_of_lt_residual_heat
+483,,,,,,Supply,District heating,LT district heating,Must-run / volatile heat sources,Imported heat,,0.0,,,,,,,,volume_of_lt_imported_heat
+484,,,,,,Supply,District heating,LT district heating,Dispatchable heat sources,Collective heat pump,,0.0,,,,,,,,capacity_of_energy_heat_heatpump_water_water_lt_electricity
+485,,,,,,Supply,District heating,LT district heating,Dispatchable heat sources,Electric boiler,,0.0,,,,,,,,capacity_of_energy_heat_boiler_lt_electricity
+486,,,,,,Supply,District heating,LT district heating,Dispatchable heat sources,Hydrogen heater,,0.0,,,,,,,,capacity_of_energy_heat_burner_lt_hydrogen
+487,,,,,,Supply,District heating,LT district heating,Dispatchable heat sources,Aquathermal heat pump with TS (surface water),,0.0,,,,,,,,capacity_of_energy_heat_heatpump_surface_water_water_ts_lt_electricity
+488,,,,,,Supply,District heating,LT district heating,Dispatchable heat sources,Aquathermal heat pump with TS (waste water),,0.0,,,,,,,,capacity_of_energy_heat_heatpump_waste_water_water_ts_lt_electricity
+489,,,,,,Supply,District heating,LT district heating,Dispatchable heat sources,Aquathermal heat pump with TS (drink water),,0.0,,,,,,,,capacity_of_energy_heat_heatpump_drink_water_water_ts_lt_electricity
+490,,,,,,Supply,District heating,LT district heating,(Seasonal) storage of heat,OFF / ON,,OFF,OFF / ON,,,,,,,heat_storage_enabled_lt
+491,,,,,,Supply,District heating,LT district heating,(Seasonal) storage of heat,Storage losses,Yearly losses,30%,,,,,Start value,,,energy_heat_network_storage_lt_loss_share
+492,,,,,,Supply,District heating,LT district heating,(Seasonal) storage of heat,Storage output capacity,Output capacity (as % of average hourly load),300%,,,,,Default setting,,,energy_heat_network_storage_lt_steam_hot_water_output_capacity_share
+493,,,,,,Supply,District heating,LT district heating,Transport and distribution losses,Transport and distribution losses,,0%,,,,,,,,energy_heat_distribution_lt_loss_share
+494,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Heat from storage,,,,,,,,
+495,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Collective heat pump,,,,,,,,
+496,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Biomass burner,,,,,,,,
+497,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Waste burner,,,,,,,,
+498,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Hydrogen burner,,,,,,,,
+499,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Electric boiler,,,,,,,,
+500,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Gas burner (network gas),,,,,,,,
+501,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Oil burner,,,,,,,,
+502,,,,,,Supply,District heating,LT district heating,Merit order of dispatchable heat sources,,,Coal burner,,,,,,,,
+503,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,Offshore wind turbine for H2,,0.0,MW,,,,Major engineering challenge,,,capacity_of_energy_hydrogen_wind_turbine_offshore
+504,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,Solar PV plant for H2,,1000,MW,,,,"Total 5GW H2 production in 2050 including power to H2 in flexibility section). Equals Johnson govt 2030 target. Implies commercial scale H2 production in 2050 to cover industrial (mostly chemical) demand, but not a major production rollout, and no demand for transport or heat",,,capacity_of_energy_hydrogen_solar_pv_solar_radiation
+505,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,Biomass gasification,,500,MW,,,,Mature H2 production route,,,capacity_of_energy_hydrogen_biomass_gasification
+506,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,Steam methane reforming,,2000,MW,,,,"Mature H2 production route, accounting for vast majority of current hydrogen productin in Europe. Relies on gas. Could use CCS",,,capacity_of_energy_hydrogen_steam_methane_reformer_must_run
+507,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,Autothermal reforming,,500,MW,,,,Mature H2 production route. Works well with CCS,,,capacity_of_energy_hydrogen_autothermal_reformer_must_run
+508,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,Ammonia reforming,,0,MW,,,,,,,capacity_of_energy_hydrogen_ammonia_reformer_must_run
+509,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,LH2 regasification,,0,MW,,,,,,,capacity_of_energy_hydrogen_liquid_hydrogen_regasifier
+510,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,LOHC reforming,,0,MW,,,,,,,capacity_of_energy_hydrogen_lohc_reformer
+511,,,,,,Supply,Hydrogen,Hydrogen production,Must-run / volatile hydrogen production,H2 import,,0,MW,,,,,,,capacity_of_energy_imported_hydrogen_baseload
+512,,,,,,Supply,Hydrogen,Hydrogen production,Dispatchable hydrogen production,Steam methane reforming,,0,MW,,,,No dispatchable as storage available,,,capacity_of_energy_hydrogen_steam_methane_reformer_dispatchable
+513,,,,,,Supply,Hydrogen,Hydrogen production,Dispatchable hydrogen production,Autothermal reforming,,0,MW,,,,,,,capacity_of_energy_hydrogen_autothermal_reformer_dispatchable
+514,,,,,,Supply,Hydrogen,Hydrogen production,Dispatchable hydrogen production,Ammonia reforming,,0,MW,,,,,,,capacity_of_energy_hydrogen_ammonia_reformer_dispatchable
+515,,,,,,Supply,Hydrogen,Hydrogen production,Hydrogen transport,Transport via pipelines only,,0%,,,,,,,,energy_hydrogen_transport_pipelines_share
+516,,,,,,Supply,Hydrogen,Hydrogen production,Hydrogen transport,Transport via pipelines and trucks,,100%,,,,,,,,energy_hydrogen_distribution_compressed_trucks_share
+517,,,,,,Supply,Hydrogen,Hydrogen production,Hydrogen storage,Salt caverns,Storage volume,30,TWh,,,,UK Oil & Gas storage facility 1 gets built,,,volume_of_energy_hydrogen_storage_salt_cavern
+518,,,,,,Supply,Hydrogen,Hydrogen production,Hydrogen storage,Salt caverns,Relative storage capacity,250,hrs,,,,UK 2050 ETM default,,,capacity_of_energy_hydrogen_storage_salt_cavern
+519,,,,,,Supply,Hydrogen,Hydrogen production,Hydrogen storage,Depleted gas fields,Storage volume,0,,,,,,,,volume_of_energy_hydrogen_storage_depleted_gas_field
+520,,,,,,Supply,Hydrogen,Hydrogen production,Hydrogen storage,Depleted gas fields,Relative storage capacity,0,,,,,,,,capacity_of_energy_hydrogen_storage_depleted_gas_field
+521,,,,,,Supply,Hydrogen,Hydrogen production,Merit order of dispatchable hydrogen production ,,,Salt cavern hydrogen storage,,Merit order ,,,,,,
+522,,,,,,Supply,Hydrogen,Hydrogen production,Merit order of dispatchable hydrogen production ,,,Depleted gas field hydrogen storage,,,,,,,,
+523,,,,,,Supply,Hydrogen,Hydrogen production,Merit order of dispatchable hydrogen production ,,,Ammonia reforming (dispatchable),,,,,,,,
+524,,,,,,Supply,Hydrogen,Hydrogen production,Merit order of dispatchable hydrogen production ,,,Autothermal reforming (dispatchable),,,,,,,,
+525,,,,,,Supply,Hydrogen,Hydrogen production,Merit order of dispatchable hydrogen production ,,,Steam methane reforming (dispatchable),,,,,,,,
+526,,,,,,Supply,Hydrogen,Hydrogen production,Merit order of dispatchable hydrogen demand,,,Salt cavern hydrogen storage,,Merit order,,,,,,
+527,,,,,,Supply,Hydrogen,Hydrogen production,Merit order of dispatchable hydrogen demand,,,Depleted gas field hydrogen storage,,,,,,,,
+528,,,,,,Supply,Hydrogen,Hydrogen production,Ammonia production,Ammonia import,,0.0,MW,input capacity,,,,,,capacity_of_energy_imported_ammonia_baseload
+529,,,,,,Supply,Transport fuels,Road transport,Composition diesel,Diesel,,90%,%,Biofuel mixes,,,,,,transport_road_mixer_diesel_diesel_share
+530,,,,,,Supply,Transport fuels,Road transport,Composition diesel,Biodiesel,,10%,%,,,,B7 (7% bio) diesel default in 2025,,,transport_road_mixer_diesel_biodiesel_share
+531,,,,,,Supply,Transport fuels,Road transport,Composition gasoline,Gasoline,,85%,%,,,,,,,transport_road_mixer_gasoline_gasoline_share
+532,,,,,,Supply,Transport fuels,Road transport,Composition gasoline,Bio-ethanol,,15%,%,,,,E10 (10% bio) petrol standard in UK in 2025,,,transport_road_mixer_gasoline_ethanol_share
+533,,,,,,Supply,Transport fuels,Road transport,Composition LNG,LNG,,95%,%,,,,,,,transport_road_mixer_lng_lng_share
+534,,,,,,Supply,Transport fuels,Road transport,Composition LNG,Bio-LNG,,5%,%,,,,0% bio LNG standard in 2025,,,transport_road_mixer_lng_bio_lng_share
+535,,,,,,Supply,Transport fuels,Rail transport,Diesel,,,90%,,,,,,,,transport_rail_mixer_diesel_diesel_share
+536,,,,,,Supply,Transport fuels,Rail transport,Biodiesel,,,10%,,,,,,,,transport_rail_mixer_diesel_biodiesel_share
+537,,,,,,Supply,Transport fuels,Domestic navigation,Fuel mix diesel (single / dual / muti-fuel ships),Diesel,,9%,,,,,,,,transport_shipping_mixer_diesel_diesel_share
+538,,,,,,Supply,Transport fuels,Domestic navigation,Fuel mix diesel (single / dual / muti-fuel ships),Biodiesel,,1%,,,,,Mirrors ratio of diesel to biodiesel on roads,,,transport_shipping_mixer_diesel_biodiesel_share
+539,,,,,,Supply,Transport fuels,Domestic navigation,Fuel mix diesel (single / dual / muti-fuel ships),LNG,,42%,,,,,Current ship order book tonnage. LPG (2%) counted as LNG,,,transport_shipping_mixer_diesel_lng_share
+540,,,,,,Supply,Transport fuels,Domestic navigation,Fuel mix diesel (single / dual / muti-fuel ships),Bio-LNG,,0%,,,,,,,,transport_shipping_mixer_diesel_bio_lng_share
+541,,,,,,Supply,Transport fuels,Domestic navigation,Fuel mix diesel (single / dual / muti-fuel ships),Bio-ethanol,,8%,,,,,,,,transport_shipping_mixer_diesel_bio_ethanol_share
+542,,,,,,Supply,Transport fuels,Domestic navigation,Fuel mix diesel (single / dual / muti-fuel ships),Heavy fuel oil,,40%,,,,,,,,transport_shipping_mixer_diesel_heavy_fuel_oil_share
+543,,,,,,Supply,Transport fuels,Domestic navigation,Fuel mix LNG ships,LNG,,95%,,,,,,,,transport_shipping_mixer_lng_lng_share
+544,,,,,,Supply,Transport fuels,Domestic navigation,Fuel mix LNG ships,Bio-LNG,,5%,,,,,,,,transport_shipping_mixer_lng_bio_lng_share
+545,,,,,,Supply,Transport fuels,International aviation,Kerosene,,,80%,,,,,UK matches ReFuelEU's 2035 20% SAF target by 2050,,,bunkers_plane_using_kerosene_share
+546,,,,,,Supply,Transport fuels,International aviation,Bio-kerosene,,,20%,,,,,,,,bunkers_plane_using_bio_kerosene_share
+547,,,,,,Supply,Transport fuels,Biomass,Potential of biomass,Wet biomass,,242.60,PJ,National potential available biomass. UK 2050 ETM default,,,,,,max_demand_of_wet_biomass
+548,,,,,,Supply,Transport fuels,Biomass,Potential of biomass,Dry biomass,,13.10,PJ,,,,,,,max_demand_of_dry_biomass
+549,,,,,,Supply,Transport fuels,Biomass,Potential of biomass,Oil-containing biomass,,249.20,PJ,,,,,,,max_demand_of_oily_biomass
+550,,,,,,Supply,Transport fuels,Biomass,Potential of biomass,Biogenic waste,,143.60,PJ,,,,,,,max_demand_of_biogenic_waste
+551,,,,,,Supply,Transport fuels,Biomass,Gas mix in gas network,Composition of gases in gas network,Natural gas,100%,,"Green gas only used for electricity generation, at utility scale plants",,,,,,energy_treatment_natural_gas_share
+552,,,,,,Supply,Transport fuels,Biomass,Gas mix in gas network,Composition of gases in gas network,Green gas,0.0,,,,,,,,green_gas_total_share
+553,,,,,,Supply,Transport fuels,Biomass,Gas mix in gas network,Composition of gases in gas network,Propane,0.0,,,,,,,,propane_gas_total_share
+554,,,,,,Supply,Transport fuels,Biomass,Gas mix in gas network,Composition of natural gas,Natural gas,70%,,,,,,,,natural_gas_total_share
+555,,,,,,Supply,Transport fuels,Biomass,Gas mix in gas network,Composition of natural gas,Regasified LNG,30%,,2024 figures,,,,,,energy_regasification_lng_share
+556,,,,,,Supply,Transport fuels,Biomass,Green gas production,Anaerobic digestion,,33.3%,,,,,,,,energy_biogas_fermentation_share
+557,,,,,,Supply,Transport fuels,Biomass,Green gas production,Dry biomass gasification,,33.4%,,,,,,,,energy_greengas_gasification_dry_biomass_share
+558,,,,,,Supply,Transport fuels,Biomass,Green gas production,Wet biomass gasification (SCW),,33.3%,,,,,,,,energy_greengas_gasification_wet_biomass_share
+559,,,,,,Supply,Transport fuels,Biomass,Wood pellets in steel production,Wood pellets in cyclone furnace,,0%,,,,,,,,industry_steel_cyclonefurnace_bof_wood_pellets_share
+560,,,,,,Supply,Transport fuels,Biomass,Biocoal and bio-oil in energy plants,Coal plant,Coal,100%,,,,,,,,
+561,,,,,,Supply,Transport fuels,Biomass,Biocoal and bio-oil in energy plants,Coal plant,Biocoal,0%,,,,,,,,co_firing_biocoal_share
+562,,,,,,Supply,Transport fuels,Biomass,Biocoal and bio-oil in energy plants,Gas-fired CHPs from industry,Gas from gas network,100%,,,,,,,,energy_mixer_for_gas_power_fuel_natural_gas_share
+563,,,,,,Supply,Transport fuels,Biomass,Biocoal and bio-oil in energy plants,Gas-fired CHPs from industry,Bio-oil,0%,,,,,,,,energy_mixer_for_gas_power_fuel_bio_oil_share
+564,,,,,,Supply,Transport fuels,Biomass,Biocoal and bio-oil in energy plants,Gas-fired CHPs from industry,Oil,0%,,,,,,,,energy_mixer_for_gas_power_fuel_crude_oil_share
+565,,,,,,Supply,Transport fuels,Biomass,CO2 emissions of biomass,Present,Gas,0.0,,,,,,,,climate_relevant_co2_biomass_gas_present
+566,,,,,,Supply,Transport fuels,Biomass,CO2 emissions of biomass,Present,Liquid,0.0,,,,,,,,climate_relevant_co2_biomass_liquid_present
+567,,,,,,Supply,Transport fuels,Biomass,CO2 emissions of biomass,Present,Solid,0.0,,,,,,,,climate_relevant_co2_biomass_solid_present
+568,,,,,,Supply,Transport fuels,Biomass,CO2 emissions of biomass,Future,Gas,0.0,,,,,,,,climate_relevant_co2_biomass_gas_future
+569,,,,,,Supply,Transport fuels,Biomass,CO2 emissions of biomass,Future,Liquid,0.0,,,,,,,,climate_relevant_co2_biomass_liquid_future
+570,,,,,,Supply,Transport fuels,Biomass,CO2 emissions of biomass,Future,Solid,0.0,,,,,,,,climate_relevant_co2_biomass_solid_future
+571,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix households,Diesel,90%,,Matches road transport split,,,,,,households_diesel_in_crude_oil_share
+572,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix households,Biodiesel,10%,,,,,,,,households_biodiesel_in_crude_oil_share
+573,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix households,Kerosene,0%,,,,,,,,households_kerosene_in_crude_oil_share
+574,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix households,Bio kerosene,0.0,,,,,,,,households_bio_kerosene_in_crude_oil_share
+575,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix households,LPG,0.0,,,,,,,,households_lpg_in_crude_oil_share
+576,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix households,Other oil,0.0,,,,,,,,households_other_oil_in_crude_oil_share
+577,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix households,Other bio oil,0.0,,,,,,,,households_other_bio_oil_in_crude_oil_share
+578,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix buildings,Diesel,90%,,Matches road transport split,,,,,,buildings_diesel_in_crude_oil_share
+579,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix buildings,Biodiesel,10%,,,,,,,,buildings_biodiesel_in_crude_oil_share
+580,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix buildings,Kerosene,0%,,,,,,,,buildings_kerosene_in_crude_oil_share
+581,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix buildings,Bio kerosene,0.0,,,,,,,,buildings_bio_kerosene_in_crude_oil_share
+582,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix buildings,LPG,0.0,,,,,,,,buildings_lpg_in_crude_oil_share
+583,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix buildings,Other oil,0.0,,,,,,,,buildings_other_oil_in_crude_oil_share
+584,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Oil mix buildings,Other bio oil,0.0,,,,,,,,buildings_other_bio_oil_in_crude_oil_share
+585,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix industry,Diesel,63%,,,,,,,,industry_diesel_in_crude_oil_share
+586,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix industry,Biodiesel,7%,,Matches road transport solit,,,,,,industry_biodiesel_in_crude_oil_share
+587,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix industry,Kerosene,0%,,UK doesn’t currently produce kerosene,,,,,,industry_kerosene_in_crude_oil_share
+588,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix industry,Bio kerosene,0%,,,,,,,,industry_bio_kerosene_in_crude_oil_share
+589,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix industry,LPG,0%,,,,,,,,industry_lpg_in_crude_oil_share
+590,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix industry,Other oil,30%,,Crude for industry,,,,,,industry_other_oil_in_crude_oil_share
+591,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix industry,Other bio oil,0%,,,,,,,,industry_other_bio_oil_in_crude_oil_share
+592,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix agriculture,Diesel,63%,,,,,,,,agriculture_diesel_in_crude_oil_share
+593,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix agriculture,Biodiesel,7%,,Matches road transport solit,,,,,,agriculture_biodiesel_in_crude_oil_share
+594,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix agriculture,Kerosene,0%,,UK doesn’t currently produce kerosene,,,,,,agriculture_kerosene_in_crude_oil_share
+595,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix agriculture,Bio kerosene,0%,,,,,,,,agriculture_bio_kerosene_in_crude_oil_share
+596,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix agriculture,LPG,0%,,,,,,,,agriculture_lpg_in_crude_oil_share
+597,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix agriculture,Other oil,30%,,Crude for industry,,,,,,agriculture_other_oil_in_crude_oil_share
+598,,,,,,Supply,Transport fuels,Biomass,Oil mix in demand sectors,Energetic oil mix agriculture,Other bio oil,0%,,,,,,,,agriculture_other_bio_oil_in_crude_oil_share
+599,,,,,,Supply,Transport fuels,Fuel production,Coal,,,0.0,PJ,,,,,,,fuel_production_coal
+600,,,,,,Supply,Transport fuels,Fuel production,Oil,,,563.25,PJ,,,,Quarter of 2020 levels,,,fuel_production_crude_oil
+601,,,,,,Supply,Transport fuels,Fuel production,Natural gas,,,355.5,PJ,,,,Quarter of 2020 levels,,,fuel_production_natural_gas
+602,,,,,,Supply,Transport fuels,Fuel production,Uranium oxide,,,0.0,PJ,,,,,,,fuel_production_uranium_oxide
+603,,,,,42,Flexibility,Electricity storage,Batteries in households,Technical specifications,Market penetration,,InVar,,,0%,90%,,,,households_flexibility_p2p_electricity_market_penetration
+604,,,,,43,Flexibility,Electricity storage,Batteries in households,Technical specifications,Relative storage volume,,InVar,hours,,2,30,Maximum value. Appears to be feasible.,,,settings_enable_storage_optimisation_households_flexibility_p2p_electricity
+605,,,,,,Flexibility,Electricity storage,Batteries in households,Price-sensitive behaviour,Willingness to pay ,,N/A,,,,,,,,wtp_of_households_flexibility_p2p_electricity
+606,,,,,,Flexibility,Electricity storage,Batteries in households,Price-sensitive behaviour,Willingness to accept,,N/A,,,,,,,,wta_of_households_flexibility_p2p_electricity
+607,,,,,,Flexibility,Electricity storage,Batteries in households,Forecasting algorithm,,,Local forecasting algorithm,,,,,,,,settings_enable_storage_optimisation_households_flexibility_p2p_electricity
+608,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Technical specifications cars,Deployable capacity,,21%,,,,,,,,transport_car_using_electricity_availability
+609,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Technical specifications cars,Relative storage volume,,3.0,hours,,,,,,,volume_of_transport_car_using_electricity
+610,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Technical specifications buses,Deployable capacity,,21%,,,,,,,,transport_bus_using_electricity_availability
+611,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Technical specifications buses,Relative storage volume,,4.0,hours,,,,,,,volume_of_transport_bus_using_electricity
+612,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Technical specifications trucks,Deployable capacity,,21%,,,,,,,,transport_truck_using_electricity_availability
+613,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Technical specifications trucks,Relative storage volume,,4.0,hours,,,,,,,volume_of_transport_truck_using_electricity
+614,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Technical specifications vans,Deployable capacity,,21%,,,,,,,,transport_van_using_electricity_availability
+615,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Technical specifications vans,Relative storage volume,,3.0,hours,,,,,,,volume_of_transport_van_using_electricity
+616,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Price-sensitive behaviour,Willingness to pay ,,N/A,,,,,,,,wtp_of_transport_car_flexibility_p2p_electricity
+617,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Price-sensitive behaviour,Willingness to accept,,N/A,,,,,,,,wta_of_transport_car_flexibility_p2p_electricity
+618,,,,,,Flexibility,Electricity storage,Batteries in electric vehicles,Forecasting algorithm,,,ON,OFF / ON,,,,,,,settings_enable_storage_optimisation_transport_car_flexibility_p2p_electricity
+619,,,,,44,Flexibility,Large-scale batteries,Technical specifications,Installed capacity,,,InVar,MW,,0,"127,404",Entire pipeline of BESS projects as of Dec 2024 is realised ,,,capacity_of_energy_flexibility_mv_batteries_electricity
+620,,,,,,Flexibility,Large-scale batteries,Technical specifications,Relative storage volume,,,4.0,hours,,,,This input effectively makes large scale batteries represent current li-ion. Flow battery input has relative storage volume InVar,,,volume_of_energy_flexibility_mv_batteries_electricity
+621,,,,,,Flexibility,Large-scale batteries,Price-sensitive behaviour,Willingness to pay ,,,N/A,,,,,,,,wtp_of_energy_flexibility_mv_batteries_electricity
+622,,,,,,Flexibility,Large-scale batteries,Price-sensitive behaviour,Willingness to accept,,,N/A,,,,,,,,wta_of_energy_flexibility_mv_batteries_electricity
+623,,,,,,Flexibility,Large-scale batteries,Forecasting algorithm,,,,ON,OFF / ON,,,,,,,settings_enable_storage_optimisation_energy_flexibility_mv_batteries_electricity
+624,,,,,,Flexibility,Reservoirs,Technical specifications,Installed capacity,,,9.7,GW,,,,,,,capacity_of_energy_flexibility_pumped_storage_electricity
+625,,,,,,Flexibility,Reservoirs,Technical specifications,Relative storage volume,,,19.6,hours,,,,,,,volume_of_energy_flexibility_pumped_storage_electricity
+626,,,,,,Flexibility,Reservoirs,Price-sensitive behaviour,Willingness to pay ,,,N/A,,,,,,,,wtp_of_energy_flexibility_pumped_storage_electricity
+627,,,,,,Flexibility,Reservoirs,Price-sensitive behaviour,Willingness to accept,,,N/A,,,,,,,,wta_of_energy_flexibility_pumped_storage_electricity
+628,,,,,,Flexibility,Reservoirs,Forecasting algorithm,,,,ON,OFF / ON,,,,,,,settings_enable_storage_optimisation_energy_flexibility_pumped_storage_electricity
+629,,,,,,Flexibility,Underground pumped hydro storage,Technical specifications,Installed capacity,,,0.0,,,,,,,,capacity_of_energy_flexibility_hv_opac_electricity
+630,,,,,,Flexibility,Underground pumped hydro storage,Technical specifications,Relative storage volume,,,19.6,hours,,,,,,,volume_of_energy_flexibility_hv_opac_electricity
+631,,,,,,Flexibility,Underground pumped hydro storage,Price-sensitive behaviour,Willingness to pay ,,,N/A,,,,,,,,wtp_of_energy_flexibility_hv_opac_electricity
+632,,,,,,Flexibility,Underground pumped hydro storage,Price-sensitive behaviour,Willingness to accept,,,N/A,,,,,,,,wta_of_energy_flexibility_hv_opac_electricity
+633,,,,,,Flexibility,Underground pumped hydro storage,Forecasting algorithm,,,,ON,OFF / ON,,,,,,,settings_enable_storage_optimisation_energy_flexibility_hv_opac_electricity
+634,,,,,45,Flexibility,Flow batteries,Technical specifications,Installed capacity,,,InVar,,,0,"127,404",See large scale batteries. Max value shared. ,,,capacity_of_energy_flexibility_flow_batteries_electricity
+635,,,,,46,Flexibility,Flow batteries,Technical specifications,Relative storage volume,,,InVar,hours,,48,,Double House of Lords maximum value (likely an economic rather than technical max),,,volume_of_energy_flexibility_flow_batteries_electricity
+636,,,,,,Flexibility,Flow batteries,Price-sensitive behaviour,Willingness to pay ,,,N/A,,,,,,,,wtp_of_energy_flexibility_flow_batteries_electricity
+637,,,,,,Flexibility,Flow batteries,Price-sensitive behaviour,Willingness to accept,,,N/A,,,,,,,,wta_of_energy_flexibility_flow_batteries_electricity
+638,,,,,,Flexibility,Flow batteries,Forecasting algorithm,,,,ON,OFF / ON,,,,,,,settings_enable_storage_optimisation_energy_flexibility_flow_batteries_electricity
+639,,,,,47,Flexibility,Wind turbines with storage systems,Onshore inland wind turbines,Relative grid connection capacity,,,InVar,,,0,90%,,,,connection_capacity_always_on_wind_turbine_inland
+640,,,,,48,Flexibility,Wind turbines with storage systems,Onshore inland wind turbines,Relative battery capacity,,,InVar,,,0%,500%,Test the full range,,,battery_capacity_always_on_wind_turbine_inland
+641,,,,,49,Flexibility,Wind turbines with storage systems,Onshore inland wind turbines,Relative storage volume,,,InVar,hours,,1.6,30,,,,volume_of_energy_flexibility_wind_batteries_electricity
+642,,,,,50,Flexibility,Solar plants with storage systems,Solar PV plants,Relative grid connection capacity,,,InVar,,,0,90%,,,,connection_capacity_always_on_solar_pv_solar_radiation
+643,,,,,51,Flexibility,Solar plants with storage systems,Solar PV plants,Relative battery capacity,,,InVar,,,0%,500%,Test the full range,,,battery_capacity_always_on_solar_pv_solar_radiation
+644,,,,,52,Flexibility,Solar plants with storage systems,Solar PV plants,Relative storage volume,,,InVar,,,1.6,30,,,,volume_of_energy_flexibility_solar_batteries_electricity
+645,,,,,,Flexibility,Merit order,Solar PV plants,,,,Batteries in electric cars,,,,,,,,
+646,,,,,,Flexibility,Merit order,Solar PV plants,,,,Batteries in electric vans,,,,,,,,
+647,,,,,,Flexibility,Merit order,Solar PV plants,,,,Batteries in electric buses,,,,,,,,
+648,,,,,,Flexibility,Merit order,Solar PV plants,,,,Batteries in electric trucks,,,,,,,,
+649,,,,,,Flexibility,Merit order,Solar PV plants,,,,Batteries in households,,,,,,,,
+650,,,,,,Flexibility,Merit order,Solar PV plants,,,,Large-scale batteries,,,,,,,,
+651,,,,,,Flexibility,Merit order,Solar PV plants,,,,Flow batteries,,,,,,,,
+652,,,,,,Flexibility,Merit order,Solar PV plants,,,,Underground pumped hydro storage,,,,,,,,
+653,,,,,,Flexibility,Merit order,Solar PV plants,,,,Reservoirs,,,,,,,,
+654,,,,,,Flexibility,Electricity conversion,Conversion to hydrogen,Capacity,Power-to-gas,,"1,000.0",,Makes up part of 5GW H2 production capacity (see Flexibility > Hydrogen for the rest),,,,,,capacity_of_energy_hydrogen_flexibility_p2g_electricity
+655,,,,,,Flexibility,Electricity conversion,Conversion to hydrogen,Willingness to pay,Power-to-gas,,30.0,EUR/MWh,UK 2020 ETM default,,,,,,wtp_of_energy_hydrogen_flexibility_p2g_electricity
+656,,,,,,Flexibility,Electricity conversion,Conversion to heat for district heating,Capacity,Power-to-heat boiler,,0.0,MW,UK 2020 ETM default. No district heating so irrelevant,,,,,,capacity_of_energy_heat_flexibility_p2h_boiler_electricity
+657,,,,,,Flexibility,Electricity conversion,Conversion to heat for district heating,Capacity,Power-to-heat heat pump,,0.0,MW,,,,,,,capacity_of_energy_heat_flexibility_p2h_heatpump_electricity
+658,,,,,,Flexibility,Electricity conversion,Conversion to heat for district heating,Willingness to pay,Power-to-heat boiler,,19.0,EUR/MWh,,,,,,,wtp_of_energy_heat_flexibility_p2h_boiler_electricity
+659,,,,,,Flexibility,Electricity conversion,Conversion to heat for district heating,Willingness to pay,Power-to-heat heat pump,,20.0,EUR/MWh,,,,,,,wtp_of_energy_heat_flexibility_p2h_heatpump_electricity
+660,,,,,,Flexibility,Electricity conversion,Conversion to heat for industry,Willingness to pay ,Power-to-heat for refineries,,22.0,EUR/MWh,UK 2020 ETM default,,,,,,wtp_of_industry_chemicals_refineries_flexibility_p2h_electricity
+661,,,,,,Flexibility,Electricity conversion,Conversion to heat for industry,Willingness to pay ,Power-to-heat for fertiliser industry,,22.0,EUR/MWh,,,,,,,wtp_of_industry_chemicals_fertilizers_flexibility_p2h_electricity
+662,,,,,,Flexibility,Electricity conversion,Conversion to heat for industry,Willingness to pay ,Power-to-heat boiler for chemical industry,,22.0,EUR/MWh,,,,,,,wtp_of_industry_chemicals_other_flexibility_p2h_electricity
+663,,,,,,Flexibility,Electricity conversion,Conversion to heat for industry,Willingness to pay ,Power-to-heat boiler for food industry,,22.0,EUR/MWh,,,,,,,wtp_of_industry_other_food_flexibility_p2h_electricity
+664,,,,,,Flexibility,Electricity conversion,Conversion to heat for industry,Willingness to pay ,Power-to-heat boiler for paper industry,,22.0,EUR/MWh,,,,,,,wtp_of_industry_other_paper_flexibility_p2h_electricity
+665,,,,,,Flexibility,Electricity conversion,Conversion to heat for agriculture,Willingness to pay,Power-to-heat boiler for agriculture,,22.0,EUR/MWh,UK 2020 ETM default,,,,,,wtp_of_agriculture_flexibility_p2h_electricity
+666,,,,,,Flexibility,Electricity conversion,Conversion to kerosene,Willingness to pay ,Dispatchable synthetic kerosene for industry,,22.0,EUR/MWh,,,,,,,wtp_of_energy_production_synthetic_kerosene_dispatchable
+667,,,,,,Flexibility,Net load,Curtailment - solar PV,Curtailment,Solar PV households,,5%,,Low but meaningful curtailment under a well-managed grid scenario,,,,,,curtailment_of_households_solar_pv_solar_radiation
+668,,,,,,Flexibility,Net load,Curtailment - solar PV,Curtailment,Solar PV buildings,,5%,,,,,,,,curtailment_of_buildings_solar_pv_solar_radiation
+669,,,,,,Flexibility,Net load,Curtailment - solar PV,Curtailment,Solar PV plants,,5%,,,,,,,,curtailment_of_energy_power_solar_pv_solar_radiation
+670,,,,,,Flexibility,Net load,Curtailment - solar PV,Curtailment,Solar PV plants offshore,,5%,,,,,,,,curtailment_of_energy_power_solar_pv_offshore
+671,,,,,,Flexibility,Net load,Hybrid offshore wind - components,Relative capacity,Offshore electrolyser,,50%,,UK 2020 ETM default. No capacity installed,,,,,,relative_capacity_of_electrolyser
+672,,,,,,Flexibility,Net load,Hybrid offshore wind - components,Relative capacity,Offshore electricity cable,,50%,,,,,,,,relative_capacity_of_offshore_cable
+673,,,,,,Flexibility,Net load,Hybrid offshore wind - components,Willingness to pay,Offshore electrolyser,,30.0,EUR/MWh,UK 2020 ETM default. No capacity installed,,,,,,wtp_of_energy_hydrogen_hybrid_electrolysis_wind_electricity
+674,,,,,53,Flexibility,Net load,Demand response - load shifting in industry,Load shifting metal industry,Load reduction capacity,,InVar,,,0%,25%,,,,capacity_of_industry_metal_flexibility_load_shifting_electricity
+675,,,,,54,Flexibility,Net load,Demand response - load shifting in industry,,Load increase capacity,,InVar,,,0%,25%,,,,input_capacity_of_industry_metal_flexibility_load_shifting_electricity
+676,,,,,55,Flexibility,Net load,Demand response - load shifting in industry,,Willingness to accept,,InVar,EUR/MWh,,1,3000,Full ETM range,,,wta_of_industry_metal_flexibility_load_shifting_electricity
+677,,,,,56,Flexibility,Net load,Demand response - load shifting in industry,,Deficit limit,,InVar,hours,,1,500,Full ETM range,,,deficit_limit_of_industry_metal_flexibility_load_shifting_electricity
+678,,,,,57,Flexibility,Net load,Demand response - load shifting in industry,Load shifting chemical industry,Load reduction capacity,,ETM Change Var,,All industries see same load shifting capacity,,,,,,capacity_of_industry_chemical_flexibility_load_shifting_electricity
+679,,,,,58,Flexibility,Net load,Demand response - load shifting in industry,,Load increase capacity,,ETM Change Var,,,,,,,,input_capacity_of_industry_chemical_flexibility_load_shifting_electricity
+680,,,,,59,Flexibility,Net load,Demand response - load shifting in industry,,Willingness to accept,,ETM Change Var,,,,,,,,wta_of_industry_chemical_flexibility_load_shifting_electricity
+681,,,,,60,Flexibility,Net load,Demand response - load shifting in industry,,Deficit limit,,ETM Change Var,,,,,,,,deficit_limit_of_industry_chemical_flexibility_load_shifting_electricity
+682,,,,,61,Flexibility,Net load,Demand response - load shifting in industry,Load shifting other industry,Load reduction capacity,,ETM Change Var,,All industries see same load shifting capacity,,,,,,capacity_of_industry_other_flexibility_load_shifting_electricity
+683,,,,,62,Flexibility,Net load,Demand response - load shifting in industry,,Load increase capacity,,ETM Change Var,,,,,,,,input_capacity_of_industry_other_flexibility_load_shifting_electricity
+684,,,,,63,Flexibility,Net load,Demand response - load shifting in industry,,Willingness to accept,,ETM Change Var,,,,,,,,wta_of_industry_other_flexibility_load_shifting_electricity
+685,,,,,64,Flexibility,Net load,Demand response - load shifting in industry,,Deficit limit,,ETM Change Var,,,,,,,,deficit_limit_of_industry_other_flexibility_load_shifting_electricity
+686,,,,,65,Flexibility,Net load,Demand response - load shifting in industry,Load shifting ICT,Load reduction capacity,,ETM Change Var,,All industries see same load shifting capacity,,,,,,capacity_of_industry_other_ict_flexibility_load_shifting_electricity
+687,,,,,66,Flexibility,Net load,Demand response - load shifting in industry,,Load increase capacity,,ETM Change Var,,,,,,,,input_capacity_of_industry_other_ict_flexibility_load_shifting_electricity
+688,,,,,67,Flexibility,Net load,Demand response - load shifting in industry,,Willingness to accept,,ETM Change Var,,,,,,,,wta_of_industry_other_ict_flexibility_load_shifting_electricity
+689,,,,,68,Flexibility,Net load,Demand response - load shifting in industry,,Deficit limit,,ETM Change Var,,,,,,,,deficit_limit_of_industry_other_ict_flexibility_load_shifting_electricity
+690,,,,,69,Flexibility,Net load,Demand response - electric vehicles,Charging strategy for electric vehicles,Public charging,,InVar,%,of total,0%,100%,Has a major grid impact,,,transport_car_using_electricity_public_charging_share
+691,,,,,70,Flexibility,Net load,Demand response - electric vehicles,Charging strategy for electric vehicles,Charging at home,,InVar,%,,0%,100%,,,,transport_car_using_electricity_home_charging_share
+692,,,,,71,Flexibility,Net load,Demand response - electric vehicles,Charging strategy for electric vehicles,Fast charging,,InVar,%,,0%,100%,,,,transport_car_using_electricity_fast_charging_share
+693,,,,,72,Flexibility,Net load,Demand response - electric vehicles,Charging strategy for electric vehicles,Charging at work,,InVar,%,,0%,100%,,,,transport_car_using_electricity_work_charging_share
+694,,,,,,Flexibility,Net load,Demand response - electric vehicles,Charging strategy for electric vehicles,Custom profile,,0.0,,,,,,,,transport_car_using_electricity_custom_profile_charging_share
+695,,,,,,Flexibility,Net load,Demand response - behaviour of hybrid heat pumps,Threshold COP for hybrid heat pumps,Space heating (gas),,2.6,,UK 2020 ETM default,,,,,,flexibility_heat_pump_space_heating_cop_cutoff_gas
+696,,,,,,Flexibility,Net load,Demand response - behaviour of hybrid heat pumps,,Space heating (oil),,3.5,,,,,,,,flexibility_heat_pump_space_heating_cop_cutoff_crude_oil
+697,,,,,,Flexibility,Net load,Demand response - behaviour of hybrid heat pumps,,Hot water,,6.0,,,,,,,,flexibility_heat_pump_water_heating_cop_cutoff
+698,,,,,73,Flexibility,Net load,Demand response - behaviour of hybrid heat pumps,Consumer prices incl. taxes,Gas price,,InVar,EUR ct/m3,,70,200,Full ETM range,,,households_flexibility_consumer_gas_price
+699,,,,,74,Flexibility,Net load,Demand response - behaviour of hybrid heat pumps,,Electricity price,,InVar,EUR ct/m3,,10,80,Full ETM range,,,households_flexibility_consumer_electricity_price
+700,,,,,75,Flexibility,Import/Export,Interconnector 1,Interconnector capacity,,,InVar,,,9800,49000,Current capacity to 5x current capacity. NESO found 18.2 GW to 29.5 GW interconnection capacity by 2041 would be ideal for the UK. My manual ETM manipulation found a 42GW optimum for minimising blackout hours ,,,electricity_interconnector_1_capacity
+701,,,,,76,Flexibility,Import/Export,Interconnector 1,Availability for import,,,InVar,,,10%,90%,,,,electricity_interconnector_1_import_availability
+702,,,,,77,Flexibility,Import/Export,Interconnector 1,Availability for export,,,InVar,,,10%,90%,,,,electricity_interconnector_1_export_availability
+703,,,,,,Flexibility,Import/Export,Interconnector 1,CO2 emissions,Present import,,275.9,g CO2/kWh,European grid avg 2014,,,,,,electricity_interconnector_1_co2_emissions_present
+704,,,,,,Flexibility,Import/Export,Interconnector 1,CO2 emissions,Future import,,100.0,g CO2/kWh,"Assume Western European grid is majority decarbonised by 2050. In 2024, Denmark reached 173g CO2/kWh",,,,,,electricity_interconnector_1_co2_emissions_future
+705,,,,,78,Flexibility,Import/Export,Interconnector 1,Costs,Cost of electricity in external market,,InVar,,,36.122,145.71,"Averaged 2015-25 prices for all countries interconnected to the UK, assumed 1% compounded price reduction pa for the minimum and 1% compounded increase pa for the max",,,electricity_interconnector_1_marginal_costs
+706,,,,,,Flexibility,Import/Export,Interconnector 2 to 12,Interconnector capacity,,,0,,,,,,,A,electricity_interconnector_1_capacity
+707,,,,,,Flexibility,Import/Export,Interconnector 2 to 12,Availability for import,,,100%,,,,,,,A,electricity_interconnector_1_import_availability
+708,,,,,,Flexibility,Import/Export,Interconnector 2 to 12,Availability for export,,,100%,,,,,,,A,electricity_interconnector_1_export_availability
+709,,,,,,Flexibility,Import/Export,Interconnector 2 to 12,CO2 emissions,Present import,,370,g/kWh,,,,,,A,electricity_interconnector_1_co2_emissions_present
+710,,,,,,Flexibility,Import/Export,Interconnector 2 to 12,CO2 emissions,Future import,,370,g/kWh,,,,,,A,electricity_interconnector_1_co2_emissions_future
+711,,,,,,Flexibility,Import/Export,Interconnector 2 to 12,Costs,Cost of electricity in external market,,37.6,EUR/MWh,,,,,,A,electricity_interconnector_1_marginal_costs
+712,,,,,,Flexibility,Weather conditions,Temperature,Outdoor temperature,,,0,degC,Change from base year,,,UK govt report suggests minimal change in heating and cooling demand specifically due to change in climate - plus this is a highly uncertain variable,,,flexibility_outdoor_temperature
+713,,,,,79,Flexibility,Weather conditions,Full load hours,Onshore inland,,,InVar,#,hours per year,2482,3500,"Full ETM range. Models onshore and offshore combined, which averaged 3819h and 2181h in 2023 in the UK respectively (Statista, DESNZ)",,,flh_of_energy_power_wind_turbine_inland
+714,,,,,,Flexibility,Weather conditions,Full load hours,Onshore coastal,,,2644,#,hours per year,,,,,,flh_of_energy_power_wind_turbine_coastal
+715,,,,,,Flexibility,Weather conditions,Full load hours,Offshore,,,3734,#,hours per year,,,,,,flh_of_energy_power_wind_turbine_offshore
+716,,,,,,Flexibility,Weather conditions,Full load hours,Offshore wind turbine for H2,,,4000,#,hours per year,,,,,,flh_of_energy_hydrogen_wind_turbine_offshore
+717,,,,,80,Flexibility,Weather conditions,Full load hours,Solar PV,,,InVar,#,hours per year,755,1150,ETM minimum to UK 2023 solar PV average (920h) +25%,,,flh_of_solar_pv_solar_radiation
+718,,,,,,Emissions,Greenhouse gases,Built Environment,Non-energetic emissions (other greenhouse gases),Households,,67%,change,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_energetic_emissions_other_ghg_households
+719,,,,,,Emissions,Greenhouse gases,Built Environment,Non-energetic emissions (other greenhouse gases),Buildings,,67%,,,,,,,,change_in_energetic_emissions_other_ghg_buildings
+720,,,,,,Emissions,Greenhouse gases,Transport,Non-energetic emissions (other greenhouse gases),Transport,,67%,,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_energetic_emissions_other_ghg_transport
+721,,,,,,Emissions,Greenhouse gases,Industry and Energy,Non-energetic emissions (CO2),Chemical industry,,67%,change,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_non_energetic_emissions_co2_chemical_industry
+722,,,,,,Emissions,Greenhouse gases,Industry and Energy,Non-energetic emissions (CO2),Waste management,,67%,,,,,,,,change_in_non_energetic_emissions_co2_waste_management
+723,,,,,,Emissions,Greenhouse gases,Industry and Energy,Non-energetic emissions (CO2),Other industry,,67%,,,,,,,,change_in_non_energetic_emissions_co2_other_industry
+724,,,,,,Emissions,Greenhouse gases,Industry and Energy,Non-energetic emissions (other greenhouse gases),Chemical industry,,67%,change,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_non_energetic_emissions_other_ghg_chemical_industry
+725,,,,,,Emissions,Greenhouse gases,Industry and Energy,Non-energetic emissions (other greenhouse gases),Waste management,,67%,,,,,,,,change_in_non_energetic_emissions_other_ghg_waste_management
+726,,,,,,Emissions,Greenhouse gases,Industry and Energy,Non-energetic emissions (other greenhouse gases),Other industry,,67%,,,,,,,,change_in_non_energetic_emissions_other_ghg_other_industry
+727,,,,,,Emissions,Greenhouse gases,Industry and Energy,Energetic emissions (other greenhouse gases),Industry,,67%,change,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_energetic_emissions_other_ghg_industry
+728,,,,,,Emissions,Greenhouse gases,Industry and Energy,Energetic emissions (other greenhouse gases),Energy sector,,67%,,,,,,,,change_in_energetic_emissions_other_ghg_energy
+729,,,,,,Emissions,Greenhouse gases,Agriculture,Non-energetic emissions (CO2),Manure,,67%,change,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_non_energetic_emissions_co2_agriculture_manure
+730,,,,,,Emissions,Greenhouse gases,Agriculture,Non-energetic emissions (CO2),Soil cultivation,,67%,,,,,,,,change_in_non_energetic_emissions_co2_agriculture_soil_cultivation
+731,,,,,,Emissions,Greenhouse gases,Agriculture,Non-energetic emissions (other greenhouse gases),Manure,,67%,change,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_non_energetic_emissions_other_ghg_agriculture_manure
+732,,,,,,Emissions,Greenhouse gases,Agriculture,Non-energetic emissions (other greenhouse gases),Soil cultivation,,67%,,,,,,,,change_in_non_energetic_emissions_other_ghg_agriculture_soil_cultivation
+733,,,,,,Emissions,Greenhouse gases,Agriculture,Non-energetic emissions (other greenhouse gases),Fermentation,,67%,,,,,,,,change_in_non_energetic_emissions_other_ghg_agriculture_fermentation
+734,,,,,,Emissions,Greenhouse gases,Agriculture,Non-energetic emissions (other greenhouse gases),Other activities,,67%,,,,,,,,change_in_non_energetic_emissions_other_ghg_agriculture_other
+735,,,,,,Emissions,Greenhouse gases,Agriculture,Energetic emissions (other greenhouse gases),Agriculture,,67%,change,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_energetic_emissions_other_ghg_agriculture
+736,,,,,,Emissions,Greenhouse gases,Indirect emissions,Indirect emissions,,,67%,change,from 100% as base year,,,"33% reduction, approx 1% per year",,,change_in_indirect_emissions_co2
+737,,,,,,Emissions,Greenhouse gases,Delayed emissions,Delayed emitted,,,100%,share,of Co2 emissions which are included in emissions calculations,,,,,,share_of_molecules_other_utilisation_delayed_emitted_co2
+738,,,,,,Emissions,Greenhouse gases,Delayed emissions,Indefinitely delayed,,,0%,share,corollary of the above,,,,,,share_of_molecules_other_utilisation_delayed_indefinitely_co2
+739,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Direct air capture,Direct air capture (DAC),,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,demand_of_molecules_direct_air_capture_co2
+740,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Conventional power plants,Pulverised coal + CCS,,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,share_of_energy_power_ultra_supercritical_ccs_coal
+741,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Conventional power plants,Coal IGCC + CCS,,0%,,,,,,,,share_of_energy_power_combined_cycle_ccs_coal
+742,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Conventional power plants,Gas CCGT + CCS,,0%,,,,,,,,share_of_energy_power_combined_cycle_ccs_network_gas
+743,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Conventional power plants,Waste CHP + CCS (HT),,0%,,,,,,,,share_of_energy_chp_supercritical_ccs_ht_waste_mix
+744,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Conventional power plants,Waste CHP + CCS (MT),,0%,,,,,,,,share_of_energy_chp_supercritical_ccs_mt_waste_mix
+745,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Conventional power plants,Waste incinerator + CCS,,0%,,,,,,,,share_of_energy_power_supercritical_ccs_waste_mix
+746,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Biomass power plants,Biomass power plant + CCS (must-run),,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,share_of_energy_power_wood_pellets_ccs_must_run
+747,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Biomass power plants,Biomass power plant + CCS (dispatchable),,0%,,,,,,,,share_of_energy_power_wood_pellets_ccs_dispatchable
+748,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Biomass power plants,Biomass CHP + CCS (MT) (must-run),,0%,,,,,,,,share_of_energy_chp_local_mt_wood_pellets_ccs_must_run
+749,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Biomass power plants,Biomass CHP + CCS (MT) (dispatchable),,0%,,,,,,,,share_of_energy_chp_local_mt_wood_pellets_ccs_dispatchable
+750,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Biomass power plants,Biomass CHP + CCS (HT) (must-run),,0%,,,,,,,,share_of_energy_chp_local_ht_wood_pellets_ccs_must_run
+751,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Biomass power plants,Biomass CHP + CCS (HT) (dispatchable),,0%,,,,,,,,share_of_energy_chp_local_ht_wood_pellets_ccs_dispatchable
+752,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Hydrogen,Steam methane reforming (must-run) + CCS,,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,share_of_energy_hydrogen_steam_methane_reformer_ccs_must_run
+753,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Hydrogen,Autothermal reforming (must-run) + CCS,,0%,,,,,,,,share_of_energy_hydrogen_autothermal_reformer_ccs_must_run
+754,,,,,,Emissions,CCUS,Capture of CO2 in energy sector,Hydrogen,Biomass gasification + CCS,,0%,,,,,,,,share_of_energy_hydrogen_biomass_gasification_ccs
+755,,,,,,Emissions,CCUS,Capture of CO2 in industry sector ,Industry,Steel industry,,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,share_of_industry_steel_captured_co2
+756,,,,,,Emissions,CCUS,Capture of CO2 in industry sector ,Industry,Fertilizer industry (process),,0%,,,,,,,,share_of_industry_chemicals_fertilizers_captured_processes_co2
+757,,,,,,Emissions,CCUS,Capture of CO2 in industry sector ,Industry,Fertilizer industry (combustion),,0%,,,,,,,,share_of_industry_chemicals_fertilizers_captured_combustion_co2
+758,,,,,,Emissions,CCUS,Capture of CO2 in industry sector ,Industry,Paper industry,,0%,,,,,,,,share_of_industry_other_paper_captured_co2
+759,,,,,,Emissions,CCUS,Capture of CO2 in industry sector ,Industry,Food industry,,0%,,,,,,,,share_of_industry_other_food_captured_co2
+760,,,,,,Emissions,CCUS,Import of CO2,Import CO2,,,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,volume_of_molecules_import_co2_baseload
+761,,,,,,Emissions,CCUS,Utilisation and storage of CO2,Sequestration ,Offshore storage,,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,demand_of_molecules_offshore_sequestration_co2
+762,,,,,,Emissions,CCUS,Utilisation and storage of CO2,Utilisation (must-run),Synthetic kerosene,,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,output_of_energy_production_synthetic_kerosene_must_run
+763,,,,,,Emissions,CCUS,Utilisation and storage of CO2,Utilisation (must-run),Synthetic methanol,,0%,,,,,,,,output_of_energy_production_synthetic_methanol
+764,,,,,,Emissions,CCUS,Utilisation and storage of CO2,Utilisation (must-run),Other utilisation,,0%,,,,,,,,demand_of_molecules_other_utilisation_co2
+765,,,,,,Emissions,CCUS,Utilisation and storage of CO2,Utilisation (dispatchable),Synthetic kerosene,,0%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,capacity_of_energy_production_synthetic_kerosene_dispatchable
+766,,,,,,Emissions,CCUS,Utilisation and storage of CO2,Transport of CO2,Pipelines,,50%,,,,,Exclude carbon capture in initial analysis. Use later for comparing optimum points,,,share_of_molecules_transport_pipelines_co2
+767,,,,,,Emissions,CCUS,Utilisation and storage of CO2,Transport of CO2,Liquefied in ships,,50%,,,,,,,,share_of_molecules_transport_ships_co2
+768,,,,,,Emissions,Emission factors,CO2 emissions of imported heat,CO2 emissions of imported heat,,,0.0,,,,,No imported heat,,,co2_emissions_of_imported_heat
+769,,,,,,Emissions,Emission factors,CO2 emissions of imported hydrogen carriers and ammonia,Hydrogen,,,140.5,kg/MWh,,,,"Half produced by steam methane reforming, half from zero carbon sources",,,co2_emissions_of_imported_hydrogen_future
+770,,,,,,Emissions,Emission factors,CO2 emissions of imported hydrogen carriers and ammonia,Liquid hydrogen,,,140.5,kg/MWh,,,,,,,co2_emissions_of_imported_liquid_hydrogen_future
+771,,,,,,Emissions,Emission factors,CO2 emissions of imported hydrogen carriers and ammonia,LOHC,,,148.0,kg/MWh,,,,See above. Half of default ETM value (which reflects 100% steam methane reforming),,,co2_emissions_of_imported_lohc_future
+772,,,,,,Emissions,Emission factors,CO2 emissions of imported hydrogen carriers and ammonia,Ammonia,,,174.0,kg/MWh,,,,See above. Half of default ETM value (which reflects 100% steam methane reforming),,,co2_emissions_of_imported_ammonia_future
+773,,,,,,Costs & efficiencies,Electricity,Coal plants,Costs,Investment costs coal plant,,0%,,,,,,,,investment_costs_combustion_coal_plant
+774,,,,,,Costs & efficiencies,Electricity,Coal plants,Costs,O&M costs coal plant,,0%,,,,,,,,om_costs_combustion_coal_plant
+775,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Pulverized coal,,46%,,,,,,,,efficiency_energy_chp_ultra_supercritical_coal_electricity
+776,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Pulverized coal with co-firing,,42%,,,,,,,,efficiency_energy_chp_ultra_supercritical_coal_heat
+777,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Coal IGCC,,45%,,,,,,,,efficiency_energy_chp_ultra_supercritical_cofiring_coal_electricity
+778,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Coal conventional ,,34%,,,,,,,,efficiency_energy_chp_ultra_supercritical_cofiring_coal_heat
+779,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Coal CHP - electricity,,40%,,,,,,,,efficiency_energy_power_combined_cycle_coal
+780,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Coal CHP - heat,,40%,,,,,,,,efficiency_energy_power_supercritical_coal
+781,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Co-firing coal CHP - electricity,,37%,,,,,,,,efficiency_energy_power_ultra_supercritical_coal
+782,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Co-firing coal CHP - heat,,14%,,,,,,,,efficiency_energy_power_ultra_supercritical_cofiring_coal
+783,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Coal CHP (industry) - electricity,,42%,,,,,,,,efficiency_industry_chp_ultra_supercritical_coal_electricity
+784,,,,,,Costs & efficiencies,Electricity,Coal plants,Efficiencies (LHV),Coal CHP (industry) - heat,,0%,,,,,,,,efficiency_industry_chp_ultra_supercritical_coal_heat
+785,,,,,,Costs & efficiencies,Electricity,Gas plants,Costs,Investment costs gas plant,,0%,,,,,,,,investment_costs_combustion_gas_plant
+786,,,,,,Costs & efficiencies,Electricity,Gas plants,Costs,O&M costs gas plant,,0%,,,,,,,,om_costs_combustion_gas_plant
+787,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies energy sector (LHV),Gas CCGT,,60%,,Upper end of existing range,,,,,,efficiency_energy_power_combined_cycle_network_gas
+788,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies energy sector (LHV),Gas turbine,,34%,,,,,,,,efficiency_energy_power_turbine_network_gas
+789,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies energy sector (LHV),Gas conventional,,50%,,,,,,,,efficiency_energy_power_ultra_supercritical_network_gas
+790,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies energy sector (LHV),Gas combustion engine,,48%,,,,,,,,efficiency_energy_power_engine_network_gas
+791,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies energy sector (LHV),Large-scale gas CHP - electricity,,46%,,,,,,,,efficiency_energy_chp_combined_cycle_network_gas_electricity
+792,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies energy sector (LHV),Large-scale gas CHP - heat,,42%,,,,,,,,efficiency_energy_chp_combined_cycle_network_gas_heat
+793,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies energy sector (LHV),Small-scale gas CHP - electricity,,43%,,,,,,,,efficiency_energy_chp_local_engine_network_gas_electricity
+794,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies energy sector (LHV),Small-scale gas CHP - heat,,47%,,,,,,,,efficiency_energy_chp_local_engine_network_gas_heat
+795,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies industry sector (LHV),Gas CCGT CHP - electricity,,58%,,,,,,,,efficiency_industry_chp_combined_cycle_gas_power_fuelmix_electricity
+796,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies industry sector (LHV),Gas CCGT CHP - heat,,0%,,,,,,,,efficiency_industry_chp_combined_cycle_gas_power_fuelmix_heat
+797,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies industry sector (LHV),Gas motor CHP - electricity,,42%,,,,,,,,efficiency_industry_chp_engine_gas_power_fuelmix_electricity
+798,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies industry sector (LHV),Gas motor CHP - heat,,48%,,,,,,,,efficiency_industry_chp_engine_gas_power_fuelmix_heat
+799,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies industry sector (LHV),Gas turbine CHP - electricity ,,38%,,,,,,,,efficiency_industry_chp_turbine_gas_power_fuelmix_electricity
+800,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies industry sector (LHV),Gas turbine CHP - heat,,42%,,,,,,,,efficiency_industry_chp_turbine_gas_power_fuelmix_heat
+801,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies agricultural sector (LHV),Gas motor CHP (dispatchable) - electricity,,43%,,,,,,,,efficiency_agriculture_chp_engine_dispatchable_network_gas_electricity
+802,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies agricultural sector (LHV),Gas motor CHP (dispatchable) - heat,,47%,,,,,,,,efficiency_agriculture_chp_engine_dispatchable_network_gas_heat
+803,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies agricultural sector (LHV),Gas motor CHP (must-run) - electricity,,43%,,,,,,,,efficiency_agriculture_chp_engine_must_run_network_gas_electricity
+804,,,,,,Costs & efficiencies,Electricity,Gas plants,Efficiencies agricultural sector (LHV),Gas motor CHP (must-run) - heat,,47%,,,,,,,,efficiency_agriculture_chp_engine_must_run_network_gas_heat
+805,,,,,,Costs & efficiencies,Electricity,Oil plants,Costs,Investment costs oil plants,,0%,,,,,,,,investment_costs_combustion_oil_plant
+806,,,,,,Costs & efficiencies,Electricity,Oil plants,Costs,O&M costs oil plants,,0%,,,,,,,,om_costs_combustion_oil_plant
+807,,,,,,Costs & efficiencies,Electricity,Oil plants,Efficiencies (LHV),Oil-fired,,36%,,,,,,,,efficiency_energy_power_ultra_supercritical_crude_oil
+808,,,,,,Costs & efficiencies,Electricity,Oil plants,Efficiencies (LHV),Diesel generator,,38%,,,,,,,,efficiency_energy_power_engine_diesel
+809,,,,,,Costs & efficiencies,Electricity,Nuclear plants,Costs,Investment costs large reactors,,0%,,,,,,,,investment_costs_nuclear_nuclear_plant
+810,,,,,,Costs & efficiencies,Electricity,Nuclear plants,Costs,O&M costs large reactors,,0%,,,,,,,,om_costs_nuclear_nuclear_plant
+811,,,,,,Costs & efficiencies,Electricity,Nuclear plants,Costs,Investment costs small reactors,,0%,,,,,,,,investment_costs_nuclear_small_modular_reactor
+812,,,,,,Costs & efficiencies,Electricity,Nuclear plants,Costs,O&M costs small reactors,,0%,,,,,,,,om_costs_nuclear_small_modular_reactor
+813,,,,,,Costs & efficiencies,Electricity,Nuclear plants,Efficiences (LHV),Nuclear 2nd Gen,,36%,,,,,,,,efficiency_energy_power_nuclear_gen2_uranium_oxide
+814,,,,,,Costs & efficiencies,Electricity,Nuclear plants,Efficiences (LHV),Nuclear 3rd Gen,,36%,,,,,,,,efficiency_energy_power_nuclear_gen3_uranium_oxide
+815,,,,,,Costs & efficiencies,Electricity,Nuclear plants,Efficiences (LHV),Nuclear small modular reactor,,28%,,,,,,,,efficiency_energy_power_nuclear_small_modular_reactor_uranium_oxide
+816,,,,,,Costs & efficiencies,Renewable electricity,Wind turbines,Costs,Investment costs onshore,,-20%,,Economies of scale cause c. 1% per year decline in cost,,,,,,investment_costs_wind_onshore
+817,,,,,,Costs & efficiencies,Renewable electricity,Wind turbines,Costs,O&M costs onshore,,-20%,,,,,,,,om_costs_wind_onshore
+818,,,,,,Costs & efficiencies,Renewable electricity,Wind turbines,Costs,Investment costs offshore,,-20%,,,,,,,,investment_costs_wind_offshore
+819,,,,,,Costs & efficiencies,Renewable electricity,Wind turbines,Costs,O&M costs offshore,,-20%,,,,,,,,om_costs_wind_offshore
+820,,,,,,Costs & efficiencies,Renewable electricity,Solar power,Costs,Investment costs solar panels,,-60%,,Based on Wright's law (-20% cost for every doubling cumulative capacity installed) and a 16x global increase in solar capacity between 2025 and 2050,,,,,,investment_costs_solar_solar_panels
+821,,,,,,Costs & efficiencies,Renewable electricity,Solar power,Costs,Investment costs concentrated solar power ,,-20%,,,,,,,,investment_costs_solar_concentrated_solar_power
+822,,,,,,Costs & efficiencies,Renewable electricity,Solar power,Efficiencies (LHV),Efficiency of solar panels ,,30%,,Average efficiency increases from roughly 20% now. The best lab tested cells reach 47.6% and ,,,,,,efficiency_energy_power_solar_pv_solar_radiation
+823,,,,,,Costs & efficiencies,Renewable electricity,Hydroelectric power,Costs,Investment costs hydro river,,0%,,,,,,,,investment_costs_water_river
+824,,,,,,Costs & efficiencies,Renewable electricity,Hydroelectric power,Costs,O&M costs hydro river,,0%,,,,,,,,om_costs_water_river
+825,,,,,,Costs & efficiencies,Renewable electricity,Hydroelectric power,Costs,Investment costs hydro mountains,,0%,,,,,,,,investment_costs_water_mountains
+826,,,,,,Costs & efficiencies,Renewable electricity,Hydroelectric power,Costs,O&M costs hydro mountains,,0%,,,,,,,,om_costs_water_mountains
+827,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Costs,Investment costs biomass plants,,0%,,,,,,,,investment_costs_combustion_biomass_plants
+828,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Costs,O&M costs biomass plant,,0%,,,,,,,,om_costs_combustion_biomass_plant
+829,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies energy sector (LHV),Biomass CHP - electricity,,29%,,,,,,,,efficiency_energy_chp_local_wood_pellets_electricity
+830,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies energy sector (LHV),Biomass CHP - heat,,82%,,,,,,,,efficiency_energy_chp_local_wood_pellets_heat
+831,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies energy sector (LHV),Biogas CHP - electricity ,,43%,,,,,,,,efficiency_energy_chp_local_engine_biogas_electricity
+832,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies energy sector (LHV),Biogas CHP - heat,,47%,,,,,,,,efficiency_energy_chp_local_engine_biogas_heat
+833,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Full load hours,Biomass power plant + CCS (must-run),,"7,500.0",,,,,,,,flh_of_energy_power_wood_pellets_ccs_must_run
+834,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Full load hours,Biomass MT CHP + CCS (must-run),,"6,000.0",,,,,,,,flh_of_energy_chp_local_mt_wood_pellets_ccs_must_run
+835,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Full load hours,Biomass HT CHP + CCS (must run),,"6,000.0",,,,,,,,flh_of_energy_chp_local_ht_wood_pellets_ccs_must_run
+836,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies industry sector (LHV),Biomass CHP - electricity,,30%,,,,,,,,efficiency_industry_chp_wood_pellets_electricity
+837,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies industry sector (LHV),Biomass CHP - heat,,0%,,,,,,,,efficiency_industry_chp_wood_pellets_heat
+838,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies agricultural sector (LHV),Biomass CHP - electricity,,43%,,,,,,,,efficiency_agriculture_chp_wood_pellets_electricity
+839,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies agricultural sector (LHV),Biomass CHP - heat,,47%,,,,,,,,efficiency_agriculture_chp_wood_pellets_heat
+840,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies agricultural sector (LHV),Biogas CHP - electricity ,,29%,,,,,,,,efficiency_agriculture_chp_engine_biogas_electricity
+841,,,,,,Costs & efficiencies,Renewable electricity,Biomass plants,Efficiencies agricultural sector (LHV),Biogas CHP - heat ,,84%,,,,,,,,efficiency_agriculture_chp_engine_biogas_heat
+842,,,,,,Costs & efficiencies,Renewable electricity,Waste power,Costs,Investment costs waste incinerator,,0%,,,,,,,,investment_costs_combustion_waste_incinerator
+843,,,,,,Costs & efficiencies,Renewable electricity,Waste power,Costs,O&M costs waste incinerator,,0%,,,,,,,,om_costs_combustion_waste_incinerator
+844,,,,,,Costs & efficiencies,Renewable electricity,Waste power,Efficiencies (LHV),Waste incinerator,,31%,,,,,"Based on intial testing, even under max waste power use (2.3GW) this variable has little to no effect on any of the core outputs ",,,efficiency_energy_power_supercritical_waste_mix
+845,,,,,,Costs & efficiencies,Renewable electricity,Waste power,Efficiencies (LHV),Waste CHP - electricity,,40%,,,,,,,,efficiency_energy_chp_supercritical_waste_mix_electricity
+846,,,,,,Costs & efficiencies,Renewable electricity,Waste power,Efficiencies (LHV),Waste CHP - heat,,0%,,,,,,,,efficiency_energy_chp_supercritical_waste_mix_heat
+847,,,,,,Costs & efficiencies,Renewable electricity,Hydrogen plants,Costs,Investment costs hydrogen plants ,,0%,,,,,,,,investment_costs_combustion_hydrogen_plant
+848,,,,,,Costs & efficiencies,Renewable electricity,Hydrogen plants,Costs,O&M costs hydrogen plant,,0%,,,,,,,,om_costs_combustion_hydrogen_plant
+849,,,,,,Costs & efficiencies,Renewable electricity,Hydrogen plants,Efficiencies (LHV),Hydrogen turbine,,34%,,,,,,,,efficiency_energy_power_turbine_hydrogen
+850,,,,,,Costs & efficiencies,Renewable electricity,Hydrogen plants,Efficiencies (LHV),Hydrogen plant (CCGT),,60%,,,,,,,,efficiency_energy_power_combined_cycle_hydrogen
+851,,,,,,Costs & efficiencies,Renewable electricity,Hydrogen plants,Efficiencies (LHV),Hydrogen turbine CHP (industry) - electricity,,33%,,,,,,,,efficiency_industry_chp_turbine_hydrogen_electricity
+852,,,,,,Costs & efficiencies,Renewable electricity,Hydrogen plants,Efficiencies (LHV),Hydrogen turbine CHP (industry) - heat,,41%,,,,,,,,efficiency_industry_chp_turbine_hydrogen_heat
+853,,,,,,Costs & efficiencies,Infrastructure ,Electricity infrastructure costs,Costs new low voltage net,,,916.0,,,,,,,,costs_infrastructure_electricity_lv_net
+854,,,,,,Costs & efficiencies,Infrastructure ,Electricity infrastructure costs,Costs new lv-mv transformator,,,200.0,,,,,,,,costs_infrastructure_electricity_lv_mv_trafo
+855,,,,,,Costs & efficiencies,Infrastructure ,Electricity infrastructure costs,Costs new medium voltage net,,,690.0,,,,,,,,costs_infrastructure_electricity_mv_net
+856,,,,,,Costs & efficiencies,Infrastructure ,Electricity infrastructure costs,Costs new low mv-hv transformator,,,250.0,,,,,,,,costs_infrastructure_electricity_mv_hv_trafo
+857,,,,,,Costs & efficiencies,Infrastructure ,Electricity infrastructure costs,Costs new high voltage net,,,364.0,,,,,,,,costs_infrastructure_electricity_hv_net
+858,,,,,,Costs & efficiencies,Infrastructure ,Electricity infrastructure costs,Costs new interconnector net,,,364.0,,,,,,,,costs_infrastructure_electricity_interconnector_net
+859,,,,,,Costs & efficiencies,Infrastructure ,Electricity infrastructure costs,Costs new offshore net,,,"1,159.0",,,,,,,,costs_infrastructure_electricity_offshore_net
+860,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - efficiencies (LHV),Condensing combi boiler (gas),,107%,,100% is the base year,,,Modern condensing gas is already near theoretical limits,,,efficiency_households_space_heater_combined_network_gas
+861,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - efficiencies (LHV),Condensing combi boiler (hydrogen),,110%,,100% is the base year,,,Not used,,,efficiency_households_space_heater_combined_hydrogen
+862,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - efficiencies (LHV),Wood pellet heater,,82%,,100% is perfect efficiency,,,Upper range of current,,,efficiency_households_space_heater_wood_pellets
+863,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - efficiencies (LHV),Electric boiler,,100%,,100% is perfect efficiency,,,Default,,,efficiency_households_space_heater_electricity
+864,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - efficiencies (LHV),Gas-fired heater,,80%,,100% is perfect efficiency,,,Not used,,,efficiency_households_space_heater_network_gas
+865,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - efficiencies (LHV),Oil-fired heater,,85%,,100% is perfect efficiency,,,Not used,,,efficiency_households_space_heater_crude_oil
+866,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - COP,Ground heat pump,,4.8,COP,How many kW of heat can be generated from 1kW electricity. Usually 3-5,,,Upper range of current,,,efficiency_households_space_heater_heatpump_ground_water_electricity
+867,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - COP,Air heat pump,,100%,,100% is the base year,,,,,,efficiency_households_space_heater_heatpump_air_water_electricity
+868,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - COP,Hybrid air heat pump (gas),,100%,,,,,,,,efficiency_households_space_heater_hybrid_heatpump_air_water_electricity
+869,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - COP,Hybrid air heat pump (hydrogen),,100%,,,,,,,,efficiency_households_space_heater_hybrid_hydrogen_heatpump_air_water_electricity
+870,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Households - COP,Hybrid air heat pump (crude oil),,100%,,,,,,,,efficiency_households_space_heater_hybrid_crude_oil_heatpump_air_water_electricity
+871,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - efficiencies (LHV),Condensing combi boiler (gas),,107%,,,,,Same as households,,,efficiency_buildings_space_heater_network_gas
+872,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - efficiencies (LHV),Condensing combi boiler (hydrogen),,110%,,,,,,,,efficiency_buildings_space_heater_combined_hydrogen
+873,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - efficiencies (LHV),Electric boiler,,82%,,,,,,,,efficiency_buildings_space_heater_electricity
+874,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - efficiencies (LHV),Biomass-fired heater,,100%,,,,,,,,efficiency_buildings_space_heater_wood_pellets
+875,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - efficiencies (LHV),Oil-fired heater,,85%,,,,,,,,efficiency_buildings_space_heater_crude_oil
+876,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - COP,Water heat pump with TS,,3.8,COP,,,,Water heat pumps have lower COP,,,efficiency_buildings_space_heater_collective_heatpump_water_water_ts_electricity
+877,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - COP,Air heat pump,,100%,,,,,100% is the base year,,,efficiency_buildings_space_heater_heatpump_air_water_electricity
+878,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - COP,Hybrid air heat pump (gas),,100%,,,,,100% is the base year,,,efficiency_buildings_space_heater_hybrid_heatpump_air_water_electricity
+879,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - COP,Hybrid air heat pump (hydrogen),,100%,,,,,100% is the base year,,,efficiency_buildings_space_heater_hybrid_hydrogen_heatpump_air_water_electricity
+880,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Buildings - COP,Hybrid air heat pump (crude oil),,100%,,,,,100% is the base year,,,efficiency_buildings_space_heater_hybrid_crude_oil_heatpump_air_water_electricity
+881,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Agriculture - COP,Water heat pump,,4.5,,,,,Agricultural use heat pumps may have higher COP as internal temperatures do not need to be as high for animals vs humans,,,efficiency_agriculture_heatpump_water_water_electricity
+882,,,,,,Costs & efficiencies,Heat,Efficiencies heating built environment ,Agriculture - COP,Water heat pump with TS,,5.0,,,,,Default is 23 for some reason - thermal storage might increase COP so used 5 instead of 4.5,,,efficiency_agriculture_heatpump_water_water_ts_electricity
+883,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat pumps,Electric heat pumps,,-25%,,0% is cost stays same as base year,,,Winksel et al 2024. 2050 average projection,,,investment_costs_electric_heat_pumps
+884,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat pumps,Households LT heat delivery system,,0%,,,,,District heating not used,,,investment_costs_gas_heat_pumps
+885,,,,,,Costs & efficiencies,Heat,Costs heating ,Geothermal ,Investment costs geothermal energy,,0%,,,,,,,,investment_costs_geothermal
+886,,,,,,Costs & efficiencies,Heat,Costs heating ,Geothermal ,O&M costs geothermal energy,,0%,,,,,,,,om_costs_geothermal
+887,,,,,,Costs & efficiencies,Heat,Costs heating ,Solar thermal,Investment costs solar thermal energy,,0%,,,,,,,,investment_costs_solar_thermal
+888,,,,,,Costs & efficiencies,Heat,Costs heating ,Solar thermal,O&M costs geothermal energy,,0%,,,,,,,,om_costs_solar_thermal
+889,,,,,,Costs & efficiencies,Heat,Costs heating ,Residual heat,Imported (residual) heat,,11.60,EUR/GJ,Average cost of heat extraction from different industrial processes,,,UK 2050 ETM default (2050 and 2020 appear to be same defaults for most metrics),,,costs_imported_heat
+890,,,,,,Costs & efficiencies,Heat,Costs heating ,Residual heat,Industrial residual heat,,0%,,0% is same as base year,,,,,,costs_industry_residual_heat
+891,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,HT apartments,,"1,174.0",EUR/connection,,,,,,,costs_households_ht_heat_delivery_system_costs_apartments_eur_per_connection
+892,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,MT apartments,,"1,174.0",EUR/connection,,,,,,,costs_households_mt_heat_delivery_system_costs_apartments_eur_per_connection
+893,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,LT apartments,,"2,382.0",EUR/connection,,,,,,,costs_households_lt_heat_delivery_system_costs_apartments_eur_per_connection
+894,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,HT ground level houses,,"2,054.0",EUR/connection,,,,,,,costs_households_ht_heat_delivery_system_costs_ground_level_houses_eur_per_connection
+895,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,MT ground level houses,,"2,054.0",EUR/connection,,,,,,,costs_households_mt_heat_delivery_system_costs_ground_level_houses_eur_per_connection
+896,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,LT ground level houses,,"4,144.0",EUR/connection,,,,,,,costs_households_lt_heat_delivery_system_costs_ground_level_houses_eur_per_connection
+897,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,HT buildings,,"16,706.0",EUR/connection,,,,,,,costs_buildings_ht_heat_delivery_system_costs_eur_per_connection
+898,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,MT buildings,,"16,706.0",EUR/connection,,,,,,,costs_buildings_mt_heat_delivery_system_costs_eur_per_connection
+899,,,,,,Costs & efficiencies,Heat,Costs heating ,Heat delivery system,LT buildings,,"25,386.0",EUR/connection,,,,,,,costs_buildings_lt_heat_delivery_system_costs_eur_per_connection
+900,,,,,,Costs & efficiencies,Heat,Costs district heating infrastructure ,Indoor costs,,,100%,,,,,,,,costs_heat_infra_indoors
+901,,,,,,Costs & efficiencies,Heat,Costs district heating infrastructure ,Pipelines and exchanger stations,,,100%,,,,,,,,costs_heat_infra_outdoors
+902,,,,,,Costs & efficiencies,Heat,Costs district heating infrastructure ,Heat storage,HT (seasonal) storage,,43.2,EUR/MWh,,,,,,,costs_heat_network_storage_ht_steam_hot_water
+903,,,,,,Costs & efficiencies,Heat,Costs district heating infrastructure ,Heat storage,MT (seasonal) storage,,43.2,EUR/MWh,,,,,,,costs_heat_network_storage_mt_steam_hot_water
+904,,,,,,Costs & efficiencies,Heat,Costs district heating infrastructure ,Heat storage,LT (seasonal) storage,,43.2,EUR/MWh,,,,,,,costs_heat_network_storage_lt_steam_hot_water
+905,,,,,,Costs & efficiencies,Hydrogen,Hydrogen production,Costs,Investment costs power-to-gas,,-50%,,0% is base year,,,"Substantial cost decreases due to learning rate (currently in early adoption phase). For Europe this brings costs in line or slightly above steam methane reforming and higher than the 3x reductions seen elsewhere, so still conservative",,,investment_costs_hydrogen_electrolysis
+906,,,,,,Costs & efficiencies,Hydrogen,Hydrogen production,Costs,Investment costs ammonia reformer,,-20%,,,,,"Moderate cost reductions, c. 1% per year ",,,investment_costs_ammonia_reforming
+907,,,,,,Costs & efficiencies,Hydrogen,Hydrogen production,Efficiencies (LHV),Power-to-gas electrolysers,,66%,,100% is perfect efficiency ,,,UK 2050 ETM default,,,efficiency_hydrogen_electrolysis
+908,,,,,,Costs & efficiencies,Hydrogen,Hydrogen production,Efficiencies (LHV),Ammonia reformer,,69%,,,,,UK 2050 ETM default,,,efficiency_ammonia_reforming
+909,,,,,,Costs & efficiencies,Hydrogen,Hydrogen storage,Storage costs salt cavern,,,550.0,EUR/MWh,,,,,,,costs_hydrogen_storage_salt_cavern
+910,,,,,,Costs & efficiencies,Hydrogen,Hydrogen storage,Storage costs depleted gas field,,,350.0,,,,,,,,costs_hydrogen_storage_depleted_gas_field
+911,,,,,,Costs & efficiencies,Hydrogen,Hydrogen transport,Onshore,Total costs H2 pipelines,,0.5,EUR/MWh,,,,"UK 2050 ETM default. Assumes new dedicated hydrogen pipelines constructed (high cost estimate, 10x higher than pipe in pipe)",,,costs_hydrogen_transport_pipelines
+912,,,,,,Costs & efficiencies,Hydrogen,Hydrogen transport,Onshore,Total costs H2 compressed trucks,,50.1,EUR/MWh,,,,UK 2050 ETM default. Half of costs are labour so better truck design has marginal impact,,,costs_hydrogen_transport_compressed_trucks
+913,,,,,,Costs & efficiencies,Hydrogen,Hydrogen transport,Offshore,Total costs offshore H2 pipelines,,0.7,EUR/MWh,,,,UK 2050 ETM default. Assumes new dedicated hydrogen pipelines (high cost estimate),,,costs_hydrogen_transport_pipelines_offshore
+914,,,,,,Costs & efficiencies,Hydrogen,Imported hydrogen carriers and ammonia,Hydrogen ,,,60.0,EUR/MWh,,,,"UK 2050 ETM default. SMR cost is 40.5 EUR/MWh, current combined wind & sun cost (North Sea installation) is 157.4 EUR/MWh",,,costs_hydrogen
+915,,,,,,Costs & efficiencies,Hydrogen,Imported hydrogen carriers and ammonia,Liquid hydrogen,,,75.0,EUR/MWh,,,,UK 2050 ETM default,,,costs_imported_liquid_hydrogen
+916,,,,,,Costs & efficiencies,Hydrogen,Imported hydrogen carriers and ammonia,LOHC,,,63.0,EUR/MWh,,,,,,,costs_imported_lohc
+917,,,,,,Costs & efficiencies,Hydrogen,Imported hydrogen carriers and ammonia,Ammonia,,,43.0,EUR/MWh,,,,,,,costs_imported_ammonia
+918,,,,,,Costs & efficiencies,Transport,Electric vehicles,,,,1.0%,%/year,0% is base year,,,Based on ETM verbal guidance,,,transport_vehicle_using_electricity_efficiency
+919,,,,,,Costs & efficiencies,Transport,Hydrogen vehicles,,,,0.0%,%/year,,,,,,,transport_vehicle_using_hydrogen_efficiency
+920,,,,,,Costs & efficiencies,Transport,Combustion engine vehicles,,,,2.0%,%/year,,,,,,,transport_vehicle_combustion_engine_efficiency
+921,,,,,,Costs & efficiencies,Transport,Trains,,,,0.5%,%/year,,,,,,,transport_trains_efficiency
+922,,,,,,Costs & efficiencies,Transport,Ships,,,,1.0%,%/year,,,,,,,transport_ships_efficiency
+923,,,,,,Costs & efficiencies,Transport,Airplanes,,,,0.5%,%/year,,,,,,,transport_planes_efficiency
+924,,,,,81,Costs & efficiencies,Fuel prices,Fossil fuels,Natural gas,,,InVar,EUR/MWh,,41.85,148.25,"Highest and lowest value of yearly average EU gas prices for semiannual 2008-2023 timeframe, +/-25%",,,costs_gas
+925,,,,,82,Costs & efficiencies,Fuel prices,Fossil fuels,Oil,,,InVar,USD/barrel,,40,100,,,,costs_oil
+926,,,,,,Costs & efficiencies,Fuel prices,Fossil fuels,Coal,,,66.0,$/tonne,,,,UK 2050 ETM default. Coal not used,,,costs_coal
+927,,,,,83,Costs & efficiencies,Fuel prices,Nuclear fuels,Uranium,,,InVar,EUR/kg,,50,200,Set as InVar in case testing sensitivity of total energy cost to fuel prices under different renewables penetration scenarios. Feb 2025 UK gas prices: 50-55 EUR/MWh ,,,costs_uranium
+928,,,,,,Costs & efficiencies,Fuel prices,Biofuels,Green gas,,,64.0,EUR/MWh,,,,Not used significantly,,,costs_greengas
+929,,,,,,Costs & efficiencies,Fuel prices,Biofuels,Biogas,,,57.0,EUR/MWh,,,,Not used significantly,,,costs_biogas
+930,,,,,84,Costs & efficiencies,Fuel prices,Biofuels,Wood,,,InVar,EUR/tonne,,75,300,"ETM default is 150, range is /2 and x2",,,costs_wood
+931,,,,,,Costs & efficiencies,Fuel prices,Biofuels,Biodiesel,,,0.96,EUR/liter,,,,Not used significantly,,,costs_biodiesel
+932,,,,,,Costs & efficiencies,Fuel prices,Biofuels,Bio-ethanol,,,0.96,EUR/liter,,,,Not used significantly,,,costs_bio_ethanol
+933,,,,,,Costs & efficiencies,Flexibility,Value of lost load,Value of lost load (VoLL),,,"7,055.0",EUR/MWh,,,,Current UK VoLL (6000GBP / MWh),,,costs_electricity_fallback_price
+934,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Investment costs,Batteries in households per MWh,,0%,,,,,,,,investment_costs_households_flexibility_p2p_electricity
+935,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Investment costs,Large-scale batteries per MWh,,0%,,,,,,,,investment_costs_energy_flexibility_mv_batteries_electricity
+936,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Investment costs,Underground pumped storage hydro per MWh,,0%,,,,,,,,investment_costs_energy_flexibility_hv_opac_electricity
+937,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Investment costs,Flow batteries per MW,,0%,,,,,,,,volume_costs_energy_flexibility_flow_batteries_electricity
+938,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Investment costs,Flow batteries per MWh,,0%,,,,,,,,capacity_costs_energy_flexibility_flow_batteries_electricity
+939,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Round-trip efficiency,Batteries in households,,90%,,,,,,,,efficiency_households_flexibility_p2p_electricity
+940,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Round-trip efficiency,Batteries in electric vehicles,,87%,,,,,,,,efficiency_transport_flexibility_p2p_electricity
+941,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Round-trip efficiency,Large-scale batteries,,85%,,,,,,,,efficiency_energy_flexibility_mv_batteries_electricity
+942,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Round-trip efficiency,Reservoirs,,80%,,,,,,,,efficiency_energy_flexibility_pumped_storage_electricity
+943,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Round-trip efficiency,Underground pumped hydro storage,,80%,,,,,,,,efficiency_energy_flexibility_hv_opac_electricity
+944,,,,,85,Costs & efficiencies,Flexibility,Electricity storage,Round-trip efficiency,Flow batteries,,InVar,%,,60,80,Full ETM range. Efficiency for flow batteries is low by ETM default (70%). Flow batteries are used extensively in most UK 2050 scenarios so efficiency changes can have a major effect on blackout hours ,,,efficiency_energy_flexibility_flow_batteries_electricity
+945,,,,,,Costs & efficiencies,Flexibility,Electricity storage,Electricity conversion ,Investment costs power-to-heat boilers,,0%,change,0% is base year,,,,,,investment_costs_flexibility_p2h_electricity
+946,,,,,,Costs & efficiencies,CCUS,Prices,CO2 price,,,146.0,EUR/ton CO2,,,,UK 2050 carbon price used for modelling (2024 govt study),,,costs_co2
+947,,,,,,Costs & efficiencies,CCUS,Prices,Free allocation,,,0.0,,,,,Free allocation of CO2 emissions will eventually be phased out ,,,costs_co2_free_allocation
+948,,,,,,Costs & efficiencies,CCUS,Prices,Captured biogenic CO2 price,,,146.0,EUR/ton CO2,,,,Assume same as normal Co2 price ,,,costs_captured_biogenic_co2
+949,,,,,,Costs & efficiencies,CCUS,CO2 capture in energy sector,Investment CO2,,,0%,,No CCUS modelled,,,,,,investment_costs_co2_ccs
+950,,,,,,Costs & efficiencies,CCUS,CO2 capture in energy sector,Operational & maintenance,,,0%,,,,,,,,om_costs_co2_ccs
+951,,,,,,Costs & efficiencies,CCUS,CO2 capture in industry,Investment ,,,0%,,No CCUS modelled,,,,,,investment_costs_co2_capture_industry
+952,,,,,,Costs & efficiencies,CCUS,CO2 capture in industry,Operational & maintenance,,,0%,,,,,,,,om_costs_co2_capture_industry
+953,,,,,,Costs & efficiencies,CCUS,CO2 storage,Investment,,,0%,,No CCUS modelled,,,,,,investment_costs_co2_storage
+954,,,,,,Costs & efficiencies,CCUS,CO2 storage,Operational & maintenance,,,0%,,,,,,,,om_costs_co2_storage
+955,,,,,,Costs & efficiencies,CCUS,CO2 utilisation,Investment,,,0%,,No CCUS modelled,,,,,,investment_costs_co2_utilisation
+956,,,,,,Costs & efficiencies,CCUS,CO2 utilisation,Operational & maintenance,,,0%,,,,,,,,om_costs_co2_utilisation
+957,,,,,,Costs & efficiencies,CCUS,CO2 transport,Investment,,,0%,,No CCUS modelled,,,,,,investment_costs_co2_transport
+958,,,,,,Costs & efficiencies,CCUS,CO2 transport,Operational & maintenance,,,0%,,,,,,,,om_costs_co2_transport
+959,,,,,,Costs & efficiencies,WACC,Households,,,,2%,,,,,UK 2050 ETM defaults. Real cost figures (adjusted for inflation) so middle of the road. ,,,costs_wacc_households
+960,,,,,,Costs & efficiencies,WACC,Public infrastructure,,,,3%,,,,,,,,costs_wacc_public_infrastructure
+961,,,,,,Costs & efficiencies,WACC,Commercial / proven technologies,,,,4%,,,,,"In line with UK offshore wind farms (2% inflation, 6% nominal WACC)",,,costs_wacc_proven_technologies
+962,,,,,,Costs & efficiencies,WACC,New / immature technologies,,,,7%,,,,,,,,costs_wacc_unproven_technologies
+,,,,,,,,,,,,,,,,,,,,
+Synthetic variables,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,

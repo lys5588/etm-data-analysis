@@ -14,11 +14,11 @@ class ScenarioList:
         self._data: List[Dict[str, Any]] = []
 
     def add_row(self, short_name: str, title: str, area_code: str, end_year: str,
-                description: str, id_val: Optional[str], keep_compatible: bool, 
+                description: str, id_val: Optional[str], keep_compatible: str, 
                 curve_file: Optional[str]):
         """向 scenario_list 添加一行数据。"""
         # 将布尔值转为大写字符串以匹配常见CSV格式
-        keep_compatible_str = str(keep_compatible).upper()
+        keep_compatible_str = str(keep_compatible)
         
         # 将 None 值转换为空字符串
         row_dict = {
@@ -103,37 +103,52 @@ def process_data(all_var_path: str, param_encoding_path: str):
     scenario_settings = ScenarioSettings()
 
     # 2. 创建输出目录
-    output_dir = 'input'
+    output_dir = 'data/input'
     os.makedirs(output_dir, exist_ok=True)
 
     # 3. 读取并解析 all_var.csv
     full_data = []
     special_types_dict = {}
     print(f"正在读取 {all_var_path}...")
+    in_var_hashtable={} # 存放inval_hash use dict key:invar id val:full_data_row_index 
     try:
         with open(all_var_path, 'r', encoding='utf-8') as f:
             reader = csv.reader(f)
             next(reader)  # 跳过表头
             for i, row in enumerate(reader):
+                # if i > 138:
+                #     print("here")
                 if len(row) < 21 or not row[20]:  # 检查U列非空
                     continue
-
-                is_variable = 1 if row[1].strip() != 'Static' else 0
+                
+                #由于目前all_var文件static没有完全填写，采用对F列判断，如果F列有数据则为变量
+                is_variable = 1 if row[5].strip() != '' else 0
                 
                 val_f = None
                 val_m = None
 
+                
                 # 根据更新后的逻辑填充 F 和 M 列
                 if is_variable == 0: # 如果是 Static
-                    val_f = row[5].strip()
+                    val_f = ''    
                     try:
-                        val_m_str = row[12].strip().replace('%', '')
+                        val_m_str = row[12].strip().replace('%', '').replace(',','')
                         val_m = float(val_m_str) if val_m_str else None
+                        if val_m is None:
+                            val_m = 0.0 
                     except (ValueError, IndexError):
-                        val_m = None
+                        val_m = 0.0
+                else:
+                    
+                    val_f = int(row[5].strip())
+                    in_var_hashtable[val_f] = i
                 
                 item_a = int(row[0].strip())
                 item_t = row[19].strip()
+                if item_t != '':
+                    is_special = 1
+                else:
+                    is_special = 0
                 
                 full_data.append([
                     item_a,              # 0: A列 index
@@ -160,82 +175,78 @@ def process_data(all_var_path: str, param_encoding_path: str):
 
     # 4. 读取 param_encoding.csv
     print(f"正在读取 {param_encoding_path}...")
-    try:
-        with open(param_encoding_path, 'r', encoding='utf-8') as f:
-            param_data = list(csv.reader(f))
-    except FileNotFoundError:
-        print(f"错误: 输入文件 {param_encoding_path} 未找到。")
-        return
-    except Exception as e:
-        print(f"处理 {param_encoding_path} 时发生错误: {e}")
-        return
+    # try:
+    #     with open(param_encoding_path, 'r', encoding='utf-8') as f:
+    #         param_data = list(csv.reader(f))
+    # except FileNotFoundError:
+    #     print(f"错误: 输入文件 {param_encoding_path} 未找到。")
+    #     return
+    # except Exception as e:
+    #     print(f"处理 {param_encoding_path} 时发生错误: {e}")
+    #     return
 
-    # 识别 param_encoding 中的有效修改行
-    valid_param_rows = []
-    if len(param_data) > 1:
-        for i, row in enumerate(param_data[1:], start=1):
-            try:
-                # A列必须是整数
-                full_data_index = int(row[0].strip())
-                valid_param_rows.append({'row_index': i, 'full_data_index': full_data_index})
-            except (ValueError, IndexError):
-                continue
+    # # 识别 param_encoding 中的有效修改行
+    # valid_param_rows = []
+    # if len(param_data) > 1:
+    #     for i, row in enumerate(param_data[1:], start=1):
+    #         try:
+    #             # A列必须是整数
+    #             full_data_index = int(row[0].strip())
+    #             valid_param_rows.append({'row_index': i, 'full_data_index': full_data_index})
+    #         except (ValueError, IndexError):
+    #             continue
     
-    # 将数据转置以便按列遍历
-    transposed_param_data = list(map(list, zip(*param_data)))
+    # # 将数据转置以便按列遍历
+    # transposed_param_data = list(map(list, zip(*param_data)))
 
-    # 5. 遍历 scenario 列并生成数据
-    if len(transposed_param_data) < 2:
-        print("警告: param_encoding.csv 中没有找到 scenario 数据列。")
-    else:
-        # 从第二列开始遍历
-        for k, column_data in enumerate(transposed_param_data[1:]):
-            if len(column_data) < 2 or not column_data[1].strip():
-                break # 如果列第二行为空，则停止
+    # # 5. 遍历 scenario 列并生成数据
+    # if len(transposed_param_data) < 2:
+    #     print("警告: param_encoding.csv 中没有找到 scenario 数据列。")
+    # else:
+    #     # 从第二列开始遍历
+    #     for k, column_data in enumerate(transposed_param_data[1:]):
+    #         if len(column_data) < 2 or  column_data[1].strip() =='':
+    #             break # 如果列第二行为空，则停止
 
-            scenario_name = f"sample_{k}"
-            print(f"正在处理 scenario: {scenario_name}...")
+    #         scenario_name = f"sample_{k}"
+    #         print(f"正在处理 scenario: {scenario_name}...")
             
-            # a. 初始化 sample_data (使用静态、非特殊类型数据)
-            sample_data = []
-            for item in full_data:
-                # item[1] == 0 表示 Static, item[4] == '' 表示特殊类型为空
-                if item[1] == 0 and not item[4]:
-                    sample_data.append([item[5], item[3]]) # [数据库名, 初始值]
+    #         # a. 初始化 sample_data (使用静态、非特殊类型数据)
+    #         sample_data = []
+    #         for item in full_data:
+    #             # item[1] == 0 表示 Static, item[4] == '' 表示特殊类型为空
+    #             if item[1] == 0 and not item[4]:
+    #                 sample_data.append([item[5], item[3]]) # [数据库名, 初始值]
 
-            # b. 添加变量修改
-            for param_info in valid_param_rows:
-                db_name = None
-                # 通过索引在 full_data 中查找数据库名
-                for item in full_data:
-                    if item[0] == param_info['full_data_index']:
-                        db_name = item[5]
-                        break
-                
-                if db_name:
-                    db_val = column_data[param_info['row_index']].strip()
-                    sample_data.append([db_name, db_val])
+    #         # b. 添加变量修改
+    #         for param_info in valid_param_rows:
+    #             db_name = None
+    #             # 通过索引在 full_data 中查找数据库名
+    #             full_data_index = in_var_hashtable[param_info['full_data_index']]
+    #             db_name = full_data[full_data_index][5]
+    #             db_val = column_data[param_info['row_index']]
+    #             sample_data.append([db_name, db_val])
 
-            # c. 更新 scenario_list
-            scenario_list.add_row(
-                short_name=scenario_name,
-                title="Scenario_sample",
-                area_code="UK_united_kingdom",
-                end_year="2020",
-                description="sample",
-                id_val=None,
-                keep_compatible=False,
-                curve_file=None
-            )
+    #         # c. 更新 scenario_list
+    #         scenario_list.add_row(
+    #             short_name=scenario_name,
+    #             title="Scenario_sample",
+    #             area_code="UK_united_kingdom",
+    #             end_year="2020",
+    #             description="sample",
+    #             id_val=None,
+    #             keep_compatible="False",
+    #             curve_file=None
+    #         )
 
-            # d. 更新 scenario_settings
-            db_names = [row[0] for row in sample_data]
-            db_values = [row[1] for row in sample_data]
+    #         # d. 更新 scenario_settings
+    #         db_names = [row[0] for row in sample_data]
+    #         db_values = [row[1] for row in sample_data]
             
-            if k == 0:
-                scenario_settings.set_input_column(db_names)
+    #         if k == 0:
+    #             scenario_settings.set_input_column(db_names)
             
-            scenario_settings.add_column(scenario_name, db_values)
+    #         scenario_settings.add_column(scenario_name, db_values)
 
     # 6. 保存最终结果
     scenario_list.save_to_csv(os.path.join(output_dir, 'scenario_list.csv'))
@@ -246,8 +257,8 @@ def process_data(all_var_path: str, param_encoding_path: str):
 
 if __name__ == '__main__':
     # 定义输入文件名
-    all_var_file = 'all_var.csv'
-    param_encoding_file = 'param_encoding.csv'
+    all_var_file = 'query/all_var.csv'
+    param_encoding_file = 'query/param_encoding.csv'
 
     # 执行主函数
     process_data(all_var_file, param_encoding_file)

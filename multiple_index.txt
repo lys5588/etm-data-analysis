@@ -1,32 +1,30 @@
-Error: The following sliders are included more than once in scenario_settings.csv:
-        efficiency_agriculture_chp_engine_must_run_network_gas_electricity
-        industry_useful_demand_for_other_paper
-        volume_of_energy_hydrogen_storage_salt_cavern
-        investment_costs_water_river
-        households_heater_wood_pellets_heat_output_capacity
-        industry_other_food_burner_crude_oil_share
-        buildings_space_heater_hybrid_crude_oil_heatpump_air_water_electricity_share
-        efficiency_households_space_heater_network_gas
-        efficiency_households_space_heater_crude_oil
-        households_heater_district_heating_mt_steam_hot_water_heat_output_capacity
-        efficiency_households_space_heater_combined_hydrogen
-        industry_useful_demand_for_other_food_useable_heat_efficiency
-        investment_costs_wind_offshore
-        efficiency_buildings_space_heater_network_gas
-        om_costs_combustion_biomass_plant
-        industry_other_food_heater_electricity_share
-        capacity_of_energy_heat_heatpump_drink_water_water_ts_lt_electricity
-        efficiency_households_space_heater_hybrid_heatpump_air_water_electricity
-        capacity_of_energy_hydrogen_autothermal_reformer_must_run
-        households_heater_electricity_heat_output_capacity
-        transport_road_mixer_lng_lng_share
-        investment_costs_combustion_biomass_plants
-        buildings_space_heater_district_heating_mt_steam_hot_water_share
-        buildings_space_heater_district_heating_lt_steam_hot_water_share
-        energy_hydrogen_distribution_compressed_trucks_share
-        households_heater_heatpump_ground_water_electricity_heat_output_capacity
-        efficiency_households_space_heater_hybrid_crude_oil_heatpump_air_water_electricity
-        households_heater_district_heating_ht_steam_hot_water_heat_output_capacity
-        efficiency_households_space_heater_wood_pellets
-        buildings_space_heater_solar_thermal_share
-        buildings_space_heater_combined_hydrogen_share
+Error for scenario sample_0
+ Input households_heater_hybrid_heattpump_air_water_electricity_heat_output_capacity does not exist,
+ Input capacity_of_energy_hydrogen_storage_depleted_gas_field cannot be less than 1.0,
+ Input wtp_of_households_flexibility_p2p_electricity cannot be less than 0.1,
+ Input wta_of_households_flexibility_p2p_electricity cannot be less than 0.1,
+ Input settings_enable_storage_optimisation_households_flexibility_p2p_electricity was "0.0", but must be one of: "default", "optimizing_storage", "optimizing_storage_households",
+ Input wtp_of_energy_flexibility_mv_batteries_electricity cannot be less than 0.1,
+ Input wta_of_energy_flexibility_mv_batteries_electricity cannot be less than 0.1,
+ Input wtp_of_energy_flexibility_pumped_storage_electricity cannot be less than 0.1,
+ Input wta_of_energy_flexibility_pumped_storage_electricity cannot be less than 0.1,
+ Input wtp_of_energy_flexibility_hv_opac_electricity cannot be less than 0.1,
+ Input wta_of_energy_flexibility_hv_opac_electricity cannot be less than 0.1,
+ Input wtp_of_energy_flexibility_flow_batteries_electricity cannot be less than 0.1,
+ Input wta_of_energy_flexibility_flow_batteries_electricity cannot be less than 0.1,
+ Input flh_of_energy_power_wind_turbine_coastal cannot be less than 3173.7174,
+ Input efficiency_energy_chp_ultra_supercritical_cofiring_coal_heat cannot be greater than 24.0,
+ Input efficiency_energy_power_ultra_supercritical_cofiring_coal cannot be less than 32.0,
+ Input efficiency_buildings_space_heater_electricity cannot be less than 90.0,
+ Input efficiency_buildings_space_heater_wood_pellets cannot be greater than 92.0,
+ Input households_heater_hybrid_heattpump_air_water_electricity_share does not exist,
+e=0.0,
+ "transport_motorcycle_tech" group does not balance: group sums to 0.0 using transport_motorcycle_using_electricity_share=0.0 transport_motorcycle_using_gasoline_mix_shae=0.0,
+ "transport_motorcycle_tech" group does not balance: group sums to 0.0 using transport_motorcycle_using_electricity_share=0.0 transport_motorcycle_using_gasoline_mix_share=0.0,
+ "transport_truck_tech" group does not balance: group sums to 0.5713 using transport_truck_using_compressed_natural_gas_share=0.e=0.0,
+ "transport_motorcycle_tech" group does not balance: group sums to 0.0 using transport_motorcycle_using_electricity_share=0.0 transport_motorcycle_using_gasoline_mix_share=0.0,
+ "transport_truck_tech" group does not balance: group sums to 0.5713 using transport_truck_using_compressed_natural_gas_share=0.0 transport_truck_using_diesel_mix_share=0.2015 transport_truck_using_electricity_share=0.3698 transport_truck_using_gasoline_mix_share=0.0 transport_truck_using_hydrogen_share=0.0 transport_truck_using_lng_mix_share=0.0,
+ "transport_van_tech" group does not balance: group sums to 0.4098 using transport_van_using_compressed_natural_gas_share=0.0 transport_van_using_diesel_mix_share=0.3075 transport_van_using_electricity_share=0.1023 transport_van_using_gasoline_mix_share=0.0 transport_van_using_hydrogen_share=0.0 transport_van_using_lpg_share=0.0,
+ "transport_marine" group does not balance: group sums to 90.0 using transport_ship_using_ammonia_share=8.0 transport_ship_using_diesel_mix_share=51.0 transport_ship_using_electricity_share=1.0 transport_ship_using_hydrogen_share=0.0 transport_ship_using_lng_mix_share=30.0,
+ "grid_natural_gas" group does not balance: group sums to 130.0 using energy_regasification_lng_share=30.0 energy_treatment_natural_gas_share=100.0,
+ "fuels_gas" group does not balance: group sums to 70.0 using green_gas_total_share=0.0 natural_gas_total_share=70.0 propane_gas_total_share=0.0

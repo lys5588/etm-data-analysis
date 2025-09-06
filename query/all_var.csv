@@ -96,7 +96,7 @@ Var no.,Static or (change) variable,Equivalent?,Complementary ,Synthetic,InVar n
 95,Static,,,,,Demand,Households,Merit order,Capacities,LT district heating,,10,kW ,Heat output,,,,,,households_heater_district_heating_lt_steam_hot_water_heat_output_capacity
 96,Static,,,,,Demand,Households,Merit order,Capacities,MT district heating,,10,kW ,Heat output,,,,,,households_heater_district_heating_mt_steam_hot_water_heat_output_capacity
 97,Static,,,,,Demand,Households,Merit order,Capacities,HT district heating,,10,kW ,Heat output,,,,,,households_heater_district_heating_ht_steam_hot_water_heat_output_capacity
-98,Static,,,,,Demand,Households,Merit order,Capacities,Hybrid air heat pump (gas),,4.9,kW ,Heat output,,,,,,households_heater_hybrid_heattpump_air_water_electricity_heat_output_capacity
+98,Static,,,,,Demand,Households,Merit order,Capacities,Hybrid air heat pump (gas),,4.9,kW ,Heat output,,,,,,households_heater_hybrid_heatpump_air_water_electricity_heat_output_capacity
 99,Static,,,,,Demand,Households,Merit order,Capacities,Hybrid air heat pump (hydrogen),,4.9,kW ,Heat output,,,,,,households_heater_hybrid_hydrogen_heatpump_air_water_electricity_heat_output_capacity
 100,Static,,,,,Demand,Households,Merit order,Capacities,Hybrid air heat pump (crude oil),,12.2,kW ,Heat output,,,,,,households_heater_hybrid_crude_oil_heatpump_air_water_electricity_heat_output_capacity
 101,Static (but check),,,,,Demand,Households,Merit order,Merit order,,,LT district heating,,,,,,,,

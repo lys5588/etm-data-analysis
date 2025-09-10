@@ -1,6 +1,39 @@
 import csv
+import copy
 import os
 from typing import List, Dict, Any, Optional
+
+
+def is_float(value):
+    if type(value) == float:
+        return True
+    try:
+        float(value.replace(',',''))
+        return True
+    except:
+        return False
+
+def dfs_search(dict,key,is_min:bool):
+    value = None
+    if key not in dict.keys():
+        return
+    if key == "SYN.20":
+        print(dict[key])
+    if is_min:
+        value = dict[key]["min_value"]
+    else:
+        value = dict[key]["max_value"]
+    if is_float(value):
+        if type(value)==float:
+            return value
+        else:
+            return float(value.replace(',',''))
+    else:
+        if type(value) == str and value.split('.')[0] == "VAR":
+            id = value.split('.')[1]
+        else:
+            id = value
+        return dfs_search(dict,id,is_min)
 
 class ScenarioList:
     """
@@ -62,19 +95,43 @@ class ScenarioSettings:
         """按列添加一个 scenario 的数据。"""
         self._data_columns[column_name] = data
     
-    def convert(self, scenario_name_list: List[str], scaneria_data: Dict[str, List[Any]]):
+    def convert(self, scenario_name_list: List[str], scaneria_data: Dict[str, List[Any]],scanerio_minmax: Dict[str, Dict[str, Any]],minmax_index_var_id_hash: Dict[str, int]):
+        min_max_error_index = []
         self._input_column = scenario_name_list
         for key in scaneria_data.keys():
-            # 临时的一些操作
-            # 对于volume_of_transport_bus_using_electricity 设置最小值为0.5，如果有小于的修改为0.5
-            if key == 'volume_of_transport_bus_using_electricity':
-                scaneria_data[key] = [max(0.5, value) for value in scaneria_data[key]]
-            if key == 'volume_of_transport_truck_using_electricity':
-                scaneria_data[key] = [max(0.5, value) for value in scaneria_data[key]]
+            scaneria_data_item_copy = copy.deepcopy(scaneria_data[key])
+            scaneria_data[key] = [min(scanerio_minmax[key]["max_value"], value) for value in scaneria_data[key]]
+            scaneria_data[key] = [max(scanerio_minmax[key]["min_value"], value) for value in scaneria_data[key]]
+            # 检查数据是否因为 min/max 限制而发生变化
+            if scaneria_data_item_copy != scaneria_data[key]:
+                min_max_error_index.append([minmax_index_var_id_hash[key], key])
             self._data_columns.append([key,scaneria_data[key]])
+        # 保存 min_max_error_index 到 CSV 文件
+        if min_max_error_index:
+            error_filepath = "query/min_max_errors.csv"
+            try:
+                with open(error_filepath, 'w', newline='', encoding='utf-8') as f:
+                    writer = csv.writer(f)
+                    writer.writerow(['index', 'variable_name'])  # 写入表头
+                    writer.writerows(min_max_error_index)  # 写入错误数据
+                print(f"min_max_errors.csv 保存成功到 {error_filepath}")
+            except IOError as e:
+                print(f"错误：无法写入文件 {error_filepath}。原因: {e}")
+        print(min_max_error_index)
+        
+    def extra_dict(self,len_column):        
+        interconnection_header = "electricity_interconnector"
+        interconnection_value_type = ["capacity","import_availability","export_availability","co2_emissions_present","co2_emissions_future","marginal_costs"]
+        interconnection_id = ["1","2","3","4","5","6","7","8","9","10","11","12"]
+        interconnection_dict = {}
+        interconnection_value = [0,0,0,0,0,0.1]
+        for i in range(len(interconnection_value_type)):
+            for id in interconnection_id:
+                interconnection_dict[interconnection_header+f"_{id}_"+interconnection_value_type[i]] = [interconnection_value[i]] * len_column
+        return interconnection_dict
 
 
-    def save_to_csv(self, filepath: str):
+    def save_to_csv(self, filepath: str,add_extra_data:bool=True):
         """将数据重构并保存为 CSV 文件。"""
         print(f"正在保存 scenario_settings 数据到 {filepath}...")
         if not self._input_column:
@@ -86,9 +143,9 @@ class ScenarioSettings:
         headers = ['input'] + column_names
 
         # print(self._input_column)
-        for item in self._data_columns:
-            if len(item[1]) != len(self._input_column):
-                print(item[0],len(item[1]))
+        # for item in self._data_columns:
+        #     if len(item[1]) != len(self._input_column):
+        #         print(item[0],len(item[1]))
         # return
 
         
@@ -98,20 +155,28 @@ class ScenarioSettings:
                 writer = csv.writer(f)
                 writer.writerow(headers)
                 
-                # 逐行写入数据
+                # 逐行写入数据(update的variable数据)
                 for i in range(len(self._data_columns)):
                     row = [self._data_columns[i][0]]  # 第一个元素作为 input 列
                     for j in range(1, len(self._data_columns[i])):
                         # if self._data_columns[i][0] == 'buildings_number_of_buildings_future':
                             # print(self._data_columns[i][1])
-                        if len(self._data_columns[i])>1:
-                            print(self._data_columns[i])
+                        # if len(self._data_columns[i])>1:
+                        #     print(self._data_columns[i])
                         # 对变量值进行数值转换，self._data_columns[i][1]是一个包含多个数据的列表
                         data_list = self._data_columns[i][1]
                         for k in range(len(data_list)):
                             converted_value = data_list[k]
                             row.append(converted_value)
                     writer.writerow(row)
+                #  写入额外的数据
+                if add_extra_data:
+                    extra_data_dict = self.extra_dict(len(column_names))
+                    for key in extra_data_dict.keys():
+                        row = [key]
+                        for j in range(0, len(extra_data_dict[key])):
+                            row.append(extra_data_dict[key][j])
+                        writer.writerow(row)
             print("scenario_settings.csv 保存成功。")
         except IOError as e:
             print(f"错误：无法写入文件 {filepath}。原因: {e}")
@@ -193,68 +258,7 @@ def process_data(all_var_path: str, param_encoding_path: str, database_index_pat
                 variable_var_no.append(full_data_index)
             except (ValueError, IndexError):
                 continue
-    # 4. 读取并解析 all_var.csv
-    static_data = []
-    special_types_dict = {}
-    print(f"正在读取 {all_var_path}...")
-    pass_num=0
-    # try:
-    #     with open(all_var_path, 'r', encoding='windows-1252') as f:
-    #         reader = csv.reader(f)
-    #         next(reader)  # 跳过表头
-    #         for i, row in enumerate(reader):
-    #             #超出表格var
-                
-
-    #             var_no_str = row[0].strip()
-    #             # 处理可能包含 . 分割的变量名，取第一部分的数字
-    #             if '.' in var_no_str:
-    #                 var_no = int(var_no_str.split('.')[0])
-    #             elif var_no_str == '' or var_no_str == 'END':
-    #                 break
-    #             else:
-    #                 var_no = int(var_no_str)
-    #             print(var_no)
-
-    #             # 由于现在没有使用 invarno设置,直接采用 i 进行判断
-    #             is_variable = True if var_no in variable_var_no else False
-    #             if is_variable:
-    #                 pass_num+=1
-    #                 continue
-    #             # 特殊判断
-    #             is_special = is_special_row(row,var_no)
-    #             if is_special:
-    #                 pass_num+=1
-    #                 continue
-                
-    #             var_str = row[12].strip().replace('%', '').replace(',','')
-    #             if var_str in ["OFF", "ON"]:
-    #                 var_value = 1 if var_str == "ON" else 0
-    #             elif var_str=='N/A' and row[10].startswith('Willingness'): 
-    #                 var_value = 0
-    #             elif var_str=='N/A' and row[9].startswith('Willingness'): 
-    #                 var_value = 0
-    #             elif row[9] =="Forecasting algorithm":
-    #                 var_value = 10101 if var_str == "ON" else 1000
-    #             else:
-    #                 var_value = float(row[12].strip().replace('%', '').replace(',',''))
-                
-    #             if var_no in database_index.keys():
-    #                 db_index = database_index[var_no]
-    #                 static_data.append([
-    #                     var_no,              # 下标
-    #                     var_value,           # 变量值
-    #                     db_index      # 数据库项名称
-    #                 ])
     
-
-    # except FileNotFoundError:
-    #     print(f"错误: 输入文件 {all_var_path} 未找到。")
-    #     return
-    # except Exception as e:
-    #     print(f"处理 {all_var_path} 时发生错误: {e}")
-    #     print(row)
-    # print(f"{all_var_path} 读取完毕，共处理 {len(static_data)} 条有效数据。")
 
     # 5. 读取 param_encoding.csv
     print(f"正在读取 {param_encoding_path}...")
@@ -270,11 +274,17 @@ def process_data(all_var_path: str, param_encoding_path: str, database_index_pat
 
     # 识别 param_encoding 中的有效修改行
     valid_param_rows = []
+    min_max_dict={}
+    minmax_var_id_index_hash={}
+    minmax_index_var_id_hash={}
     if len(param_data) > 1:
         for i, row in enumerate(param_data[1:], start=1):
             try:
                 # A列必须是整数
                 var_no_str = row[0].strip()
+                if var_no_str == "SYNCOM.39":
+                    print(row[2],row[3])
+                min_max_dict[var_no_str] = {"min_value": row[2], "max_value": row[3]}
                 # 处理可能包含 . 分割的变量名，取第一部分的数字
                 if '.' in var_no_str:
                     full_data_index = int(var_no_str.split('.')[0])
@@ -282,19 +292,54 @@ def process_data(all_var_path: str, param_encoding_path: str, database_index_pat
                     break
                 else:
                     full_data_index = int(var_no_str)
+                min_max_dict[var_no_str] = {"min_value": row[2], "max_value": row[3]}
+                # 构建一个hastable, 这是一个子集
+                try:
+                    id = int(var_no_str.split('.')[0])
+                    minmax_var_id_index_hash[id] =  var_no_str
+                except:
+                    pass
+
                 valid_param_rows.append({'row_index': i, 'full_data_index': full_data_index})
             except (ValueError, IndexError):
                 continue
     
+    # 这里对minmax_idct，进行深度遍历修改数据
+    for key in min_max_dict.keys():
+        min_max_dict[key]["min_value"] = dfs_search(min_max_dict,key,True)
+        min_max_dict[key]["max_value"] = dfs_search(min_max_dict,key,False)
+    # print(min_max_dict)
+    # print(minmax_var_id_index_hash)
+    # 将 min_max_dict 保存为 CSV 文件
+    min_max_csv_path = "query/min_max_data.csv"
+    print(f"正在保存 min_max_dict 数据到 {min_max_csv_path}...")
+    try:
+        with open(min_max_csv_path, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            # 写入表头
+            writer.writerow(['variable_key', 'min_value', 'max_value'])
+            # 写入数据
+            for id , index in minmax_var_id_index_hash.items():
+                key = index
+                value_dict = min_max_dict[key]
+                writer.writerow([key, value_dict['min_value'], value_dict['max_value']])
+        print(f"min_max_dict 数据已保存到 {min_max_csv_path}")
+    except IOError as e:
+        print(f"错误：无法写入文件 {min_max_csv_path}。原因: {e}")
+    # print(minmax_var_id_index_hash)
+    # exit()
+
+
     # 将数据转置以便按列遍历
     transposed_param_data = list(map(list, zip(*param_data)))
 
     # 6. 遍历 scenario 列并生成数据
     # 先根据static数据生成一个字典
     scaneria_data = {}
+    scanerio_minmax={}
     scanerio_name_list = []
-    for item in static_data:
-        scaneria_data[item[2]] = []
+    # for item in static_data:
+    #     scaneria_data[item[2]] = []
     for var_no in variable_var_no:
         if var_no in database_index.keys():
             scaneria_data[database_index[var_no]] = []
@@ -302,6 +347,7 @@ def process_data(all_var_path: str, param_encoding_path: str, database_index_pat
         print("警告: param_encoding.csv 中没有找到 scenario 数据列。")
     else:
         # 从第二列开始遍历
+        
         for k, column_data in enumerate(transposed_param_data[4:]):
             #这里其实是要每次遍历一个sample
             if len(column_data) < 2 or  column_data[1].strip() =='':
@@ -321,13 +367,18 @@ def process_data(all_var_path: str, param_encoding_path: str, database_index_pat
             for param_info in valid_param_rows:
                 # 通过索引在 full_data 中查找数据库名
                 if param_info['full_data_index'] not in database_index.keys():
-                    print(f"not found {param_info['full_data_index']}")
+                    # print(f"not found {param_info['full_data_index']}")
                     continue
                 db_name = database_index[param_info['full_data_index']]
                 db_val = float(column_data[param_info['row_index']].strip().replace(',',''))
                 scaneria_data[db_name].append(db_val)
-
-
+                
+                minmax_index_var_id_hash[db_name] = param_info['full_data_index']
+                min_max_index = minmax_var_id_index_hash[param_info['full_data_index']]
+                min_value,max_value = min_max_dict[min_max_index]["min_value"],min_max_dict[min_max_index]["max_value"]
+                scanerio_minmax[db_name] = {"min_value": min_value, "max_value": max_value}
+                if k==0:
+                    print("minmax",param_info['full_data_index'],min_value,max_value)
 
             # c. 更新 scenario_list
             scenario_list.add_row(
@@ -342,7 +393,7 @@ def process_data(all_var_path: str, param_encoding_path: str, database_index_pat
             )
             
         # print(valid_param_rows)
-        scenario_settings.convert(scanerio_name_list, scaneria_data)
+        scenario_settings.convert(scanerio_name_list, scaneria_data,scanerio_minmax,minmax_index_var_id_hash)
 
     # 6. 保存最终结果
     scenario_list.save_to_csv(os.path.join(output_dir, 'scenario_list.csv'))
